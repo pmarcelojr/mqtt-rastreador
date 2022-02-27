@@ -4,4 +4,10 @@ mosquitto/log/**
 mosquitto/data/**
 
 
+# Backend
 backend/phonerastreador/persistence/**
+
+
+# LDAP
+ldap/etc/**
+ldap/var/**
