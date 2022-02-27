@@ -6,8 +6,9 @@ mosquitto/data/**
 
 # Backend
 backend/phonerastreador/persistence/**
-
+backend/phonerastreador/target
 
 # LDAP
 ldap/etc/**
 ldap/var/**
+
