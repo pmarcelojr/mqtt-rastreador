@@ -3,3 +3,5 @@
 mosquitto/log/**
 mosquitto/data/**
 
+
+backend/phonerastreador/persistence/**
