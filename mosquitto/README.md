@@ -20,3 +20,8 @@ mosquitto_sub -h 127.0.0.1 -p 1883 -v -t 'owntracks/#' -u owntracks -P <senha>
 ``` 
 mosquitto_pub -h 127.0.0.1 -p 1883 -m "Test" -t "owntracks/hi"
 ``` 
+
+
+# Bibliotecas utilizadas
+## mosquitto-auth-plug
+Link: https://github.com/jpmens/mosquitto-auth-plug#ldap-auth

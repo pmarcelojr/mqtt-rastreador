@@ -12,6 +12,9 @@ services:
       - ./mosquitto/config:/mosquitto/config
       - ./mosquitto/data:/mosquitto/data
       - ./mosquitto/log:/mosquitto/log
+    container_name: mqttserver
+    depends_on:
+      - openldap
     networks:
       backend_net:
   openldap:
