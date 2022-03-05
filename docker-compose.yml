@@ -1,10 +1,8 @@
 version: '3.8'
 
 services:
-  mqtt-server:
-    build: 
-      context: ./mosquitto
-      dockerfile: .
+  mqttserver:
+    build: ./mosquitto
     ports:
       - 1883:1883
       - 8883:8883
@@ -57,6 +55,18 @@ services:
       backend_net:
     depends_on:
       - openldap
+  backend:
+    container_name: java-backend
+    build: ./backend
+    ports:
+      - "8080:8080"
+    environment:
+      - MQTT_HOSTNAME=host.docker.internal
+      - COMPUTERNAME=dev-docker
+    depends_on:
+      - mqttserver
+    networks:
+      backend_net:
 
 networks:
   backend_net:
