@@ -1,62 +1,36 @@
 version: '3.8'
 
 services:
-  mqtt-server:
-    build: 
+  mysql:
+    container_name: mysql_mqtt
+    build:
+      context: ./mysql
+      dockerfile: .
+    command: --default-authentication-plugin=mysql_native_password
+    environment:
+      - MYSQL_ROOT_PASSWORD=3141592
+      - MYSQL_DATABASE=mqtt
+      - MYSQL_USER=mqtt
+      - MYSQL_PASSWORD=mqttpassword
+    networks:
+      backend_net:
+
+  mqtt-ubuntu:
+    build:
       context: ./mosquitto
       dockerfile: .
-    ports:
-      - 1883:1883
-      - 8883:8883
+    container_name: mqtt-ubuntu
     volumes:
       - ./mosquitto/config:/mosquitto/config
       - ./mosquitto/data:/mosquitto/data
       - ./mosquitto/log:/mosquitto/log
-    container_name: mqttserver
-    depends_on:
-      - openldap
-    networks:
-      backend_net:
-  openldap:
-    container_name: openldap
-    image: osixia/openldap:1.4.0
-    environment:
-      - LDAP_ORGANISATION=PhoneRastreador
-      - LDAP_DOMAIN=phonerastreador.com
-      - LDAP_ADMIN_PASSWORD=password
-      - LDAP_CONFIG_PASSWORD=password
-      - LDAP_RFC2307BIS_SCHEMA=false
-      - KEEP_EXISTING_CONFIG=false
-      - LDAP_TLS=false
-    networks:
-      backend_net:
-    volumes:
-      - ./ldap/etc/ldap/slapd.d:/etc/ldap/slapd.d
-      - ./ldap/var/lib/ldap:/var/lib/ldap
     ports:
-      - "389:389"
-  ldap-user-manager:
-    container_name: ldap-manager
-    build:
-      context: ./ldap
-      dockerfile: ./ldap-user-manager/Dockerfile
-    ports:
-      - "8888:80"
-      - "18081:80"
-    environment:
-      - SERVER_HOSTNAME=localhost
-      - LDAP_URI=ldap://openldap
-      - LDAP_BASE_DN=dc=phonerastreador,dc=com
-      - LDAP_ADMINS_GROUP=admins
-      - LDAP_ADMIN_BIND_DN=cn=admin,dc=phonerastreador,dc=com
-      - LDAP_ADMIN_BIND_PWD=password
-      - ORGANISATION_NAME=PhoneRastreador
-      - NO_HTTPS=true
-      - ACCEPT_WEAK_PASSWORDS=true
+      - 1883:1883
+      - 8883:8883
     networks:
       backend_net:
     depends_on:
-      - openldap
+      - mysql
 
 networks:
   backend_net:
