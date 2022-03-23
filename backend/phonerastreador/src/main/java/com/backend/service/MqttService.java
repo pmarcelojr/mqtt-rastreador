@@ -34,7 +34,6 @@ public class MqttService {
         this.client.publish(topic, message);
     }
 
-    @Autowired
     public void run() {
         log.info("Starting MqttService");
 

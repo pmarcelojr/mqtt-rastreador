@@ -13,10 +13,19 @@ import org.springframework.context.annotation.Configuration;
 @Configuration
 public class MqttConfig {
 
+    @Value("${backend.mqtt.username}")
+    private String username;
+
+    @Value("${backend.mqtt.password}")
+    private String password;
+
     @Bean
     @ConfigurationProperties(prefix = "mqtt")
     public MqttConnectOptions mqttConnectOptions() {
-        return new MqttConnectOptions();
+        MqttConnectOptions options = new MqttConnectOptions();
+        options.setUserName(this.username);
+        options.setPassword(this.password.toCharArray());
+        return options;
     }
 
     @Bean
