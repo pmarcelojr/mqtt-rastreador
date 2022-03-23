@@ -1,0 +1,27 @@
+CREATE TABLE USERS (
+    ID INT UNSIGNED PRIMARY KEY AUTO_INCREMENT,
+    USERNAME VARCHAR(25) NOT NULL,
+    PW VARCHAR(100) NOT NULL,
+    SUPER BOOLEAN NOT NULL DEFAULT 0,
+
+    UNIQUE KEY UNIQUE_USER (USERNAME)
+);
+
+CREATE TABLE ACLS (
+    ID INT UNSIGNED PRIMARY KEY AUTO_INCREMENT,
+    USERNAME VARCHAR(25) NOT NULL,
+    TOPIC VARCHAR(100) NOT NULL,
+    RW INT NOT NULL DEFAULT 1 -- 1 para apenas ler tópicos, 2 para ler-gravar tópicos
+);
+
+-- password: str0ngp@ssword$mqtt
+INSERT INTO USERS (USERNAME, PW, SUPER) VALUES ("backend_user", "PBKDF2$sha256$901$tdFG5NxAHbCKmRsS$t3YJl4jJQkWkvfDaq8J6tRgL2OuyYRgh", 1);
+
+-- password: 3141592
+INSERT INTO USERS (USERNAME, PW, SUPER) VALUES ("user_test", "PBKDF2$sha256$901$FV3ugJkJu/559NTh$CFdg2n9HzleGvJJEtnkdmSXs2lNhXLSl", 0);
+
+-- 1 pode ler
+-- 2 pode ler/escrever
+INSERT INTO ACLS (USERNAME, TOPIC, RW) VALUES ('user_test', 'owntracks/celular', 2);
+INSERT INTO ACLS (USERNAME, TOPIC, RW) VALUES ('backend_user', 'owntracks/#', 1);
+
