@@ -2,7 +2,7 @@ version: '3.8'
 
 services:
   mysql:
-    container_name: mysql_mqtt
+    container_name: mysql
     build:
       context: ./mysql
       dockerfile: .
@@ -14,6 +14,8 @@ services:
       - MYSQL_PASSWORD=mqttpassword
     networks:
       backend_net:
+    ports:
+      - 3306:3306
 
   mqtt-ubuntu:
     build:
