@@ -8,7 +8,9 @@ import * as L from 'leaflet';
   styleUrls: ['./home.component.css']
 })
 export class HomeComponent implements OnInit {
-  map: any;
+  private map: any;
+
+  private markers: L.Marker<any>[] = [];
   constructor(private userService: UserService) { }
 
   private initMap(): void {
@@ -23,10 +25,22 @@ export class HomeComponent implements OnInit {
       attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
     });
 
-    const marker = L.marker([ -23.557081, -46.498635 ]).addTo(this.map);
-    marker.bindPopup("<b>Hello world!</b><br>I am a popup.");
-
+    this.addMarker([ -23.557081, -46.498635 ]);
     tiles.addTo(this.map);
+
+    (this.map as L.Map).on('click', (e: any) => {
+      const { lat, lng } = e.latlng;
+      const coords = [lat, lng];
+      console.log( coords );
+      this.addMarker(coords);
+    });
+
+  }
+
+  private addMarker(latLng: any): void {
+    const marker = L.marker(latLng).addTo(this.map);
+    marker.bindPopup("<b>Hello world!</b><br>I am a popup.");
+    this.markers.push(marker);
   }
 
   ngOnInit(): void {
