@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { UserService } from '../services/user.service';
+import * as L from 'leaflet';
 
 @Component({
   selector: 'app-home',
@@ -7,19 +8,26 @@ import { UserService } from '../services/user.service';
   styleUrls: ['./home.component.css']
 })
 export class HomeComponent implements OnInit {
-  content?: string;
+  map: any;
   constructor(private userService: UserService) { }
 
+  private initMap(): void {
+    this.map = L.map('map', {
+      center: [ -13.4218236,-52.5652522 ],
+      zoom: 4
+    });
+
+    const tiles = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+      maxZoom: 18,
+      minZoom: 3,
+      attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
+    });
+
+    tiles.addTo(this.map);
+  }
+
   ngOnInit(): void {
-    this.userService.getDados().subscribe(
-      data => {
-        this.content = JSON.stringify(data);
-      },
-      err => {
-        console.log(err.error);
-        this.content = 'Erro ao obter dados';
-      }
-    )
+    this.initMap();
   }
 
 }
