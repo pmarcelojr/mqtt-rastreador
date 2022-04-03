@@ -1,5 +1,5 @@
-<div class="container-fluid">
-  <div class="row align-items-center justify-content-center">
+<div class="container-fluid flex-grow-1 h-100 pt-5">
+  <div class="row justify-content-center pt-5">
     <div class="col-12 col-sm-8 col-md-6 col-lg-4">
       <div class="card">
         <div class="card-header">
@@ -39,7 +39,7 @@
             </div>
             <div class="form-group">
               <div class="alert alert-danger" role="alert" *ngIf="f.submitted && isLoginFalhou">
-                Login failed: {{ mensagemErro }}
+                Erro ao conectar: {{ mensagemErro }}
               </div>
             </div>
           </form>
