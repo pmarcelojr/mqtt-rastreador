@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
 import { AuthService } from '../services/auth.service';
 import { TokenStorageService } from '../services/token-storage.service';
 
@@ -18,12 +19,14 @@ export class LoginComponent implements OnInit {
   mensagemErro = '';
   permissoes: string[] = [];
 
-  constructor(private authService: AuthService, private tokenStorage: TokenStorageService) { }
+  constructor(
+    private router: Router,
+    private authService: AuthService,
+    private tokenStorage: TokenStorageService) { }
 
   ngOnInit(): void {
     if (this.tokenStorage.getToken()) {
-      this.isConectado = true;
-      // obter permissoes aqui
+      this.router.navigate(['/home']);
     }
   }
 
@@ -34,8 +37,7 @@ export class LoginComponent implements OnInit {
         this.tokenStorage.salvarToken(data.token);
         this.tokenStorage.saveUser(username);
         this.isLoginFalhou = false;
-        this.isConectado = true;
-        // obter permissões aqui
+
         this.recarregarPagina();
       },
       err => {
