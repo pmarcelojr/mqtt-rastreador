@@ -23,6 +23,9 @@ export class HomeComponent implements OnInit {
       attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
     });
 
+    const marker = L.marker([ -23.557081, -46.498635 ]).addTo(this.map);
+    marker.bindPopup("<b>Hello world!</b><br>I am a popup.");
+
     tiles.addTo(this.map);
   }
 
