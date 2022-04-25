@@ -52,7 +52,7 @@ public class Localizacao {
     @Column(nullable = false)
     private LocalDateTime horarioGps;
 
-    @Column(nullable = false)
+    @Column(nullable = true)
     private LocalDateTime horarioDispositivo;
 
     @Column(nullable = true)
