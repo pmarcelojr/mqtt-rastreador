@@ -55,4 +55,14 @@ public class UserService {
 
         this.repository.save(usuario);
     }
+
+    public User getByUsername(String username) {
+
+        Optional<User> encontrado = this.repository.findByUsername(username);
+        if (encontrado.isPresent()) {
+            return encontrado.get();
+        }
+
+        throw new UsernameNotFoundException(username);
+    }
 }

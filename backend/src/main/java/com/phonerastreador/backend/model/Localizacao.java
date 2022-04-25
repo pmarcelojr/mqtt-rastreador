@@ -8,6 +8,8 @@ import javax.persistence.Entity;
 import javax.persistence.EnumType;
 import javax.persistence.Enumerated;
 import javax.persistence.Id;
+import javax.persistence.JoinColumn;
+import javax.persistence.ManyToOne;
 import javax.persistence.PrePersist;
 
 @Entity
@@ -76,6 +78,14 @@ public class Localizacao {
     @Enumerated(EnumType.ORDINAL)
     @Column(nullable = true)
     private ModoMonitoramento modoMonitor;
+
+    @ManyToOne(optional = false)
+    @JoinColumn(name = "user_id", nullable = false, updatable = false)
+    private User username;
+
+    @ManyToOne(optional = false)
+    @JoinColumn(name = "device_id", nullable = false, updatable = false)
+    private Dispositivo dispositivo;
 
     public Localizacao() {
         // construtor vazio
@@ -237,6 +247,22 @@ public class Localizacao {
 
     public void setModoMonitor(ModoMonitoramento modoMonitor) {
         this.modoMonitor = modoMonitor;
+    }
+
+    public User getUsername() {
+        return this.username;
+    }
+
+    public void setUsername(User username) {
+        this.username = username;
+    }
+
+    public Dispositivo getDispositivo() {
+        return this.dispositivo;
+    }
+
+    public void setDispositivo(Dispositivo dispositivo) {
+        this.dispositivo = dispositivo;
     }
 
     @Override
