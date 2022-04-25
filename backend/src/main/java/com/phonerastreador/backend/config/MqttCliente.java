@@ -22,6 +22,11 @@ public class MqttCliente implements MqttCallbackExtended {
     private MqttClient client;
     private final MqttConnectOptions mqttOptions;
 
+    private boolean estaInscrico = false;
+    private Integer qos;
+    private IMqttMessageListener gestorMensagemMQTT;
+    private String[] topicos;
+
     public MqttCliente(String serverUri, String usuario, String senha) {
         this.serverUri = serverUri;
 
@@ -37,17 +42,26 @@ public class MqttCliente implements MqttCallbackExtended {
         if (client == null || topicos.length == 0) {
             return null;
         }
-        int tamanho = topicos.length;
+        this.qos = qos;
+        this.gestorMensagemMQTT = gestorMensagemMQTT;
+        this.topicos = topicos;
+
+        return this.realizarInscricao();
+    }
+
+    private IMqttToken realizarInscricao() {
+        int tamanho = this.topicos.length;
         int[] qoss = new int[tamanho];
-        IMqttMessageListener[] listners = new IMqttMessageListener[tamanho];
+        IMqttMessageListener[] escutas = new IMqttMessageListener[tamanho];
 
         for (int i = 0; i < tamanho; i++) {
             qoss[i] = qos;
-            listners[i] = gestorMensagemMQTT;
+            escutas[i] = gestorMensagemMQTT;
         }
 
         try {
-            return client.subscribeWithResponse(topicos, qoss, listners);
+            this.estaInscrico = true;
+            return client.subscribeWithResponse(topicos, qoss, escutas);
         } catch (MqttException ex) {
             System.out.println(String.format("Erro ao se inscrever nos tópicos %s - %s", Arrays.asList(topicos), ex));
             return null;
@@ -118,6 +132,9 @@ public class MqttCliente implements MqttCallbackExtended {
     @Override
     public void connectComplete(boolean reconnect, String serverURI) {
         log.info("Cliente MQTT {} com broker {}", (reconnect ? "reconectado" : "conectado"), serverURI);
+        if (reconnect && this.estaInscrico) {
+            this.realizarInscricao();
+        }
     }
 
     @Override
