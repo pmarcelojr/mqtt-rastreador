@@ -8,6 +8,8 @@ import com.phonerastreador.backend.exception.UsernameDuplicadoException;
 import com.phonerastreador.backend.model.User;
 import com.phonerastreador.backend.repository.UserRepository;
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.security.core.userdetails.UsernameNotFoundException;
@@ -15,6 +17,8 @@ import org.springframework.stereotype.Service;
 
 @Service
 public class UserService {
+
+    private static final Logger log = LoggerFactory.getLogger(UserService.class);
 
     @Autowired
     private UserRepository repository;
@@ -25,6 +29,8 @@ public class UserService {
 
     public User criar(UserForm form) {
         User usuario = new User(form);
+
+        log.info("Criando usuario: {}", usuario);
 
         Optional<User> existe = this.repository.findByUsernameOrEmail(usuario.getUsername(), usuario.getEmail());
 
@@ -37,10 +43,12 @@ public class UserService {
             }
         }
 
-        usuario.setPassword(this.hashService.gerarHash(form.getSenha()));
-        User usuarioSalvo = this.repository.save(usuario);
+        log.info("Senha: {}", form.getSenha());
 
-        return usuarioSalvo;
+        usuario.setPassword(this.hashService.gerarHash(form.getSenha()));
+        log.info("Hash: {}", form.getSenha(), usuario.getPassword());
+
+        return this.repository.save(usuario);
     }
 
     public void atualizarSenha(User user, String senha) {
