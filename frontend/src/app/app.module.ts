@@ -13,6 +13,7 @@ import { DashboardAdminComponent } from './dashboard-admin/dashboard-admin.compo
 import { DashboardModeradorComponent } from './dashboard-moderador/dashboard-moderador.component';
 import { DashboardUserComponent } from './dashboard-user/dashboard-user.component';
 import { AuthInterceptorProviders } from './helpers/auth.interceptor';
+import { DispositivosComponent } from './dispositivos/dispositivos.component';
 
 @NgModule({
   declarations: [
@@ -23,7 +24,8 @@ import { AuthInterceptorProviders } from './helpers/auth.interceptor';
     PerfilComponent,
     DashboardAdminComponent,
     DashboardModeradorComponent,
-    DashboardUserComponent
+    DashboardUserComponent,
+    DispositivosComponent
   ],
   imports: [
     BrowserModule,
