@@ -22,6 +22,7 @@ import org.eclipse.paho.client.mqttv3.MqttMessage;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Service;
 
 @Service
@@ -41,8 +42,10 @@ public class MqttSubscriberService implements IMqttMessageListener {
     @Autowired
     private LocalizacaoRepository repository;
 
+    @Value("${app.radical}")
+    private String radical;
 
-    private String topico = "owntracks/#";
+    private String topico;
 
     private int qos = 0;
 
@@ -64,6 +67,7 @@ public class MqttSubscriberService implements IMqttMessageListener {
 
     @PostConstruct
     public void realizarInscricao() {
+        this.topico = String.format("%s/#", this.radical);
         log.info("Realizando inscricao em {}", topico);
         cliente.subscribe(qos, this, topico);
     }

@@ -4,7 +4,7 @@ import java.io.Serializable;
 
 public class DispositivoForm implements Serializable {
     private String nome;
-    private String usuario;
+    private String senha;
 
     public String getNome() {
         return this.nome;
@@ -14,12 +14,12 @@ public class DispositivoForm implements Serializable {
         this.nome = nome;
     }
 
-    public String getUsuario() {
-        return this.usuario;
+    public String getSenha() {
+        return this.senha;
     }
 
-    public void setUsuario(String usuario) {
-        this.usuario = usuario;
+    public void setSenha(String senha) {
+        this.senha = senha;
     }
 
 }

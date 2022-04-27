@@ -1,5 +1,6 @@
 package com.phonerastreador.backend.repository;
 
+import java.util.List;
 import java.util.Optional;
 
 import com.phonerastreador.backend.model.Dispositivo;
@@ -11,4 +12,6 @@ import org.springframework.stereotype.Repository;
 public interface DispositivoRepository extends JpaRepository<Dispositivo, String> {
 
     Optional<Dispositivo> findByNome(String nomeDispositivo);
+
+    List<Dispositivo> getByUsuarioUsername(String username);
 }

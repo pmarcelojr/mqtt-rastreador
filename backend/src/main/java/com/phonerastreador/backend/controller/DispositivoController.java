@@ -2,6 +2,7 @@ package com.phonerastreador.backend.controller;
 
 import java.net.URI;
 import java.security.Principal;
+import java.util.List;
 
 import com.phonerastreador.backend.controller.dto.DispositivoDto;
 import com.phonerastreador.backend.controller.form.DispositivoForm;
@@ -10,6 +11,7 @@ import com.phonerastreador.backend.service.DispositivoService;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -25,13 +27,20 @@ public class DispositivoController {
 
     @PostMapping
     public ResponseEntity<DispositivoDto> addDispositivo(@RequestBody DispositivoForm form,
-            UriComponentsBuilder uriBuilder, Principal loggedUser) {
+            UriComponentsBuilder uriBuilder, Principal usuario) {
 
-        form.setUsuario(loggedUser.getName());
-        Dispositivo dispositivo = this.service.salvar(form);
+        Dispositivo dispositivo = this.service.salvar(form, usuario.getName());
 
         URI uri = uriBuilder.path("/dispositivo/{id}").buildAndExpand(dispositivo.getId()).toUri();
 
         return ResponseEntity.created(uri).body(new DispositivoDto(dispositivo));
+    }
+
+    @GetMapping
+    public ResponseEntity<List<DispositivoDto>> getDispositivos(Principal usuario) {
+
+        List<DispositivoDto> lista = this.service.getDispositivos(usuario.getName());
+
+        return ResponseEntity.ok(lista);
     }
 }
