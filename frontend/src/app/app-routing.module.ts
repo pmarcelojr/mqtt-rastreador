@@ -1,6 +1,8 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { DispositivosComponent } from './dispositivos/dispositivos.component';
+import { DashboardComponent } from './config/dashboard/dashboard.component';
+import { DispositivosComponent } from './config/dispositivos/dispositivos.component';
+import { ConfiguracaoComponent } from './configuracao/configuracao.component';
 import { HomeComponent } from './home/home.component';
 import { LoginComponent } from './login/login.component';
 import { PerfilComponent } from './perfil/perfil.component';
@@ -12,7 +14,26 @@ const routes: Routes = [
   { path: 'login', component: LoginComponent},
   { path: 'registrar', component: RegistrarComponent},
   { path: 'perfil', component: PerfilComponent, canActivate: [LoginActivateService] },
-  { path: 'dispositivos', component: DispositivosComponent, canActivate: [LoginActivateService] },
+  {
+    path: 'configuracao',
+    component: ConfiguracaoComponent,
+    canActivate: [LoginActivateService],
+    children: [
+      {
+        path: 'dashboard',
+        component: DashboardComponent
+      },
+      {
+        path: 'dispositivos',
+        component: DispositivosComponent
+      },
+      {
+        path: '',
+        redirectTo: 'dashboard',
+        pathMatch: 'full',
+      }
+    ]
+  },
   { path: '', redirectTo: 'home', pathMatch: 'full'},
 ];
 

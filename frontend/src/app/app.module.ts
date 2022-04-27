@@ -1,6 +1,6 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-import { FormsModule } from '@angular/forms';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
 
 import { AppRoutingModule } from './app-routing.module';
@@ -13,7 +13,9 @@ import { DashboardAdminComponent } from './dashboard-admin/dashboard-admin.compo
 import { DashboardModeradorComponent } from './dashboard-moderador/dashboard-moderador.component';
 import { DashboardUserComponent } from './dashboard-user/dashboard-user.component';
 import { AuthInterceptorProviders } from './helpers/auth.interceptor';
-import { DispositivosComponent } from './dispositivos/dispositivos.component';
+import { DashboardComponent } from './config/dashboard/dashboard.component';
+import { ConfiguracaoComponent } from './configuracao/configuracao.component';
+import { DispositivosComponent } from './config/dispositivos/dispositivos.component';
 
 @NgModule({
   declarations: [
@@ -25,13 +27,16 @@ import { DispositivosComponent } from './dispositivos/dispositivos.component';
     DashboardAdminComponent,
     DashboardModeradorComponent,
     DashboardUserComponent,
-    DispositivosComponent
+    DashboardComponent,
+    DispositivosComponent,
+    ConfiguracaoComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     FormsModule,
-    HttpClientModule
+    HttpClientModule,
+    ReactiveFormsModule
   ],
   providers: [AuthInterceptorProviders],
   bootstrap: [AppComponent]

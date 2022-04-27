@@ -1,0 +1,82 @@
+<div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
+  <h1 class="h2">Dispositivos</h1>
+  <div class="btn-toolbar mb-2 mb-md-0">
+    <div class="btn-group me-2">
+      <button data-bs-toggle="modal" data-bs-target="#modalNovoDispositivo" type="button"
+        class="btn btn-sm btn-outline-primary"><em class="fa fa-plus"></em> Novo</button>
+    </div>
+  </div>
+</div>
+
+<div class="table-responsive">
+  <table class="table table-striped table-sm">
+    <thead>
+      <tr>
+        <th scope="col">Identificação</th>
+        <th scope="col">Nome</th>
+        <th scope="col">Tópico</th>
+        <th scope="col">Última localização</th>
+        <th scope="col">Última atualização</th>
+        <th scope="col">Criado em</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let dispositivo of dispositivos">
+        <td>{{ dispositivo.id }}</td>
+        <td>{{ dispositivo.nome }}</td>
+        <td>{{ dispositivo.topico }}</td>
+        <td>{{ dispositivo.ultimaLocalizacao }}</td>
+        <td>{{ dispositivo.ultimaAtualizacao }}</td>
+        <td>{{ dispositivo.criadoEm }}</td>
+      </tr>
+    </tbody>
+    <tfoot class="text-center">
+      <tr [hidden]="!isCarregando">
+        <td colspan="10" class="p-2">
+          <div class="mb-2">
+            Carregando
+          </div>
+          <em class="fa fa-2xl fa-circle-notch fa-spin"></em>
+        </td>
+      </tr>
+      <tr [hidden]="isCarregando || dispositivos.length > 0" class="p-2">
+        <td colspan="10">Nenhum Dispositivo Cadastrado</td>
+      </tr>
+    </tfoot>
+  </table>
+</div>
+<!-- Modal -->
+<div class="modal fade" id="modalNovoDispositivo" tabindex="-1" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Cadastrar Novo Dispositivo</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <form autocomplete="off" [formGroup]="formulario" (ngSubmit)="enviarFormulario()">
+        <div class="modal-body">
+          <input type="hidden" autocomplete="off" class="hidden" style="display: none;">
+
+          <div class="mb-3">
+            <label for="nome" class="form-label">Nome do Dispositivo</label>
+            <input type="text" formControlName="nome" id="nome" class="form-control">
+          </div>
+
+          <div class="mb-3">
+            <label for="senha" class="form-label">Senha (de 4 a 6 dígitos)</label>
+            <div class="input-group">
+              <input type="password" #senha formControlName="senha" class="form-control" id="senha" maxlength="6">
+              <button type="button" (click)="alternarExibirSenha(senha)" class="input-group-text">
+                <em class="fa" [ngClass]="{'fa-eye-slash': !exibirSenha, 'fa-eye': exibirSenha }"></em>
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" #btnFecharModal class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+          <button type="submit" class="btn btn-primary" [disabled]="!formulario.valid">Salvar</button>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>
