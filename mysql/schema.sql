@@ -8,11 +8,11 @@ CREATE TABLE DEVICE_USER (
     UNIQUE KEY UNIQUE_USER (USERNAME)
 );
 
-CREATE TABLE ACLS (
-    ID INT UNSIGNED PRIMARY KEY AUTO_INCREMENT,
-    USERNAME VARCHAR(25) NOT NULL,
-    TOPIC VARCHAR(100) NOT NULL,
-    RW INT NOT NULL DEFAULT 1 -- 1 para apenas ler tópicos, 2 para ler-gravar tópicos
+CREATE TABLE acls (
+    id INT UNSIGNED PRIMARY KEY AUTO_INCREMENT,
+    username VARCHAR(25) NOT NULL,
+    topic VARCHAR(100) NOT NULL,
+    rw INT NOT NULL DEFAULT 1 -- 1 para apenas ler tópicos, 2 para ler-gravar tópicos
 );
 
 -- password: str0ngp@ssword$mqtt
@@ -23,6 +23,6 @@ INSERT INTO DEVICE_USER (USERNAME, PW, SUPER) VALUES ("user_test", "PBKDF2$sha25
 
 -- 1 pode ler
 -- 2 pode ler/escrever
-INSERT INTO ACLS (USERNAME, TOPIC, RW) VALUES ('user_test', 'owntracks/celular', 2);
-INSERT INTO ACLS (USERNAME, TOPIC, RW) VALUES ('backend_user', 'owntracks/#', 1);
+INSERT INTO acls (username, topic, rw) VALUES ('user_test', 'owntracks/celular', 2);
+INSERT INTO acls (username, topic, rw) VALUES ('backend_user', 'owntracks/#', 1);
 
