@@ -14,8 +14,8 @@ import javax.persistence.Table;
 import javax.persistence.UniqueConstraint;
 
 @Entity
-@Table(uniqueConstraints={
-    @UniqueConstraint(columnNames = {"nome", "user_id"})
+@Table(uniqueConstraints = {
+        @UniqueConstraint(columnNames = { "nome", "user_id" })
 })
 public class Dispositivo {
 
@@ -44,6 +44,9 @@ public class Dispositivo {
 
     @Column(nullable = true)
     private LocalDateTime ultimaAtualizacao;
+
+    @Column
+    private Integer admin = 0;
 
     @PrePersist
     public void gerarPadroes() {
@@ -113,6 +116,14 @@ public class Dispositivo {
 
     public void setUltimaAtualizacao(LocalDateTime ultimaAtualizacao) {
         this.ultimaAtualizacao = ultimaAtualizacao;
+    }
+
+    public Integer getAdmin() {
+        return this.admin;
+    }
+
+    public void setAdmin(Integer admin) {
+        this.admin = admin;
     }
 
 }

@@ -20,6 +20,9 @@ public class Acls {
     @Column(nullable = false)
     private String username;
 
+    @Column
+    private String nome;
+
     @Column(nullable = false)
     private String topic;
 
@@ -58,6 +61,14 @@ public class Acls {
 
     public void setRw(Integer rw) {
         this.rw = rw;
+    }
+
+    public String getNome() {
+        return this.nome;
+    }
+
+    public void setNome(String nome) {
+        this.nome = nome;
     }
 
 }
