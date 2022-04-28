@@ -67,8 +67,14 @@ public class MqttSubscriberService implements IMqttMessageListener {
 
     @PostConstruct
     public void realizarInscricao() {
+        // verificar se precisa criar usuário
+        if (!this.dispositivoService.verificarBackendUserExiste()) {
+            this.dispositivoService.criarUsuarioMqtt();
+        }
+
         this.topico = String.format("%s/#", this.radical);
         log.info("Realizando inscricao em {}", topico);
+        cliente.iniciar();
         cliente.subscribe(qos, this, topico);
     }
 

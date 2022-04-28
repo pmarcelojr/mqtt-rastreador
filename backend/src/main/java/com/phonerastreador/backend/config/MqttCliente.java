@@ -107,7 +107,7 @@ public class MqttCliente implements MqttCallbackExtended {
         }
     }
 
-    public void publicar(String topic, byte[] payload, int qos) {
+    public synchronized void publicar(String topic, byte[] payload, int qos) {
         publicar(topic, payload, qos, false);
     }
 

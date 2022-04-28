@@ -28,27 +28,7 @@ public class UserService {
     private HashGeradorService hashService;
 
     public User criar(UserForm form) {
-        User usuario = new User(form);
-
-        log.info("Criando usuario: {}", usuario);
-
-        Optional<User> existe = this.repository.findByUsernameOrEmail(usuario.getUsername(), usuario.getEmail());
-
-        if (existe.isPresent()) {
-            User duplicado = existe.get();
-            if (duplicado.getEmail().equalsIgnoreCase(usuario.getEmail())) {
-                throw new EmailDuplicadoException(usuario.getEmail());
-            } else {
-                throw new UsernameDuplicadoException(usuario.getUsername());
-            }
-        }
-
-        log.info("Senha: {}", form.getSenha());
-
-        usuario.setPassword(this.hashService.gerarHash(form.getSenha()));
-        log.info("Hash: {}", form.getSenha(), usuario.getPassword());
-
-        return this.repository.save(usuario);
+        return this.criar(new User(form));
     }
 
     public void atualizarSenha(User user, String senha) {
@@ -72,5 +52,35 @@ public class UserService {
         }
 
         throw new UsernameNotFoundException(username);
+    }
+
+    public User criar(User usuario) {
+        log.info("Criando usuario: {}", usuario);
+
+        Optional<User> existe = this.repository.findByUsernameOrEmail(usuario.getUsername(), usuario.getEmail());
+
+        if (existe.isPresent()) {
+            User duplicado = existe.get();
+            if (duplicado.getEmail().equalsIgnoreCase(usuario.getEmail())) {
+                throw new EmailDuplicadoException(usuario.getEmail());
+            } else {
+                throw new UsernameDuplicadoException(usuario.getUsername());
+            }
+        }
+
+        log.info("Senha: {}", usuario.getPassword());
+
+        usuario.setPassword(this.hashService.gerarHash(usuario.getPassword()));
+        log.info("Hash: {}", usuario.getPassword(), usuario.getPassword());
+
+        return this.repository.save(usuario);
+    }
+
+    public void deletarSuperUserSeExistir(String mqttUsername) {
+        Optional<User> existe = this.repository.findByUsername(mqttUsername);
+        if (existe.isPresent()) {
+            log.info("Apagando SuperUsuario '{}' para recriar", mqttUsername);
+            this.repository.delete(existe.get());
+        }
     }
 }
