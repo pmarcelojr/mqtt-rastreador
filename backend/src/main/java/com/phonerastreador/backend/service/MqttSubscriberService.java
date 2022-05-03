@@ -106,7 +106,7 @@ public class MqttSubscriberService implements IMqttMessageListener {
     @Override
     public void messageArrived(String topico, MqttMessage mensagem) throws Exception {
         String texto = new String(mensagem.getPayload());
-        log.info("texto recebido: '{}': {}", topico, texto);
+        log.debug("Mqtt Recebido: '{}': {}", topico, texto);
 
         Optional<UserDispositivo> userLocalizacao = this.validarTopicoLocalizacao(topico);
 

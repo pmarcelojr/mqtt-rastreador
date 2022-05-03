@@ -5,6 +5,7 @@ import java.io.Serializable;
 public class UserForm implements Serializable {
 
     private String username;
+    private String nome;
     private String senha;
     private String email;
 
@@ -30,6 +31,14 @@ public class UserForm implements Serializable {
 
     public void setEmail(String email) {
         this.email = email;
+    }
+
+    public String getNome() {
+        return this.nome;
+    }
+
+    public void setNome(String nome) {
+        this.nome = nome;
     }
 
 }

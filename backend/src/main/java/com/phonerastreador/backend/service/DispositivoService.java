@@ -45,6 +45,9 @@ public class DispositivoService {
     @Value("${app.mqtt.email}")
     private String mqttEmail;
 
+    @Value("${app.mqtt.nome}")
+    private String mqttNome;
+
     private String gerarTopico(String username, String nome) {
         return String.format("%s/%s/%s", this.radical, username, nome);
     }
@@ -108,6 +111,7 @@ public class DispositivoService {
         user.setUsername(this.mqttUsername);
         user.setEmail(this.mqttEmail);
         user.setPassword(senha);
+        user.setNome(this.mqttNome);
         User novoSuperUsuario = this.userService.criar(user);
 
         log.info("Criando Dispositivo para super usuario '{}'", this.mqttUsername);

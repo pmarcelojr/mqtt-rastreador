@@ -32,6 +32,9 @@ public class User implements UserDetails {
     @Column(nullable = true, unique = true)
     private String email;
 
+    @Column(nullable = false)
+    private String nome;
+
     @ManyToMany(fetch = FetchType.EAGER)
     private List<Perfil> perfis = new ArrayList<>();
 
@@ -43,6 +46,7 @@ public class User implements UserDetails {
         this.username = form.getUsername();
         this.email = form.getEmail();
         this.password = form.getSenha();
+        this.nome = form.getNome();
     }
 
     @Override
@@ -112,15 +116,22 @@ public class User implements UserDetails {
         this.perfis = perfis;
     }
 
+    public String getNome() {
+        return this.nome;
+    }
+
+    public void setNome(String nome) {
+        this.nome = nome;
+    }
 
     @Override
     public String toString() {
         return "{" +
-            " id='" + getId() + "'" +
-            ", username='" + getUsername() + "'" +
-            ", email='" + getEmail() + "'" +
-            "}";
+                " id='" + getId() + "'" +
+                ", username='" + getUsername() + "'" +
+                ", nome='" + getNome() + "'" +
+                ", email='" + getEmail() + "'" +
+                "}";
     }
-
 
 }

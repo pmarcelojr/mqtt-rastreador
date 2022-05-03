@@ -5,6 +5,7 @@ import java.util.UUID;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
+import javax.persistence.FetchType;
 import javax.persistence.Id;
 import javax.persistence.JoinColumn;
 import javax.persistence.ManyToOne;
@@ -38,7 +39,7 @@ public class Dispositivo {
     @Column(nullable = false)
     private String senha;
 
-    @OneToOne(optional = true)
+    @OneToOne(optional = true, fetch = FetchType.EAGER)
     @JoinColumn(name = "ultima_localizacao_id", nullable = true, updatable = true)
     private Localizacao ultimaLocalizacao;
 
