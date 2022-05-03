@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
-import { UserService } from '../services/user.service';
 import * as L from 'leaflet';
+import { LocalizacaoService } from '../localizacao.service';
+import { LocalizacaoDto } from '../interfaces/interfaces';
 
 @Component({
   selector: 'app-home',
@@ -11,11 +12,13 @@ export class HomeComponent implements OnInit {
   private map: any;
 
   private markers: L.Marker<any>[] = [];
-  constructor(private userService: UserService) { }
+  constructor(
+    private localizacaoService: LocalizacaoService
+  ) { }
 
   private initMap(): void {
     this.map = L.map('map', {
-      center: [ -13.4218236,-52.5652522 ],
+      center: [-13.4218236, -52.5652522],
       zoom: 4
     });
 
@@ -25,25 +28,58 @@ export class HomeComponent implements OnInit {
       attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
     });
 
-    this.addMarker([ -23.557081, -46.498635 ]);
     tiles.addTo(this.map);
+  }
 
+  public addMarkerClick = () => {
     (this.map as L.Map).on('click', (e: any) => {
       const { lat, lng } = e.latlng;
       const coords = [lat, lng];
-      console.log( coords );
-      this.addMarker(coords);
+      this.addMarker(coords, '');
     });
-
   }
 
-  private addMarker(latLng: any): void {
+  private addMarker(latLng: any, texto: string): void {
     const marker = L.marker(latLng).addTo(this.map);
-    marker.bindPopup("<b>Hello world!</b><br>I am a popup.");
+    marker.bindPopup(texto);
     this.markers.push(marker);
   }
 
+  private getTipoConexao(item: LocalizacaoDto): string {
+    switch (item.tipoConexao) {
+      case 'WIFI':
+        return `Wi-Fi`;
+      default:
+        return 'Desconhecido';
+    }
+  }
+
+  private gerarTexto(item: LocalizacaoDto): string {
+    return `
+      <strong>${item.dispositivo.nome}</strong><br />
+      Data: ${new Date(item.horarioGps).toLocaleString()}<br/>
+      Bateria: ${item.bateria && item.bateria + '%' || '?'} (${item.bateriaStatus})<br />
+      Endereço: <small>${item.endereco}</small><br />
+      Tipo de conexão: ${this.getTipoConexao(item)}
+      `;
+  }
+
+  private carregarMapas() {
+    this.localizacaoService.getLocalizacoes().subscribe(
+      (data: LocalizacaoDto[]) => {
+        data.forEach(item => {
+          const texto = this.gerarTexto(item);
+          this.addMarker([item.latitude, item.longitude], texto);
+        });
+      },
+      err => {
+        console.error(err);
+      }
+    )
+  }
+
   ngOnInit(): void {
+    this.carregarMapas();
     this.initMap();
   }
 
