@@ -24,6 +24,7 @@ public class LocalizacaoDto implements Serializable {
         this.latitude = localizacao.getLatitude();
         this.longitude = localizacao.getLongitude();
         this.bateriaStatus = localizacao.getBateriaStatus().name();
+        this.bateria = localizacao.getBateria();
         this.gatilho = localizacao.getGatilho().name();
         this.tipoConexao = localizacao.getConexao().name();
         this.horarioGps = localizacao.getHorarioGps().toString();
