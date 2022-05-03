@@ -30,7 +30,7 @@ public class DispositivoDto {
 
     private void setUltimaLocalizacao(Localizacao ultimaLocalizacao) {
         if (ultimaLocalizacao != null) {
-            this.ultimaLocalizacao = "PRECISA IMPLEMENTAR";
+            this.ultimaLocalizacao = ultimaLocalizacao.getEndereco();
         }
     }
 

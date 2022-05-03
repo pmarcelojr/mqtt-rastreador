@@ -15,8 +15,9 @@ public class LocalizacaoDto implements Serializable {
     private String tipoConexao;
     private String horarioGps;
     private Integer velocidade;
-    private DispositivoDto dispositivo;
+    private DispositivoSimpleDto dispositivo;
     private Float pressaoBarometrica;
+    private String endereco;
 
     public LocalizacaoDto(Localizacao localizacao) {
         this.id = localizacao.getId();
@@ -26,9 +27,10 @@ public class LocalizacaoDto implements Serializable {
         this.gatilho = localizacao.getGatilho().name();
         this.tipoConexao = localizacao.getConexao().name();
         this.horarioGps = localizacao.getHorarioGps().toString();
-        this.dispositivo = new DispositivoDto(localizacao.getDispositivo());
+        this.dispositivo = new DispositivoSimpleDto(localizacao.getDispositivo());
         this.velocidade = localizacao.getVelocidade();
         this.pressaoBarometrica = localizacao.getPressaoBarometrica();
+        this.endereco = localizacao.getEndereco();
     }
 
     public String getId() {
@@ -103,11 +105,11 @@ public class LocalizacaoDto implements Serializable {
         this.horarioGps = horarioGps;
     }
 
-    public DispositivoDto getDispositivo() {
+    public DispositivoSimpleDto getDispositivo() {
         return this.dispositivo;
     }
 
-    public void setDispositivo(DispositivoDto dispositivo) {
+    public void setDispositivo(DispositivoSimpleDto dispositivo) {
         this.dispositivo = dispositivo;
     }
 
@@ -117,6 +119,14 @@ public class LocalizacaoDto implements Serializable {
 
     public void setPressaoBarometrica(Float pressaoBarometrica) {
         this.pressaoBarometrica = pressaoBarometrica;
+    }
+
+    public String getEndereco() {
+        return this.endereco;
+    }
+
+    public void setEndereco(String endereco) {
+        this.endereco = endereco;
     }
 
 }

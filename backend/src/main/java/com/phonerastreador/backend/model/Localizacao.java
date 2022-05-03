@@ -87,6 +87,9 @@ public class Localizacao {
     @JoinColumn(name = "device_id", nullable = false, updatable = false)
     private Dispositivo dispositivo;
 
+    @Column
+    private String endereco;
+
     public Localizacao() {
         // construtor vazio
     }
@@ -263,6 +266,14 @@ public class Localizacao {
 
     public void setDispositivo(Dispositivo dispositivo) {
         this.dispositivo = dispositivo;
+    }
+
+    public String getEndereco() {
+        return this.endereco;
+    }
+
+    public void setEndereco(String endereco) {
+        this.endereco = endereco;
     }
 
     @Override

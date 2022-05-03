@@ -11,6 +11,6 @@ import org.springframework.stereotype.Repository;
 @Repository
 public interface LocalizacaoRepository extends JpaRepository<Localizacao, String> {
 
-    List<Localizacao> findByUsername(User usuario);
+    List<Localizacao> findByUsernameOrderByCriadoEmDesc(User usuario);
     
 }

@@ -21,16 +21,19 @@ public class LocalizacaoService {
     private static final Logger log = LoggerFactory.getLogger(LocalizacaoService.class);
 
     @Autowired
+    private OpenStreetMapService mapService;
+
+    @Autowired
     private LocalizacaoRepository repository;
 
     @Autowired
     private DispositivoRepository dispositivoRepository;
 
-    public void salvar(Localizacao localizacao) {
-        this.repository.save(localizacao);
+    public Localizacao salvar(Localizacao localizacao) {
+        Localizacao salvo = this.repository.save(localizacao);
 
         final String dispositivoId = localizacao.getDispositivo().getId();
-
+        log.debug("Salvando localizacao para dispositivo ID: {}", dispositivoId);
         Optional<Dispositivo> encontrado = this.dispositivoRepository.findById(dispositivoId);
         if (encontrado.isPresent()) {
             Dispositivo dispositivo = encontrado.get();
@@ -40,10 +43,14 @@ public class LocalizacaoService {
         } else {
             log.warn("Nao encontrei dispositivo id '{}'", dispositivoId);
         }
+
+        this.mapService.obterLocalizacao(localizacao);
+
+        return salvo;
     }
 
     public List<Localizacao> getByUser(User usuario) {
-        List<Localizacao> lista = this.repository.findByUsername(usuario);
+        List<Localizacao> lista = this.repository.findByUsernameOrderByCriadoEmDesc(usuario);
         return lista;
-    }
+    }    
 }

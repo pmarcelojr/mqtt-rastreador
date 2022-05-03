@@ -15,7 +15,6 @@ import com.phonerastreador.backend.model.Dispositivo;
 import com.phonerastreador.backend.model.Localizacao;
 import com.phonerastreador.backend.model.User;
 import com.phonerastreador.backend.model.UserDispositivo;
-import com.phonerastreador.backend.repository.LocalizacaoRepository;
 
 import org.eclipse.paho.client.mqttv3.IMqttMessageListener;
 import org.eclipse.paho.client.mqttv3.MqttMessage;
@@ -38,9 +37,9 @@ public class MqttSubscriberService implements IMqttMessageListener {
 
     @Autowired
     private DispositivoService dispositivoService;
-    
+
     @Autowired
-    private LocalizacaoRepository repository;
+    private LocalizacaoService service;
 
     @Value("${app.radical}")
     private String radical;
@@ -86,7 +85,8 @@ public class MqttSubscriberService implements IMqttMessageListener {
         return Optional.empty();
     }
 
-    private void salvarLocalizacao(String texto, UserDispositivo userDispositivo) throws JsonMappingException, JsonProcessingException {
+    private void salvarLocalizacao(String texto, UserDispositivo userDispositivo)
+            throws JsonMappingException, JsonProcessingException {
         String username = userDispositivo.getUsername();
         String dispositivoNome = userDispositivo.getDispositivo();
 
@@ -98,7 +98,7 @@ public class MqttSubscriberService implements IMqttMessageListener {
         localizacao.setUsername(usuario);
         localizacao.setDispositivo(dispositivo);
 
-        Localizacao localizacaoSalva = this.repository.save(localizacao);
+        Localizacao localizacaoSalva = this.service.salvar(localizacao);
 
         log.debug("Localizacao salva: {} -> '{}'", topico, localizacaoSalva);
     }
@@ -113,7 +113,7 @@ public class MqttSubscriberService implements IMqttMessageListener {
         if (userLocalizacao.isPresent()) {
             UserDispositivo userDispositivo = userLocalizacao.get();
             try {
-                this.salvarLocalizacao(texto, userDispositivo);   
+                this.salvarLocalizacao(texto, userDispositivo);
             } catch (Exception e) {
                 log.error("Erro ao salvar localizacao. Topico: '{}', payload: '{}'", topico, texto, e);
             }
