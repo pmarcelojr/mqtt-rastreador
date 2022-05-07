@@ -83,7 +83,7 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
         // definindo permissões de acessos à endpoints
         .authorizeHttpRequests()
             // endpoint publico
-            .antMatchers("/api/public/**").permitAll()
+            .antMatchers(HttpMethod.GET, "/health").permitAll()
             .antMatchers(HttpMethod.POST, "/auth/login").permitAll()
             .antMatchers(HttpMethod.POST, "/user").permitAll()
             // privado
