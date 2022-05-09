@@ -7,7 +7,8 @@ public enum MqttGatilho {
     RESPOSTA_REPORT('r'),
     MANUAL('u'),
     MOVIMENTO('t'),
-    ATUALIZACAO('v');
+    ATUALIZACAO('v'), 
+    DESCONHECIDO('?');
 
     private final char tipo;
 
