@@ -5,7 +5,7 @@ services:
     container_name: mysql
     build:
       context: ./mysql
-      dockerfile: .
+      dockerfile: Dockerfile
     command: --default-authentication-plugin=mysql_native_password
     environment:
       - MYSQL_ROOT_PASSWORD=3141592
@@ -20,7 +20,7 @@ services:
   mosquitto:
     build:
       context: ./mosquitto
-      dockerfile: .
+      dockerfile: Dockerfile
     container_name: mosquitto
     volumes:
       - ./mosquitto/config:/mosquitto/config
@@ -36,7 +36,7 @@ services:
   backend:
     build:
       context: ./backend
-      dockerfile: .
+      dockerfile: Dockerfile
     container_name: backend
     ports:
       - 8080:8080
