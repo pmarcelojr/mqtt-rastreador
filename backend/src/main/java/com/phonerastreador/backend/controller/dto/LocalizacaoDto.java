@@ -3,6 +3,7 @@ package com.phonerastreador.backend.controller.dto;
 import java.io.Serializable;
 
 import com.phonerastreador.backend.model.Localizacao;
+import com.phonerastreador.backend.model.MqttGatilho;
 
 public class LocalizacaoDto implements Serializable {
 
@@ -25,13 +26,21 @@ public class LocalizacaoDto implements Serializable {
         this.longitude = localizacao.getLongitude();
         this.bateriaStatus = localizacao.getBateriaStatus().name();
         this.bateria = localizacao.getBateria();
-        this.gatilho = localizacao.getGatilho().name();
+        this.setGatilho(localizacao.getGatilho());
         this.tipoConexao = localizacao.getConexao().name();
         this.horarioGps = localizacao.getHorarioGps().toString();
         this.dispositivo = new DispositivoSimpleDto(localizacao.getDispositivo());
         this.velocidade = localizacao.getVelocidade();
         this.pressaoBarometrica = localizacao.getPressaoBarometrica();
         this.endereco = localizacao.getEndereco();
+    }
+
+    private void setGatilho(MqttGatilho gatilho) {
+        if (gatilho == null) {
+            this.gatilho = MqttGatilho.DESCONHECIDO.name();
+        } else {
+            this.gatilho = gatilho.name();
+        }
     }
 
     public String getId() {

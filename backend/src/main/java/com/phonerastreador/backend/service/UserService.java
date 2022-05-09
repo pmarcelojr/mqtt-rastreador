@@ -68,11 +68,7 @@ public class UserService {
             }
         }
 
-        log.info("Senha: {}", usuario.getPassword());
-
         usuario.setPassword(this.hashService.gerarHash(usuario.getPassword()));
-        log.info("Hash: {}", usuario.getPassword(), usuario.getPassword());
-
         return this.repository.save(usuario);
     }
 

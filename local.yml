@@ -16,6 +16,8 @@ services:
       backend_net:
     ports:
       - 3306:3306
+    healthcheck:
+      test: mysql --user=root --password=$$MYSQL_ROOT_PASSWORD -e 'select count(*) from mqtt.dispositivo' mqtt
 
   mosquitto:
     build:
@@ -23,16 +25,17 @@ services:
       dockerfile: Dockerfile
     container_name: mosquitto
     volumes:
-      - ./mosquitto/config:/mosquitto/config
-      - ./mosquitto/data:/mosquitto/data
-      - ./mosquitto/log:/mosquitto/log
+      - ./mosquitto/local/config:/mosquitto/config
+      - ./mosquitto/local/data:/mosquitto/data
+      - ./mosquitto/local/log:/mosquitto/log
     ports:
       - 1883:1883
       - 8883:8883
     networks:
       backend_net:
     depends_on:
-      - mysql
+      mysql:
+        condition: service_healthy
   backend:
     build:
       context: ./backend
@@ -48,6 +51,12 @@ services:
     depends_on:
       - mysql
       - mosquitto
+    healthcheck:
+      test: wget -S -O - http://localhost:8080/health 2>&1 | head -n 5 | grep 204 || exit 1
+      interval: 15s
+      timeout: 30s
+      retries: 5
+      start_period: 20s
 networks:
   backend_net:
     driver: bridge
