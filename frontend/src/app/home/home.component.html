@@ -1,1 +1,37 @@
-<div id="map" class="flex-grow-1 h-100"></div>
+<div id="map" class="flex-grow-1 h-100">
+  <div class="control leaflet-bar">
+    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modalFiltro">
+      <span class="fa fa-filter" title="Opções"></span>
+    </button>
+  </div>
+</div>
+
+<!-- Modal -->
+<div class="modal fade" id="modalFiltro" tabindex="-1" data-bs-backdrop="static" data-bs-keyboard="true"
+  aria-labelledby="modalTitulo" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="modalTitulo">Filtrar</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <div class="mb-3">
+          <label for="from">Início</label>
+          <input type="datetime-local" id="from" [(ngModel)]="from" class="form-control">
+        </div>
+        <div class="mb-3">
+          <label for="to">Fim</label>
+          <input type="datetime-local" id="to" [(ngModel)]="to" class="form-control">
+        </div>
+        <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+          <button type="button" class="btn btn-primary" (click)="btnFiltrar()">Filtrar</button>
+          <button type="button" class="btn btn-warning" (click)="btnResetar()" data-bs-dismiss="modal">Resetar</button>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+      </div>
+    </div>
+  </div>
+</div>

@@ -13,6 +13,7 @@ import com.phonerastreador.backend.repository.LocalizacaoRepository;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.domain.PageRequest;
 import org.springframework.stereotype.Service;
 
 @Service
@@ -52,5 +53,14 @@ public class LocalizacaoService {
     public List<Localizacao> getByUser(User usuario) {
         List<Localizacao> lista = this.repository.findByUsernameOrderByCriadoEmDesc(usuario);
         return lista;
+    }
+
+    public List<Localizacao> getByUser(User usuario, Integer quantidade) {
+        PageRequest pagina = PageRequest.of(0, quantidade);
+        return this.repository.findByUsernameOrderByCriadoEmDesc(usuario, pagina);
+    }
+
+    public List<Localizacao> getDePara(User usuario, LocalDateTime de, LocalDateTime para) {
+        return this.repository.findByUsernameAndHorarioGpsBetween(usuario, de, para);
     }    
 }

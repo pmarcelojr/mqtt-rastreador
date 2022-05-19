@@ -31,6 +31,9 @@ export class HomeComponent implements OnInit {
     tiles.addTo(this.map);
   }
 
+  public from: any = '';
+  public to: any = '';
+
   public addMarkerClick = () => {
     (this.map as L.Map).on('click', (e: any) => {
       const { lat, lng } = e.latlng;
@@ -39,10 +42,26 @@ export class HomeComponent implements OnInit {
     });
   }
 
+  private defaultIcon = L.icon({
+    iconUrl: '/marker-icon.png',
+    iconAnchor: [12, 40]
+  });
+
   private addMarker(latLng: any, texto: string): void {
-    const marker = L.marker(latLng).addTo(this.map);
+    const marker = L.marker(latLng, { icon: this.defaultIcon }).addTo(this.map);
+
     marker.bindPopup(texto);
     this.markers.push(marker);
+  }
+
+  public btnFiltrar() {
+    const from = new Date(this.from);
+    const to = new Date(this.to);
+    console.log('deveria filtrar', from.getTime(), from.toLocaleString());
+  }
+
+  public btnResetar() {
+    console.log('deveria resetar');
   }
 
   private getTipoConexao(item: LocalizacaoDto): string {
