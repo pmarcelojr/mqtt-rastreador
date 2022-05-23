@@ -17,12 +17,15 @@
       </div>
       <div class="modal-body">
         <div class="mb-3">
-          <label for="from">Início</label>
-          <input type="datetime-local" id="from" [(ngModel)]="from" class="form-control">
-        </div>
-        <div class="mb-3">
-          <label for="to">Fim</label>
-          <input type="datetime-local" id="to" [(ngModel)]="to" class="form-control">
+          <label for="from">Selecionar datas</label>
+          <mat-form-field id="from" class="form-control">
+            <mat-date-range-input [rangePicker]="picker">
+              <input [(ngModel)]="from"  matStartDate placeholder="Data Inicial">
+              <input [(ngModel)]="to" matEndDate placeholder="Data Final">
+            </mat-date-range-input>
+            <mat-datepicker-toggle matSuffix [for]="picker"></mat-datepicker-toggle>
+            <mat-date-range-picker #picker></mat-date-range-picker>
+          </mat-form-field>
         </div>
         <div class="d-grid gap-2 d-md-flex justify-content-md-end">
           <button type="button" class="btn btn-primary" (click)="btnFiltrar()">Filtrar</button>

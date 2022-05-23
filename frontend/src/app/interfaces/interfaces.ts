@@ -1,3 +1,14 @@
+export interface Paginacao<T> {
+  content: Array<T>;
+  last: boolean;
+  totalPages: number;
+  totalElements: number;
+  size: number;
+  number: number;
+  first: boolean;
+  numberOfElements: number;
+  empty: number;
+}
 
 export interface DispositivoDto {
   id: string;

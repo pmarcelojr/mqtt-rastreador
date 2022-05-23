@@ -1,4 +1,4 @@
-import { NgModule } from '@angular/core';
+import { CUSTOM_ELEMENTS_SCHEMA, NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
@@ -16,6 +16,10 @@ import { AuthInterceptorProviders } from './helpers/auth.interceptor';
 import { DashboardComponent } from './config/dashboard/dashboard.component';
 import { ConfiguracaoComponent } from './configuracao/configuracao.component';
 import { DispositivosComponent } from './config/dispositivos/dispositivos.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { MatNativeDateModule, MAT_DATE_LOCALE } from '@angular/material/core';
+import { MatDatepickerModule } from '@angular/material/datepicker';
+import { MatFormFieldModule } from '@angular/material/form-field';
 
 @NgModule({
   declarations: [
@@ -36,9 +40,18 @@ import { DispositivosComponent } from './config/dispositivos/dispositivos.compon
     AppRoutingModule,
     FormsModule,
     HttpClientModule,
-    ReactiveFormsModule
+    ReactiveFormsModule,
+    BrowserAnimationsModule,
+    MatNativeDateModule,
+    MatDatepickerModule,
+    MatFormFieldModule,
   ],
-  providers: [AuthInterceptorProviders],
-  bootstrap: [AppComponent]
+  providers: [AuthInterceptorProviders,
+    {
+      provide: MAT_DATE_LOCALE, useValue: 'pt-BR',
+    }
+  ],
+  bootstrap: [AppComponent],
+  schemas: [ CUSTOM_ELEMENTS_SCHEMA ]
 })
 export class AppModule { }
