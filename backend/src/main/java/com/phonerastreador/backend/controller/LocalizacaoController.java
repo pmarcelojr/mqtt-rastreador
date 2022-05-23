@@ -1,17 +1,20 @@
 package com.phonerastreador.backend.controller;
 
-import java.time.Instant;
-import java.time.LocalDateTime;
-import java.time.ZoneId;
+import java.time.LocalDate;
+import java.time.format.DateTimeFormatter;
 import java.util.List;
 import java.util.stream.Collectors;
 
 import com.phonerastreador.backend.controller.dto.LocalizacaoDto;
-import com.phonerastreador.backend.model.Localizacao;
 import com.phonerastreador.backend.model.User;
 import com.phonerastreador.backend.service.LocalizacaoService;
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.domain.Page;
+import org.springframework.data.domain.Pageable;
+import org.springframework.data.web.PageableDefault;
 import org.springframework.http.ResponseEntity;
 import org.springframework.security.core.Authentication;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -23,26 +26,35 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping("/localizacao")
 public class LocalizacaoController {
 
+    private static final Logger log = LoggerFactory.getLogger(LocalizacaoController.class);
+
     @Autowired
     private LocalizacaoService service;
 
     @GetMapping
-    public ResponseEntity<List<LocalizacaoDto>> getLocalizacoes(
+    public Page<LocalizacaoDto> getLocalizacoes(
             Authentication userConectado,
-            @RequestParam(required = false) Long from,
-            @RequestParam(required = false) Long to) {
+            @PageableDefault(size = 50) Pageable pagina,
+            @RequestParam(required = false) String de,
+            @RequestParam(required = false) String para) {
 
         User usuario = (User) userConectado.getPrincipal();
-        if (from != null && to != null) {
-            LocalDateTime dateFrom = LocalDateTime.ofInstant(Instant.ofEpochMilli(from), ZoneId.of("Z"));
-            LocalDateTime dateTo = LocalDateTime.ofInstant(Instant.ofEpochMilli(to), ZoneId.of("Z"));
+        LocalDate dataInicio = LocalDate.now().minusDays(1);
+        LocalDate dataFim = LocalDate.now();
 
-            List<Localizacao> localizacoes = this.service.getDePara(usuario, dateFrom, dateTo);
-            return ResponseEntity.ok(localizacoes.stream()
-                    .map(LocalizacaoDto::new).collect(Collectors.toList()));
+        if (de != null && para != null) {
+            dataInicio = LocalDate.parse(de, DateTimeFormatter.ISO_LOCAL_DATE);
+            dataFim = LocalDate.parse(para, DateTimeFormatter.ISO_LOCAL_DATE);
+            log.info("Datas recebidas: {} e {}", de, para);
         }
 
-        return ResponseEntity.badRequest().build();
+        if (dataInicio.isAfter(dataFim)) {
+            LocalDate dataTemp = dataFim;
+            dataFim = dataInicio;
+            dataInicio = dataTemp;
+        }
+
+        return this.service.getDePara(usuario, dataInicio, dataFim, pagina).map(LocalizacaoDto::new);
     }
 
     @GetMapping("/recentes")

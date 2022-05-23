@@ -1,5 +1,6 @@
 package com.phonerastreador.backend.service;
 
+import java.time.LocalDate;
 import java.time.LocalDateTime;
 import java.util.List;
 import java.util.Optional;
@@ -13,7 +14,9 @@ import com.phonerastreador.backend.repository.LocalizacaoRepository;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageRequest;
+import org.springframework.data.domain.Pageable;
 import org.springframework.stereotype.Service;
 
 @Service
@@ -60,7 +63,10 @@ public class LocalizacaoService {
         return this.repository.findByUsernameOrderByCriadoEmDesc(usuario, pagina);
     }
 
-    public List<Localizacao> getDePara(User usuario, LocalDateTime de, LocalDateTime para) {
-        return this.repository.findByUsernameAndHorarioGpsBetween(usuario, de, para);
+    public Page<Localizacao> getDePara(User usuario, LocalDate de, LocalDate para, Pageable pagina) {
+        LocalDateTime dataInicio = de.atTime(0, 0, 0);
+        LocalDateTime dataFim = para.atTime(23, 59, 59);
+        log.info("Buscando localizacoes entre {} e {}", dataInicio, dataFim);
+        return this.repository.findByUsernameAndHorarioGpsBetween(usuario, dataInicio, dataFim, pagina);
     }    
 }
