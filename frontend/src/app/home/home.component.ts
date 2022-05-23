@@ -63,7 +63,12 @@ export class HomeComponent implements OnInit {
   }
 
   private limparMarcadores() {
-    this.markers = [];
+    while (this.markers.length > 0) {
+      const marker = this.markers.pop();
+      if (marker != undefined) {
+        marker.removeFrom(this.map);
+      }
+    }
   }
 
   private localizacaoFiltro: LocalizacaoDto[] = [];
@@ -75,7 +80,6 @@ export class HomeComponent implements OnInit {
     this.localizacaoService.getLocalizacoes(from,  to)
     .subscribe((data: Paginacao<LocalizacaoDto>) => {
       this.localizacaoFiltro = data.content;
-      console.log(data);
       this.exibirMarcadores(this.localizacaoFiltro);
     });
   }
@@ -85,12 +89,7 @@ export class HomeComponent implements OnInit {
   }
 
   private getTipoConexao(item: LocalizacaoDto): string {
-    switch (item.tipoConexao) {
-      case 'WIFI':
-        return `Wi-Fi`;
-      default:
-        return 'Desconhecido';
-    }
+    return item.tipoConexao;
   }
 
   private gerarTexto(item: LocalizacaoDto): string {
@@ -123,6 +122,9 @@ export class HomeComponent implements OnInit {
       const texto = this.gerarTexto(item);
       this.addMarker([item.latitude, item.longitude], texto);
     });
+
+    const grupo = new L.FeatureGroup(this.markers);
+    this.map.fitBounds(grupo.getBounds());
   }
 
   ngOnInit(): void {

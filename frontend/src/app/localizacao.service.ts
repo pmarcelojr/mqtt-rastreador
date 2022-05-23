@@ -15,11 +15,9 @@ export class LocalizacaoService {
   }
 
   getLocalizacoes(de: Date, para: Date): Observable<any> {
-
     const dataInicio= de.toISOString().split('T')[0]
     const dataFim = para.toISOString().split('T')[0]
     const url = `/?de=${dataInicio}&para=${dataFim}`;
-    console.log(url);
     return this.http.get(this.gerarPath(url));
   }
 

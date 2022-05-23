@@ -17,8 +17,8 @@
       </div>
       <div class="modal-body">
         <div class="mb-3">
-          <label for="from">Selecionar datas</label>
-          <mat-form-field id="from" class="form-control">
+          <label for="picker">Selecionar datas</label>
+          <mat-form-field id="picker" class="form-control">
             <mat-date-range-input [rangePicker]="picker">
               <input [(ngModel)]="from"  matStartDate placeholder="Data Inicial">
               <input [(ngModel)]="to" matEndDate placeholder="Data Final">
@@ -29,7 +29,7 @@
         </div>
         <div class="d-grid gap-2 d-md-flex justify-content-md-end">
           <button type="button" class="btn btn-primary" (click)="btnFiltrar()">Filtrar</button>
-          <button type="button" class="btn btn-warning" (click)="btnResetar()" data-bs-dismiss="modal">Resetar</button>
+          <button type="button" class="btn btn-warning" (click)="btnResetar()">Resetar</button>
         </div>
       </div>
       <div class="modal-footer">
