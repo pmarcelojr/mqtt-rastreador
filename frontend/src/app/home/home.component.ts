@@ -40,6 +40,8 @@ export class HomeComponent implements OnInit {
     });
 
     tiles.addTo(this.map);
+
+    setTimeout(() => this.map.invalidateSize(), 10);
   }
 
   public addMarkerClick = () => {
