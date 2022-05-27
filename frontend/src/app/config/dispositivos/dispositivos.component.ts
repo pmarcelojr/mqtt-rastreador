@@ -2,6 +2,7 @@ import { Component, ElementRef, OnInit, ViewChild } from '@angular/core';
 import { FormControl, FormGroup, Validators } from '@angular/forms';
 import { DispositivoService } from 'src/app/dispositivo.service';
 import { DispositivoDto } from 'src/app/interfaces/interfaces';
+import { ExportarService } from 'src/app/services/exportar.service';
 
 @Component({
   selector: 'app-dispositivos',
@@ -18,7 +19,7 @@ export class DispositivosComponent implements OnInit {
 
   public formulario: FormGroup;
 
-  constructor(private service: DispositivoService) {
+  constructor(private service: DispositivoService, private exportarService: ExportarService) {
     this.formulario = new FormGroup({
       nome: new FormControl('', [
         Validators.required,
@@ -63,6 +64,7 @@ export class DispositivosComponent implements OnInit {
   private formatarDispositivoDto(item: DispositivoDto): DispositivoDto {
     const criadoEm = new Date(item.criadoEm);
     item.criadoEm = criadoEm.toLocaleString();
+
     if (item.ultimaAtualizacao == null) {
       item.ultimaAtualizacao = '-';
     }
@@ -70,6 +72,7 @@ export class DispositivosComponent implements OnInit {
     if (item.ultimaLocalizacao == null) {
       item.ultimaLocalizacao = '-';
     }
+
     return item;
   }
 
@@ -84,6 +87,23 @@ export class DispositivosComponent implements OnInit {
     ).add(() => {
       this.isCarregando = false;
     });
+  }
+
+  public baixarConfig(nome: string) {
+    this.exportarService.exportarConfig(nome).subscribe(dados => this.baixarArquivo(JSON.stringify(dados)));
+  }
+
+  private forcarDownload(objetoUrl: string) {
+    const a = document.createElement('a');
+    a.href = objetoUrl;
+    a.download = "config.otrc";
+    a.click();
+  }
+
+  private baixarArquivo(conteudo: string) {
+    const blob = new Blob([conteudo], { type: 'application/json' });
+    const dados = window.URL.createObjectURL(blob);
+    this.forcarDownload(dados);
   }
 
 }

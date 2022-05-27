@@ -128,8 +128,10 @@ export class HomeComponent implements OnInit, AfterViewInit {
       this.addMarker([item.latitude, item.longitude], texto);
     });
 
-    const grupo = new L.FeatureGroup(this.markers);
-    this.map.fitBounds(grupo.getBounds());
+    if (this.markers.length) {
+      const grupo = new L.FeatureGroup(this.markers);
+      this.map.fitBounds(grupo.getBounds());
+    }
   }
 
   ngOnInit(): void {

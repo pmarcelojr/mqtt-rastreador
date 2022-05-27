@@ -18,6 +18,7 @@
         <th scope="col">Última localização</th>
         <th scope="col">Última atualização</th>
         <th scope="col">Criado em</th>
+        <th scope="col">Exportar</th>
       </tr>
     </thead>
     <tbody>
@@ -28,6 +29,11 @@
         <td>{{ dispositivo.ultimaLocalizacao }}</td>
         <td>{{ dispositivo.ultimaAtualizacao }}</td>
         <td>{{ dispositivo.criadoEm }}</td>
+        <td style="vertical-align: middle; text-align: center;">
+          <button type="button" class="btn btn-success" (click)="baixarConfig(dispositivo.nome)" title="Baixar arquivo de configurações">
+            <span class="fa-solid fa-download"></span>
+          </button>
+        </td>
       </tr>
     </tbody>
     <tfoot class="text-center">
