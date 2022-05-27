@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { AfterViewInit, Component, OnInit } from '@angular/core';
 import * as L from 'leaflet';
 import { LocalizacaoService } from '../localizacao.service';
 import { LocalizacaoDto, Paginacao } from '../interfaces/interfaces';
@@ -9,7 +9,7 @@ import { LocalizacaoDto, Paginacao } from '../interfaces/interfaces';
   templateUrl: './home.component.html',
   styleUrls: ['./home.component.css']
 })
-export class HomeComponent implements OnInit {
+export class HomeComponent implements OnInit, AfterViewInit {
   private map: any;
   private markers: L.Marker<any>[] = [];
 
@@ -27,6 +27,10 @@ export class HomeComponent implements OnInit {
     this.to = hoje.toISOString().substring(0, 16);
   }
 
+  ngAfterViewInit(): void {
+    setTimeout(() => this.map.invalidateSize(), 10);
+  }
+
   private initMap(): void {
     this.map = L.map('map', {
       center: [-13.4218236, -52.5652522],
@@ -41,7 +45,6 @@ export class HomeComponent implements OnInit {
 
     tiles.addTo(this.map);
 
-    setTimeout(() => this.map.invalidateSize(), 10);
   }
 
   public addMarkerClick = () => {
@@ -79,11 +82,11 @@ export class HomeComponent implements OnInit {
     const from = new Date(this.from);
     const to = new Date(this.to);
 
-    this.localizacaoService.getLocalizacoes(from,  to)
-    .subscribe((data: Paginacao<LocalizacaoDto>) => {
-      this.localizacaoFiltro = data.content;
-      this.exibirMarcadores(this.localizacaoFiltro);
-    });
+    this.localizacaoService.getLocalizacoes(from, to)
+      .subscribe((data: Paginacao<LocalizacaoDto>) => {
+        this.localizacaoFiltro = data.content;
+        this.exibirMarcadores(this.localizacaoFiltro);
+      });
   }
 
   public btnResetar() {
