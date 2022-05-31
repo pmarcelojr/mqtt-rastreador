@@ -1,0 +1,26 @@
+
+.nav-item a:hover {
+  background-color: var(--bs-gray-dark);
+  color: var(--bs-white);
+}
+
+.nav-item a {
+  color: var(--bs-gray-dark);
+}
+
+.nav-item a.active {
+  background-color: var(--bs-gray-600);
+  color: var(--bs-white);
+
+}
+.nav-item a.active:hover {
+  background-color: var(--bs-gray-700);
+  color: var(--bs-white);
+}
+
+em.fa {
+  text-align: center;
+  width: 24pt;
+  vertical-align: middle;
+  font-size: 1.3em;
+}

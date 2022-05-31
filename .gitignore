@@ -12,3 +12,8 @@ backend/phonerastreador/target
 ldap/etc/**
 ldap/var/**
 
+# MySQL data
+mysql/data/**
+
+# ignorando diretório de certificados
+certs

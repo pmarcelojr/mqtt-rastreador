@@ -1,0 +1,82 @@
+1651945900: mosquitto version 2.0.14 starting
+1651945900: Config loaded from /mosquitto/config/mosquitto.conf.
+1651945900: Loading plugin: /mosquitto/config/auth-plug.so
+1651945900: Opening ipv4 listen socket on port 1883.
+1651945900: mosquitto version 2.0.14 running
+1651945914: New connection from 172.22.0.3:43782 on port 1883.
+1651945914: New client connected from 172.22.0.3:43782 as paho7589331375700 (p2, c1, k60, u'backend_user').
+1651946924: New connection from 172.22.0.1:54194 on port 1883.
+1651946924: New client connected from 172.22.0.1:54194 as iphone2BE57F59921A4BF8BA382C4756749021 (p2, c0, k60, u'iphone').
+1651946935: Client iphone2BE57F59921A4BF8BA382C4756749021 disconnected.
+1651946935: New connection from 172.22.0.1:54200 on port 1883.
+1651946935: New client connected from 172.22.0.1:54200 as iphone2BE57F59921A4BF8BA382C4756749021 (p2, c0, k60, u'iphone').
+1651946953: New connection from 172.22.0.1:54206 on port 1883.
+1651946953: Client iphone2BE57F59921A4BF8BA382C4756749021 already connected, closing old connection.
+1651946953: New client connected from 172.22.0.1:54206 as iphone2BE57F59921A4BF8BA382C4756749021 (p2, c0, k60, u'iphone').
+1651946992: Client iphone2BE57F59921A4BF8BA382C4756749021 disconnected.
+1651947701: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1651950794: New connection from 172.22.0.1:54542 on port 1883.
+1651950794: New client connected from 172.22.0.1:54542 as iphone2BE57F59921A4BF8BA382C4756749021 (p2, c0, k60, u'iphone').
+1651950805: Client iphone2BE57F59921A4BF8BA382C4756749021 disconnected.
+1651951059: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1651952658: New connection from 172.22.0.1:54812 on port 1883.
+1651952658: New client connected from 172.22.0.1:54812 as iphone2BE57F59921A4BF8BA382C4756749021 (p2, c0, k60, u'iphone').
+1651952669: Client iphone2BE57F59921A4BF8BA382C4756749021 disconnected.
+1651952860: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1651954661: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1651973346: New connection from 172.22.0.1:55306 on port 1883.
+1651973346: New client connected from 172.22.0.1:55306 as iphone2BE57F59921A4BF8BA382C4756749021 (p2, c0, k60, u'iphone').
+1651973357: Client iphone2BE57F59921A4BF8BA382C4756749021 disconnected.
+1651973803: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1651975185: New connection from 172.22.0.1:55572 on port 1883.
+1651975185: New client connected from 172.22.0.1:55572 as iphone2BE57F59921A4BF8BA382C4756749021 (p2, c0, k60, u'iphone').
+1651975196: Client iphone2BE57F59921A4BF8BA382C4756749021 disconnected.
+1651975604: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1651976097: New connection from 172.22.0.1:55696 on port 1883.
+1651976097: New client connected from 172.22.0.1:55696 as iphone2BE57F59921A4BF8BA382C4756749021 (p2, c0, k60, u'iphone').
+1651976108: Client iphone2BE57F59921A4BF8BA382C4756749021 disconnected.
+1651977047: New connection from 172.22.0.1:55846 on port 1883.
+1651977047: New client connected from 172.22.0.1:55846 as iphone2BE57F59921A4BF8BA382C4756749021 (p2, c0, k60, u'iphone').
+1651977058: Client iphone2BE57F59921A4BF8BA382C4756749021 disconnected.
+1651977405: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1651977959: New connection from 172.22.0.1:55988 on port 1883.
+1651977959: New client connected from 172.22.0.1:55988 as iphone2BE57F59921A4BF8BA382C4756749021 (p2, c0, k60, u'iphone').
+1651977970: Client iphone2BE57F59921A4BF8BA382C4756749021 disconnected.
+1651979184: New connection from 172.22.0.1:56154 on port 1883.
+1651979184: New client connected from 172.22.0.1:56154 as iphone2BE57F59921A4BF8BA382C4756749021 (p2, c0, k60, u'iphone').
+1651979195: Client iphone2BE57F59921A4BF8BA382C4756749021 disconnected.
+1651979206: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1651980387: New connection from 172.22.0.1:56336 on port 1883.
+1651980387: New client connected from 172.22.0.1:56336 as iphone2BE57F59921A4BF8BA382C4756749021 (p2, c0, k60, u'iphone').
+1651980398: Client iphone2BE57F59921A4BF8BA382C4756749021 disconnected.
+1651981007: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1651981609: New connection from 172.22.0.1:56522 on port 1883.
+1651981609: New client connected from 172.22.0.1:56522 as iphone2BE57F59921A4BF8BA382C4756749021 (p2, c0, k60, u'iphone').
+1651981620: Client iphone2BE57F59921A4BF8BA382C4756749021 disconnected.
+1651982648: New connection from 172.22.0.1:56662 on port 1883.
+1651982648: New client connected from 172.22.0.1:56662 as iphone2BE57F59921A4BF8BA382C4756749021 (p2, c0, k60, u'iphone').
+1651982659: Client iphone2BE57F59921A4BF8BA382C4756749021 disconnected.
+1651982808: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1651983752: New connection from 172.22.0.1:56832 on port 1883.
+1651983752: New client connected from 172.22.0.1:56832 as iphone2BE57F59921A4BF8BA382C4756749021 (p2, c0, k60, u'iphone').
+1651983763: Client iphone2BE57F59921A4BF8BA382C4756749021 disconnected.
+1651984609: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1651984682: New connection from 172.22.0.1:56960 on port 1883.
+1651984682: New client connected from 172.22.0.1:56960 as iphone2BE57F59921A4BF8BA382C4756749021 (p2, c0, k60, u'iphone').
+1651984692: Client iphone2BE57F59921A4BF8BA382C4756749021 disconnected.
+1651985350: Client paho7589331375700 closed its connection.
+1651985497: New connection from 172.22.0.1:57074 on port 1883.
+1651985498: New client connected from 172.22.0.1:57074 as paho78003863771600 (p2, c1, k60, u'backend_user').
+1651985505: Client paho78003863771600 closed its connection.
+1651986078: New connection from 172.22.0.1:57076 on port 1883.
+1651986078: New client connected from 172.22.0.1:57076 as iphone2BE57F59921A4BF8BA382C4756749021 (p2, c0, k60, u'iphone').
+1651986102: Client iphone2BE57F59921A4BF8BA382C4756749021 disconnected.
+1651986410: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1651988211: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1651988622: New connection from 172.22.0.1:57100 on port 1883.
+1651988622: New client connected from 172.22.0.1:57100 as paho81128364905300 (p2, c1, k60, u'backend_user').
+1651988625: Client paho81128364905300 closed its connection.
+1651990012: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1651990163: New connection from 172.22.0.1:57104 on port 1883.
+1651990163: New client connected from 172.22.0.1:57104 as paho82669625634900 (p2, c1, k60, u'backend_user').
+1651990167: Client paho82669625634900 closed its connection.

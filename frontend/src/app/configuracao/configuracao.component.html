@@ -1,0 +1,25 @@
+<div class="container-fluid">
+  <div class="row">
+    <nav class="col-md-3 col-lg-2 d-md-block bg-light sidebar collapse">
+      <div class="position-sticky pt-3">
+        <ul class="nav flex-column">
+          <li class="nav-item">
+            <a class="nav-link" href="/configuracao/dashboard" routerLink="dashboard" routerLinkActive="active">
+              <em class="fa fa-gauge-high"></em>
+              Dashboard
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/configuracao/dispositivos" routerLink="dispositivos" routerLinkActive="active">
+              <em class="fa fa-mobile-screen"></em>
+              Dispositivos
+            </a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <main class="col-md-9 ms-sm-auto col-lg-10 px-md-4">
+      <router-outlet></router-outlet>
+    </main>
+  </div>
+</div>

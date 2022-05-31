@@ -1,0 +1,43 @@
+version: '3.8'
+
+services:
+
+  mosquitto:
+    build:
+      context: ./mosquitto
+      dockerfile: .
+    container_name: mosquitto
+    volumes:
+      - ./mosquitto/oracle/config:/mosquitto/config
+      - ./mosquitto/oracle/data:/mosquitto/data
+      - ./mosquitto/oracle/log:/mosquitto/log
+    ports:
+      - 1883:1883
+      - 8883:8883
+    networks:
+      oracle_net:
+
+  backend:
+    build:
+      context: ./backend
+      dockerfile: .
+    container_name: backend
+    ports:
+      - 8080:8080
+    environment:
+      - MOSQUITTO_HOST=mosquitto
+      - MYSQL_HOST=168.138.148.14
+    networks:
+      oracle_net:
+    depends_on:
+      - mosquitto
+    healthcheck:
+      test: wget -S -O - http://localhost:8080/health 2>&1 | head -n 5 | grep 204 || exit 1
+      interval: 15s
+      timeout: 30s
+      retries: 5
+      start_period: 20s
+
+networks:
+  oracle_net:
+    driver: bridge

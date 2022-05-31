@@ -1,0 +1,35 @@
+<div class="d-flex flex-column vh-100">
+  <header>
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+
+      <a href="#" class="navbar-brand">Phone Rastreador</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto mb-2 mb-lg-0" routerLinkActive="active" [hidden]="!isConectado">
+          <li class="nav-item">
+            <a href="/home" class="nav-link" data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show" routerLink="home">Início</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="configDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Configurações
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="configDropdown">
+              <li><a href="/configuracao/dashboard" class="dropdown-item" data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show" routerLink="configuracao/dashboard">Dashboard</a></li>
+              <li><a href="/configuracao/dispositivos" class="dropdown-item" data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show" routerLink="configuracao/dispositivos">Dispositivos</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a href class="nav-link" data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show" (click)="desconectar()">Sair</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+  <div class="flex-grow-1">
+    <router-outlet></router-outlet>
+  </div>
+</div>

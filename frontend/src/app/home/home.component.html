@@ -1,0 +1,40 @@
+<div id="map" class="flex-grow-1 h-100">
+  <div class="control leaflet-bar">
+    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modalFiltro">
+      <span class="fa fa-filter" title="Opções"></span>
+    </button>
+  </div>
+</div>
+
+<!-- Modal -->
+<div class="modal fade" id="modalFiltro" tabindex="-1" data-bs-backdrop="static" data-bs-keyboard="true"
+  aria-labelledby="modalTitulo" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="modalTitulo">Filtrar</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <div class="mb-3">
+          <label for="picker">Selecionar datas</label>
+          <mat-form-field id="picker" class="form-control">
+            <mat-date-range-input [rangePicker]="picker">
+              <input [(ngModel)]="from"  matStartDate placeholder="Data Inicial">
+              <input [(ngModel)]="to" matEndDate placeholder="Data Final">
+            </mat-date-range-input>
+            <mat-datepicker-toggle matSuffix [for]="picker"></mat-datepicker-toggle>
+            <mat-date-range-picker #picker></mat-date-range-picker>
+          </mat-form-field>
+        </div>
+        <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+          <button type="button" class="btn btn-primary" (click)="btnFiltrar()">Filtrar</button>
+          <button type="button" class="btn btn-warning" (click)="btnResetar()">Resetar</button>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+      </div>
+    </div>
+  </div>
+</div>

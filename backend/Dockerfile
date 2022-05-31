@@ -1,5 +1,6 @@
-FROM openjdk:17
-COPY ./target/phonerastreador-1.0-SNAPSHOT.jar /usr/src/myapp/phonerastreador-1.0-SNAPSHOT.jar
-WORKDIR /usr/src/myapp
-
-CMD ["java", "-jar", "phonerastreador-1.0-SNAPSHOT.jar"]
+FROM openjdk:17-jdk-alpine
+RUN addgroup -S spring && adduser -S spring -G spring
+USER spring:spring
+ARG JAR_FILE=target/backend-0.0.1-SNAPSHOT.jar
+COPY ${JAR_FILE} app.jar
+ENTRYPOINT ["java","-jar","/app.jar"]

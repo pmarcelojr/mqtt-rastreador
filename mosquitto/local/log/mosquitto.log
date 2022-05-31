@@ -1,0 +1,1936 @@
+1647999543: mosquitto version 2.0.14 starting
+1647999543: Config loaded from /mosquitto/config/mosquitto.conf.
+1647999543: Loading plugin: /mosquitto/config/auth-plug.so
+1647999793: mosquitto version 2.0.14 starting
+1647999793: Config loaded from mosquitto.conf.
+1647999793: Loading plugin: /mosquitto/config/auth-plug.so
+1647999913: mosquitto version 2.0.14 starting
+1647999913: Config loaded from mosquitto.conf.
+1647999913: Loading plugin: /mosquitto/config/auth-plug.so
+1648000223: mosquitto version 2.0.14 starting
+1648000223: Config loaded from /mosquitto/config/mosquitto.conf.
+1648000223: Loading plugin: /mosquitto/config/auth-plug.so
+1648000223: Opening ipv4 listen socket on port 8883.
+1648000223: mosquitto version 2.0.14 running
+1648000264: mosquitto version 2.0.14 terminating
+1648000264: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1648000353: mosquitto version 2.0.14 starting
+1648000353: Config loaded from /mosquitto/config/mosquitto.conf.
+1648000353: Loading plugin: /mosquitto/config/auth-plug.so
+1648000353: Opening ipv4 listen socket on port 8883.
+1648000353: mosquitto version 2.0.14 running
+1648000419: mosquitto version 2.0.14 terminating
+1648000419: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1648000512: mosquitto version 2.0.14 starting
+1648000512: Config loaded from /mosquitto/config/mosquitto.conf.
+1648000512: Loading plugin: /mosquitto/config/auth-plug.so
+1648000512: Opening ipv4 listen socket on port 8883.
+1648000512: mosquitto version 2.0.14 running
+1648000546: mosquitto version 2.0.14 terminating
+1648000546: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1648000547: mosquitto version 2.0.14 starting
+1648000547: Config loaded from /mosquitto/config/mosquitto.conf.
+1648000547: Loading plugin: /mosquitto/config/auth-plug.so
+1648000547: Opening ipv4 listen socket on port 8883.
+1648000547: mosquitto version 2.0.14 running
+1648000616: mosquitto version 2.0.14 terminating
+1648000616: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1648000617: mosquitto version 2.0.14 starting
+1648000617: Config loaded from /mosquitto/config/mosquitto.conf.
+1648000617: Loading plugin: /mosquitto/config/auth-plug.so
+1648000617: Opening ipv4 listen socket on port 1883.
+1648000617: mosquitto version 2.0.14 running
+1648000722: New connection from 172.21.0.1:40356 on port 1883.
+1648000722: Client mqtool disconnected, not authorised.
+1648000731: New connection from 172.21.0.1:40358 on port 1883.
+1648000731: Client mqtool disconnected, not authorised.
+1648001203: New connection from 172.21.0.1:40360 on port 1883.
+1648001204: Client LEANDRO-DELL-MQTT disconnected, not authorised.
+1648001204: New connection from 172.21.0.1:40362 on port 1883.
+1648001204: Client LEANDRO-DELL-MQTT disconnected, not authorised.
+1648001238: New connection from 172.21.0.1:40364 on port 1883.
+1648001238: Client LEANDRO-DELL-MQTT disconnected, not authorised.
+1648001238: New connection from 172.21.0.1:40366 on port 1883.
+1648001239: Client LEANDRO-DELL-MQTT disconnected, not authorised.
+1648001364: New connection from 172.21.0.1:40368 on port 1883.
+1648001364: New client connected from 172.21.0.1:40368 as mqtool (p2, c1, k60, u'leandro').
+1648001457: Client mqtool has exceeded timeout, disconnecting.
+1648001579: New connection from 172.21.0.1:40370 on port 1883.
+1648001580: New client connected from 172.21.0.1:40370 as LEANDRO-DELL-MQTT (p2, c1, k60, u'backend_user').
+1648001593: Client LEANDRO-DELL-MQTT closed its connection.
+1648001601: New connection from 172.21.0.1:40372 on port 1883.
+1648001602: Client LEANDRO-DELL-MQTT disconnected, not authorised.
+1648001602: New connection from 172.21.0.1:40374 on port 1883.
+1648001602: Client LEANDRO-DELL-MQTT disconnected, not authorised.
+1648001615: New connection from 172.21.0.1:40376 on port 1883.
+1648001615: New client connected from 172.21.0.1:40376 as LEANDRO-DELL-MQTT (p2, c1, k60, u'backend_user').
+1648001692: Client LEANDRO-DELL-MQTT closed its connection.
+1648001699: New connection from 172.21.0.1:40378 on port 1883.
+1648001699: New client connected from 172.21.0.1:40378 as LEANDRO-DELL-MQTT (p2, c1, k60, u'backend_user').
+1648001701: Client LEANDRO-DELL-MQTT closed its connection.
+1648001711: New connection from 172.21.0.1:40380 on port 1883.
+1648001712: Client LEANDRO-DELL-MQTT disconnected, not authorised.
+1648001712: New connection from 172.21.0.1:40382 on port 1883.
+1648001712: Client LEANDRO-DELL-MQTT disconnected, not authorised.
+1648001908: New connection from 172.21.0.1:40384 on port 1883.
+1648001908: New client connected from 172.21.0.1:40384 as mqtool (p2, c1, k60, u'leandro').
+1648001910: New connection from 172.21.0.1:40386 on port 1883.
+1648001911: New client connected from 172.21.0.1:40386 as LEANDRO-DELL-MQTT (p2, c1, k60, u'backend_user').
+1648001917: Bad socket read/write on client mqtool: Unknown error.
+1648001917: New connection from 172.21.0.1:40388 on port 1883.
+1648001917: New client connected from 172.21.0.1:40388 as mqtool (p2, c1, k60, u'leandro').
+1648001918: Bad socket read/write on client mqtool: Unknown error.
+1648001919: New connection from 172.21.0.1:40390 on port 1883.
+1648001919: New client connected from 172.21.0.1:40390 as mqtool (p2, c1, k60, u'leandro').
+1648001926: Bad socket read/write on client mqtool: Unknown error.
+1648001926: New connection from 172.21.0.1:40392 on port 1883.
+1648001926: New client connected from 172.21.0.1:40392 as mqtool (p2, c1, k60, u'leandro').
+1648002003: Bad socket read/write on client mqtool: Unknown error.
+1648002003: New connection from 172.21.0.1:40394 on port 1883.
+1648002003: New client connected from 172.21.0.1:40394 as mqtool (p2, c1, k60, u'leandro').
+1648002027: Bad socket read/write on client mqtool: Unknown error.
+1648002027: New connection from 172.21.0.1:40396 on port 1883.
+1648002027: New client connected from 172.21.0.1:40396 as mqtool (p2, c1, k60, u'leandro').
+1648002038: Bad socket read/write on client mqtool: Unknown error.
+1648002038: New connection from 172.21.0.1:40398 on port 1883.
+1648002038: New client connected from 172.21.0.1:40398 as mqtool (p2, c1, k60, u'leandro').
+1648002103: Bad socket read/write on client mqtool: Unknown error.
+1648002103: New connection from 172.21.0.1:40400 on port 1883.
+1648002103: New client connected from 172.21.0.1:40400 as mqtool (p2, c1, k60, u'leandro').
+1648002107: Bad socket read/write on client mqtool: Unknown error.
+1648002107: New connection from 172.21.0.1:40402 on port 1883.
+1648002107: New client connected from 172.21.0.1:40402 as mqtool (p2, c1, k60, u'leandro').
+1648002111: Client mqtool disconnected.
+1648002114: New connection from 172.21.0.1:40404 on port 1883.
+1648002114: New client connected from 172.21.0.1:40404 as mqtool (p2, c1, k60, u'leandro').
+1648002118: Bad socket read/write on client mqtool: Unknown error.
+1648002118: New connection from 172.21.0.1:40406 on port 1883.
+1648002118: New client connected from 172.21.0.1:40406 as mqtool (p2, c1, k60, u'leandro').
+1648002121: Bad socket read/write on client mqtool: Unknown error.
+1648002121: New connection from 172.21.0.1:40408 on port 1883.
+1648002121: New client connected from 172.21.0.1:40408 as mqtool (p2, c1, k60, u'leandro').
+1648002122: Bad socket read/write on client mqtool: Unknown error.
+1648002122: New connection from 172.21.0.1:40410 on port 1883.
+1648002122: New client connected from 172.21.0.1:40410 as mqtool (p2, c1, k60, u'leandro').
+1648002152: mosquitto version 2.0.14 terminating
+1648002152: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1648002153: mosquitto version 2.0.14 starting
+1648002153: Config loaded from /mosquitto/config/mosquitto.conf.
+1648002153: Loading plugin: /mosquitto/config/auth-plug.so
+1648002153: Opening ipv4 listen socket on port 1883.
+1648002153: mosquitto version 2.0.14 running
+1648002155: New connection from 172.21.0.1:40430 on port 1883.
+1648002155: New client connected from 172.21.0.1:40430 as LEANDRO-DELL-MQTT (p2, c1, k60, u'backend_user').
+1648002156: New connection from 172.21.0.1:40432 on port 1883.
+1648002156: New client connected from 172.21.0.1:40432 as mqtool (p2, c1, k60, u'leandro').
+1648002212: Client LEANDRO-DELL-MQTT closed its connection.
+1648002219: New connection from 172.21.0.1:40434 on port 1883.
+1648002219: New client connected from 172.21.0.1:40434 as LEANDRO-DELL-MQTT (p2, c1, k60, u'backend_user').
+1648002327: Client mqtool has exceeded timeout, disconnecting.
+1648003113: Client LEANDRO-DELL-MQTT closed its connection.
+1648003119: mosquitto version 2.0.14 terminating
+1648003119: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1648306398: mosquitto version 2.0.14 starting
+1648306398: Config loaded from /mosquitto/config/mosquitto.conf.
+1648306398: Loading plugin: /mosquitto/config/auth-plug.so
+1648306398: Opening ipv4 listen socket on port 1883.
+1648306398: mosquitto version 2.0.14 running
+1648306509: mosquitto version 2.0.14 terminating
+1648306509: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1648306531: mosquitto version 2.0.14 starting
+1648306531: Config loaded from /mosquitto/config/mosquitto.conf.
+1648306531: Loading plugin: /mosquitto/config/auth-plug.so
+1648306531: Opening ipv4 listen socket on port 1883.
+1648306531: mosquitto version 2.0.14 running
+1648306821: mosquitto version 2.0.14 terminating
+1648306821: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1648306822: mosquitto version 2.0.14 starting
+1648306822: Config loaded from /mosquitto/config/mosquitto.conf.
+1648306822: Loading plugin: /mosquitto/config/auth-plug.so
+1648306822: Opening ipv4 listen socket on port 1883.
+1648306822: mosquitto version 2.0.14 running
+1648306901: mosquitto version 2.0.14 terminating
+1648306901: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1648306903: mosquitto version 2.0.14 starting
+1648306903: Config loaded from /mosquitto/config/mosquitto.conf.
+1648306903: Loading plugin: /mosquitto/config/auth-plug.so
+1648306903: Opening ipv4 listen socket on port 1883.
+1648306903: mosquitto version 2.0.14 running
+1648306938: mosquitto version 2.0.14 terminating
+1648306938: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1648306940: mosquitto version 2.0.14 starting
+1648306940: Config loaded from /mosquitto/config/mosquitto.conf.
+1648306940: Loading plugin: /mosquitto/config/auth-plug.so
+1648306940: Opening ipv4 listen socket on port 1883.
+1648306940: mosquitto version 2.0.14 running
+1648306964: New connection from 172.24.0.1:52642 on port 1883.
+1648306964: New client connected from 172.24.0.1:52642 as paho2325279900100 (p2, c1, k60, u'user_test').
+1648306976: Client paho2325279900100 closed its connection.
+1648306988: New connection from 172.24.0.1:52664 on port 1883.
+1648306988: New client connected from 172.24.0.1:52664 as paho2349129946400 (p2, c1, k60, u'user_test').
+1648307086: New connection from 172.24.0.1:52666 on port 1883.
+1648307086: New client connected from 172.24.0.1:52666 as mqtool (p2, c1, k60, u'user_test').
+1648307114: Client mqtool closed its connection.
+1648307151: Client paho2349129946400 closed its connection.
+1648307174: New connection from 172.24.0.1:52688 on port 1883.
+1648307174: New client connected from 172.24.0.1:52688 as paho2535170459600 (p2, c1, k60, u'user_test').
+1648307268: Client paho2535170459600 closed its connection.
+1648307357: New connection from 172.24.0.1:52690 on port 1883.
+1648307357: New client connected from 172.24.0.1:52690 as auto-4F251B37-3FB1-8858-ECA7-0D88A202FC2E (p2, c1, k60, u'backend_user').
+1648307402: Client auto-4F251B37-3FB1-8858-ECA7-0D88A202FC2E closed its connection.
+1648307409: New connection from 172.24.0.1:52692 on port 1883.
+1648307409: New client connected from 172.24.0.1:52692 as auto-1787DC73-1F1A-762E-9E81-51CE34848201 (p2, c1, k60, u'backend_user').
+1648307436: New connection from 172.24.0.1:52694 on port 1883.
+1648307436: New client connected from 172.24.0.1:52694 as mqtool2 (p2, c1, k60, u'user_test').
+1648307464: New connection from 172.24.0.1:52716 on port 1883.
+1648307464: New client connected from 172.24.0.1:52716 as paho2824984383400 (p2, c1, k60, u'user_test').
+1648307498: Client mqtool2 closed its connection.
+1648307508: Client paho2824984383400 closed its connection.
+1648307519: New connection from 172.24.0.1:52738 on port 1883.
+1648307520: New client connected from 172.24.0.1:52738 as paho2880665920200 (p2, c1, k60, u'user_test').
+1648307559: Client auto-1787DC73-1F1A-762E-9E81-51CE34848201 closed its connection.
+1648307574: New connection from 172.24.0.1:52740 on port 1883.
+1648307574: New client connected from 172.24.0.1:52740 as auto-696295EC-8131-AEA3-74C7-99DBEF8AF791 (p2, c1, k60, u'user_test').
+1648307574: Client auto-696295EC-8131-AEA3-74C7-99DBEF8AF791 disconnected.
+1648307609: Client paho2880665920200 closed its connection.
+1648307613: New connection from 172.24.0.1:52742 on port 1883.
+1648307613: New client connected from 172.24.0.1:52742 as auto-35F02C4C-8C41-26F6-F97D-4A6282989CBE (p2, c1, k60, u'backend_user').
+1648307620: New connection from 172.24.0.1:52764 on port 1883.
+1648307621: New client connected from 172.24.0.1:52764 as paho2981791217400 (p2, c1, k60, u'backend_user').
+1648307628: New connection from 172.24.0.1:52766 on port 1883.
+1648307628: New client connected from 172.24.0.1:52766 as mqtool2 (p2, c1, k60, u'user_test').
+1648307669: Client mqtool2 closed its connection.
+1648307671: Client paho2981791217400 closed its connection.
+1648307679: New connection from 172.24.0.1:52768 on port 1883.
+1648307679: New client connected from 172.24.0.1:52768 as mqtool2 (p2, c1, k60, u'user_test').
+1648307682: New connection from 172.24.0.1:52790 on port 1883.
+1648307682: New client connected from 172.24.0.1:52790 as paho3043315879200 (p2, c1, k60, u'backend_user').
+1648307743: Client paho3043315879200 closed its connection.
+1648307754: New connection from 172.24.0.1:52812 on port 1883.
+1648307755: New client connected from 172.24.0.1:52812 as paho3115817666500 (p2, c1, k60, u'backend_user').
+1648307797: Client mqtool2 has exceeded timeout, disconnecting.
+1648307811: New connection from 172.24.0.1:52814 on port 1883.
+1648307811: New client connected from 172.24.0.1:52814 as mqtool2 (p2, c1, k60, u'user_test').
+1648307858: New connection from 172.24.0.1:52816 on port 1883.
+1648307858: Client leand2BE57F59921A4BF8BA382C4756749021 disconnected, not authorised.
+1648307860: New connection from 172.24.0.1:52818 on port 1883.
+1648307860: Client leand2BE57F59921A4BF8BA382C4756749021 disconnected, not authorised.
+1648307864: New connection from 172.24.0.1:52820 on port 1883.
+1648307864: Client leand2BE57F59921A4BF8BA382C4756749021 disconnected, not authorised.
+1648307869: New connection from 172.24.0.1:52822 on port 1883.
+1648307869: Client leand2BE57F59921A4BF8BA382C4756749021 disconnected, not authorised.
+1648307877: New connection from 172.24.0.1:52824 on port 1883.
+1648307877: Client leand2BE57F59921A4BF8BA382C4756749021 disconnected, not authorised.
+1648307880: New connection from 172.24.0.1:52826 on port 1883.
+1648307880: New client connected from 172.24.0.1:52826 as usertest2BE57F59921A4BF8BA382C4756749021 (p2, c0, k60, u'user_test').
+1648307911: Client mqtool2 has exceeded timeout, disconnecting.
+1648307923: Client usertest2BE57F59921A4BF8BA382C4756749021 disconnected.
+1648307923: New connection from 172.24.0.1:52828 on port 1883.
+1648307923: New client connected from 172.24.0.1:52828 as usertest2BE57F59921A4BF8BA382C4756749021 (p2, c0, k60, u'user_test').
+1648307946: Client usertest2BE57F59921A4BF8BA382C4756749021 disconnected.
+1648307946: New connection from 172.24.0.1:52830 on port 1883.
+1648307946: New client connected from 172.24.0.1:52830 as hahsha (p2, c0, k60, u'user_test').
+1648307964: New connection from 172.24.0.1:52832 on port 1883.
+1648307964: New client connected from 172.24.0.1:52832 as mqtool2 (p2, c1, k60, u'user_test').
+1648307964: Client hahsha disconnected.
+1648307969: New connection from 172.24.0.1:52834 on port 1883.
+1648307969: New client connected from 172.24.0.1:52834 as hahsha (p2, c0, k60, u'user_test').
+1648308042: Client hahsha disconnected.
+1648308042: New connection from 172.24.0.1:52836 on port 1883.
+1648308042: Client hahsha disconnected, not authorised.
+1648308043: New connection from 172.24.0.1:52838 on port 1883.
+1648308043: Client hahsha disconnected, not authorised.
+1648308046: New connection from 172.24.0.1:52840 on port 1883.
+1648308046: Client hahsha disconnected, not authorised.
+1648308051: New connection from 172.24.0.1:52842 on port 1883.
+1648308051: Client hahsha disconnected, not authorised.
+1648308058: New connection from 172.24.0.1:52844 on port 1883.
+1648308058: Client hahsha disconnected, not authorised.
+1648308061: Client mqtool2 has exceeded timeout, disconnecting.
+1648308067: New connection from 172.24.0.1:52846 on port 1883.
+1648308067: Client hahsha disconnected, not authorised.
+1648308084: New connection from 172.24.0.1:52848 on port 1883.
+1648308084: Client hahsha disconnected, not authorised.
+1648308094: New connection from 172.24.0.1:52850 on port 1883.
+1648308094: Client hahsha disconnected, not authorised.
+1648308121: New connection from 172.24.0.1:52852 on port 1883.
+1648308121: New client connected from 172.24.0.1:52852 as hahsha (p2, c0, k60, u'user_test').
+1648308140: Client hahsha disconnected.
+1648308140: New connection from 172.24.0.1:52854 on port 1883.
+1648308140: New client connected from 172.24.0.1:52854 as usertest2BE57F59921A4BF8BA382C4756749021 (p2, c0, k60, u'user_test').
+1648308173: Client usertest2BE57F59921A4BF8BA382C4756749021 disconnected.
+1648308223: New connection from 172.24.0.1:52856 on port 1883.
+1648308223: New client connected from 172.24.0.1:52856 as usertest2BE57F59921A4BF8BA382C4756749021 (p2, c0, k60, u'user_test').
+1648308233: Client usertest2BE57F59921A4BF8BA382C4756749021 disconnected.
+1648308233: New connection from 172.24.0.1:52858 on port 1883.
+1648308233: New client connected from 172.24.0.1:52858 as usertest2BE57F59921A4BF8BA382C4756749021 (p2, c0, k60, u'user_test').
+1648308284: Client usertest2BE57F59921A4BF8BA382C4756749021 disconnected.
+1648308284: New connection from 172.24.0.1:52860 on port 1883.
+1648308284: New client connected from 172.24.0.1:52860 as usertest2BE57F59921A4BF8BA382C4756749021 (p2, c0, k60, u'user_test').
+1648308299: Client usertest2BE57F59921A4BF8BA382C4756749021 disconnected.
+1648308299: New connection from 172.24.0.1:52862 on port 1883.
+1648308299: New client connected from 172.24.0.1:52862 as usertest2BE57F59921A4BF8BA382C4756749021 (p2, c0, k60, u'user_test').
+1648308329: Client usertest2BE57F59921A4BF8BA382C4756749021 disconnected.
+1648308329: New connection from 172.24.0.1:52864 on port 1883.
+1648308329: New client connected from 172.24.0.1:52864 as usertest2BE57F59921A4BF8BA382C4756749021 (p2, c0, k60, u'user_test').
+1648308367: Client usertest2BE57F59921A4BF8BA382C4756749021 disconnected.
+1648308523: Client paho3115817666500 closed its connection.
+1648308530: mosquitto version 2.0.14 terminating
+1648308530: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1648319066: mosquitto version 2.0.14 starting
+1648319066: Config loaded from /mosquitto/config/mosquitto.conf.
+1648319066: Loading plugin: /mosquitto/config/auth-plug.so
+1648319066: Opening ipv4 listen socket on port 1883.
+1648319066: mosquitto version 2.0.14 running
+1648319069: New connection from 172.21.0.1:59510 on port 1883.
+1648319069: New client connected from 172.21.0.1:59510 as usertest2BE57F59921A4BF8BA382C4756749021 (p2, c0, k60, u'user_test').
+1648319088: New connection from 172.21.0.1:59532 on port 1883.
+1648319088: New client connected from 172.21.0.1:59532 as paho1560460402100 (p2, c1, k60, u'backend_user').
+1648319142: Client usertest2BE57F59921A4BF8BA382C4756749021 disconnected.
+1648319165: New connection from 172.21.0.1:59534 on port 1883.
+1648319165: New client connected from 172.21.0.1:59534 as usertest2BE57F59921A4BF8BA382C4756749021 (p2, c0, k60, u'user_test').
+1648319171: Client usertest2BE57F59921A4BF8BA382C4756749021 disconnected.
+1648326606: Client paho1560460402100 closed its connection.
+1648326607: New connection from 172.21.0.1:59556 on port 1883.
+1648326608: New client connected from 172.21.0.1:59556 as paho1560460402100 (p2, c1, k60, u'backend_user').
+1648326704: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1648327164: Client paho1560460402100 closed its connection.
+1648327175: New connection from 172.21.0.1:59578 on port 1883.
+1648327175: New client connected from 172.21.0.1:59578 as paho9647261164600 (p2, c1, k60, u'backend_user').
+1648328064: Client paho9647261164600 closed its connection.
+1648328071: mosquitto version 2.0.14 terminating
+1648328071: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1648611576: mosquitto version 2.0.14 starting
+1648611576: Config loaded from /mosquitto/config/mosquitto.conf.
+1648611576: Loading plugin: /mosquitto/config/auth-plug.so
+1648611576: Opening ipv4 listen socket on port 1883.
+1648611576: mosquitto version 2.0.14 running
+1648611770: New connection from 172.21.0.1:33810 on port 1883.
+1648611770: New client connected from 172.21.0.1:33810 as usertest2BE57F59921A4BF8BA382C4756749021 (p2, c0, k60, u'user_test').
+1648611787: Client usertest2BE57F59921A4BF8BA382C4756749021 disconnected.
+1648611787: New connection from 172.21.0.1:33812 on port 1883.
+1648611787: New client connected from 172.21.0.1:33812 as usertest2BE57F59921A4BF8BA382C4756749021 (p2, c0, k60, u'user_test').
+1648611828: New connection from 172.21.0.1:33834 on port 1883.
+1648611828: New client connected from 172.21.0.1:33834 as paho3411243478700 (p2, c1, k60, u'backend_user').
+1648613377: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1648615178: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1648930152: mosquitto version 2.0.14 starting
+1648930152: Config loaded from /mosquitto/config/mosquitto.conf.
+1648930152: Loading plugin: /mosquitto/config/auth-plug.so
+1648930152: Opening ipv4 listen socket on port 1883.
+1648930152: mosquitto version 2.0.14 running
+1648931182: mosquitto version 2.0.14 terminating
+1648931182: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1648931230: mosquitto version 2.0.14 starting
+1648931230: Config loaded from /mosquitto/config/mosquitto.conf.
+1648931230: Loading plugin: /mosquitto/config/auth-plug.so
+1648931230: Opening ipv4 listen socket on port 1883.
+1648931230: mosquitto version 2.0.14 running
+1648931371: mosquitto version 2.0.14 terminating
+1648931371: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1648931372: mosquitto version 2.0.14 starting
+1648931372: Config loaded from /mosquitto/config/mosquitto.conf.
+1648931372: Loading plugin: /mosquitto/config/auth-plug.so
+1648931372: Opening ipv4 listen socket on port 1883.
+1648931372: mosquitto version 2.0.14 running
+1648931421: New connection from 172.21.0.1:55854 on port 1883.
+1648931421: New client connected from 172.21.0.1:55854 as usertest2BE57F59921A4BF8BA382C4756749021 (p2, c0, k60, u'user_test').
+1648931430: Client usertest2BE57F59921A4BF8BA382C4756749021 disconnected.
+1648933173: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1648934974: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1648936775: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1648938576: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1648940377: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1648942118: New connection from 172.21.0.1:55876 on port 1883.
+1648942118: New client connected from 172.21.0.1:55876 as paho16271264572100 (p2, c1, k60, u'backend_user').
+1648942178: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1648942472: Client paho16271264572100 closed its connection.
+1648942489: New connection from 172.21.0.1:55898 on port 1883.
+1648942489: New client connected from 172.21.0.1:55898 as paho16641872269200 (p2, c1, k60, u'backend_user').
+1648943310: New connection from 172.21.0.1:55902 on port 1883.
+1648943310: New client connected from 172.21.0.1:55902 as paho17463148926000 (p2, c1, k60, u'backend_user').
+1648943329: New connection from 172.21.0.1:55924 on port 1883.
+1648943329: New client connected from 172.21.0.1:55924 as paho17482062035899 (p2, c1, k60, u'backend_user').
+1648943338: Client paho17463148926000 closed its connection.
+1648943338: Client paho17482062035899 closed its connection.
+1648943338: Client paho16641872269200 closed its connection.
+1648943349: New connection from 172.21.0.1:55964 on port 1883.
+1648943350: New client connected from 172.21.0.1:55964 as paho17502668887600 (p2, c1, k60, u'backend_user').
+1648943437: New connection from 172.21.0.1:55968 on port 1883.
+1648943437: New client connected from 172.21.0.1:55968 as paho17589976869499 (p2, c1, k60, u'backend_user').
+1648943489: New connection from 172.21.0.1:55990 on port 1883.
+1648943490: New client connected from 172.21.0.1:55990 as paho17642831320000 (p2, c1, k60, u'backend_user').
+1648943530: New connection from 172.21.0.1:56014 on port 1883.
+1648943530: New client connected from 172.21.0.1:56014 as paho17683313248900 (p2, c1, k60, u'backend_user').
+1648943557: New connection from 172.21.0.1:56034 on port 1883.
+1648943557: New client connected from 172.21.0.1:56034 as paho17710309944800 (p2, c1, k60, u'backend_user').
+1648943595: New connection from 172.21.0.1:56064 on port 1883.
+1648943596: New client connected from 172.21.0.1:56064 as paho17748665172600 (p2, c1, k60, u'backend_user').
+1648943602: New connection from 172.21.0.1:56078 on port 1883.
+1648943602: New client connected from 172.21.0.1:56078 as paho17755309129200 (p2, c1, k60, u'backend_user').
+1648943625: New connection from 172.21.0.1:56100 on port 1883.
+1648943625: New client connected from 172.21.0.1:56100 as paho17777891069200 (p2, c1, k60, u'backend_user').
+1648943649: New connection from 172.21.0.1:56122 on port 1883.
+1648943649: New client connected from 172.21.0.1:56122 as paho17802416065900 (p2, c1, k60, u'backend_user').
+1648943690: New connection from 172.21.0.1:56144 on port 1883.
+1648943690: New client connected from 172.21.0.1:56144 as paho17843512110000 (p2, c1, k60, u'backend_user').
+1648943755: New connection from 172.21.0.1:56166 on port 1883.
+1648943755: New client connected from 172.21.0.1:56166 as paho17908261240800 (p2, c1, k60, u'backend_user').
+1648943757: New connection from 172.21.0.1:56188 on port 1883.
+1648943758: New client connected from 172.21.0.1:56188 as paho17910745337600 (p2, c1, k60, u'backend_user').
+1648943935: New connection from 172.21.0.1:56210 on port 1883.
+1648943936: New client connected from 172.21.0.1:56210 as paho18088779999200 (p2, c1, k60, u'backend_user').
+1648943945: New connection from 172.21.0.1:56232 on port 1883.
+1648943945: New client connected from 172.21.0.1:56232 as paho18098525120900 (p2, c1, k60, u'backend_user').
+1648943955: New connection from 172.21.0.1:56254 on port 1883.
+1648943955: New client connected from 172.21.0.1:56254 as paho18107958851100 (p2, c1, k60, u'backend_user').
+1648943971: New connection from 172.21.0.1:56276 on port 1883.
+1648943971: New client connected from 172.21.0.1:56276 as paho18124483980700 (p2, c1, k60, u'backend_user').
+1648943979: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1648944024: New connection from 172.21.0.1:56298 on port 1883.
+1648944025: New client connected from 172.21.0.1:56298 as paho18177816916200 (p2, c1, k60, u'backend_user').
+1648944062: New connection from 172.21.0.1:56320 on port 1883.
+1648944062: New client connected from 172.21.0.1:56320 as paho18215205911500 (p2, c1, k60, u'backend_user').
+1648944077: New connection from 172.21.0.1:56342 on port 1883.
+1648944078: New client connected from 172.21.0.1:56342 as paho18230779564500 (p2, c1, k60, u'backend_user').
+1648944224: New connection from 172.21.0.1:56364 on port 1883.
+1648944225: New client connected from 172.21.0.1:56364 as paho18377600682500 (p2, c1, k60, u'backend_user').
+1648944249: New connection from 172.21.0.1:56386 on port 1883.
+1648944249: New client connected from 172.21.0.1:56386 as paho18402507305200 (p2, c1, k60, u'backend_user').
+1648944300: New connection from 172.21.0.1:56408 on port 1883.
+1648944300: New client connected from 172.21.0.1:56408 as paho18452945525000 (p2, c1, k60, u'backend_user').
+1648944362: New connection from 172.21.0.1:56430 on port 1883.
+1648944362: New client connected from 172.21.0.1:56430 as paho18514978886600 (p2, c1, k60, u'backend_user').
+1648944402: New connection from 172.21.0.1:56452 on port 1883.
+1648944403: New client connected from 172.21.0.1:56452 as paho18555605177100 (p2, c1, k60, u'backend_user').
+1648944424: New connection from 172.21.0.1:56474 on port 1883.
+1648944424: New client connected from 172.21.0.1:56474 as paho18577097598500 (p2, c1, k60, u'backend_user').
+1648944535: New connection from 172.21.0.1:56496 on port 1883.
+1648944535: New client connected from 172.21.0.1:56496 as paho18688195987200 (p2, c1, k60, u'backend_user').
+1648944546: New connection from 172.21.0.1:56518 on port 1883.
+1648944547: New client connected from 172.21.0.1:56518 as paho18699691055400 (p2, c1, k60, u'backend_user').
+1648944582: New connection from 172.21.0.1:56540 on port 1883.
+1648944582: New client connected from 172.21.0.1:56540 as paho18735282419000 (p2, c1, k60, u'backend_user').
+1648944597: New connection from 172.21.0.1:56562 on port 1883.
+1648944598: New client connected from 172.21.0.1:56562 as paho18750680713400 (p2, c1, k60, u'backend_user').
+1648944687: Client paho17710309944800 closed its connection.
+1648944687: Client paho17589976869499 closed its connection.
+1648944687: Client paho17502668887600 closed its connection.
+1648944687: Client paho17748665172600 closed its connection.
+1648944687: Client paho17755309129200 closed its connection.
+1648944687: Client paho17777891069200 closed its connection.
+1648944687: Client paho18124483980700 closed its connection.
+1648944687: Client paho17642831320000 closed its connection.
+1648944687: Client paho17802416065900 closed its connection.
+1648944687: Client paho17683313248900 closed its connection.
+1648944687: Client paho17843512110000 closed its connection.
+1648944687: Client paho17908261240800 closed its connection.
+1648944687: Client paho17910745337600 closed its connection.
+1648944687: Client paho18514978886600 closed its connection.
+1648944687: Client paho18098525120900 closed its connection.
+1648944687: Client paho18088779999200 closed its connection.
+1648944687: Client paho18452945525000 closed its connection.
+1648944687: Client paho18402507305200 closed its connection.
+1648944687: Client paho18107958851100 closed its connection.
+1648944687: Client paho18177816916200 closed its connection.
+1648944687: Client paho18215205911500 closed its connection.
+1648944687: Client paho18230779564500 closed its connection.
+1648944687: Client paho18377600682500 closed its connection.
+1648944687: Client paho18555605177100 closed its connection.
+1648944687: Client paho18699691055400 closed its connection.
+1648944687: Client paho18577097598500 closed its connection.
+1648944687: Client paho18750680713400 closed its connection.
+1648944687: Client paho18735282419000 closed its connection.
+1648944687: Client paho18688195987200 closed its connection.
+1648944703: New connection from 172.21.0.1:56602 on port 1883.
+1648944703: New client connected from 172.21.0.1:56602 as paho18856298920400 (p2, c1, k60, u'backend_user').
+1648944766: Client paho18856298920400 closed its connection.
+1648944778: New connection from 172.21.0.1:56624 on port 1883.
+1648944779: New client connected from 172.21.0.1:56624 as paho18931703980800 (p2, c1, k60, u'backend_user').
+1648944815: New connection from 172.21.0.1:56628 on port 1883.
+1648944815: New client connected from 172.21.0.1:56628 as paho18967889961700 (p2, c1, k60, u'backend_user').
+1648945075: New connection from 172.21.0.1:56650 on port 1883.
+1648945075: New client connected from 172.21.0.1:56650 as paho19228339813300 (p2, c1, k60, u'backend_user').
+1648945077: New connection from 172.21.0.1:56672 on port 1883.
+1648945078: New client connected from 172.21.0.1:56672 as paho19230865214500 (p2, c1, k60, u'backend_user').
+1648945093: New connection from 172.21.0.1:56694 on port 1883.
+1648945094: New client connected from 172.21.0.1:56694 as paho19246660531600 (p2, c1, k60, u'backend_user').
+1648945166: New connection from 172.21.0.1:56716 on port 1883.
+1648945167: New client connected from 172.21.0.1:56716 as paho19319828501800 (p2, c1, k60, u'backend_user').
+1648945173: New connection from 172.21.0.1:56738 on port 1883.
+1648945173: New client connected from 172.21.0.1:56738 as paho19326328954100 (p2, c1, k60, u'backend_user').
+1648945344: New connection from 172.21.0.1:56760 on port 1883.
+1648945345: New client connected from 172.21.0.1:56760 as paho19497618179000 (p2, c1, k60, u'backend_user').
+1648945359: New connection from 172.21.0.1:56782 on port 1883.
+1648945359: New client connected from 172.21.0.1:56782 as paho19512342044400 (p2, c1, k60, u'backend_user').
+1648945375: New connection from 172.21.0.1:56804 on port 1883.
+1648945375: New client connected from 172.21.0.1:56804 as paho19527896727700 (p2, c1, k60, u'backend_user').
+1648945430: New connection from 172.21.0.1:56826 on port 1883.
+1648945431: New client connected from 172.21.0.1:56826 as paho19583684218800 (p2, c1, k60, u'backend_user').
+1648945780: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1648946719: New connection from 172.21.0.1:56848 on port 1883.
+1648946719: New client connected from 172.21.0.1:56848 as paho20872529745800 (p2, c1, k60, u'backend_user').
+1648946744: New connection from 172.21.0.1:56870 on port 1883.
+1648946745: New client connected from 172.21.0.1:56870 as paho20897617079800 (p2, c1, k60, u'backend_user').
+1648946784: New connection from 172.21.0.1:56892 on port 1883.
+1648946784: New client connected from 172.21.0.1:56892 as paho20936882383100 (p2, c1, k60, u'backend_user').
+1648946809: New connection from 172.21.0.1:56914 on port 1883.
+1648946810: New client connected from 172.21.0.1:56914 as paho20962849602300 (p2, c1, k60, u'backend_user').
+1648946814: New connection from 172.21.0.1:56936 on port 1883.
+1648946815: New client connected from 172.21.0.1:56936 as paho20967665820000 (p2, c1, k60, u'backend_user').
+1648946841: New connection from 172.21.0.1:56958 on port 1883.
+1648946842: New client connected from 172.21.0.1:56958 as paho20994625925800 (p2, c1, k60, u'backend_user').
+1648946850: New connection from 172.21.0.1:56980 on port 1883.
+1648946850: New client connected from 172.21.0.1:56980 as paho21003291995700 (p2, c1, k60, u'backend_user').
+1648946881: New connection from 172.21.0.1:57002 on port 1883.
+1648946881: New client connected from 172.21.0.1:57002 as paho21034062480300 (p2, c1, k60, u'backend_user').
+1648946883: New connection from 172.21.0.1:57024 on port 1883.
+1648946884: New client connected from 172.21.0.1:57024 as paho21036649272200 (p2, c1, k60, u'backend_user').
+1648946889: New connection from 172.21.0.1:57046 on port 1883.
+1648946889: New client connected from 172.21.0.1:57046 as paho21042160637200 (p2, c1, k60, u'backend_user').
+1648946912: New connection from 172.21.0.1:57068 on port 1883.
+1648946913: New client connected from 172.21.0.1:57068 as paho21065601615800 (p2, c1, k60, u'backend_user').
+1648946927: New connection from 172.21.0.1:57090 on port 1883.
+1648946927: New client connected from 172.21.0.1:57090 as paho21079961649600 (p2, c1, k60, u'backend_user').
+1648947042: New connection from 172.21.0.1:57112 on port 1883.
+1648947042: New client connected from 172.21.0.1:57112 as paho21195110032800 (p2, c1, k60, u'backend_user').
+1648947244: New connection from 172.21.0.1:57134 on port 1883.
+1648947244: New client connected from 172.21.0.1:57134 as paho21397245461400 (p2, c1, k60, u'backend_user').
+1648947368: New connection from 172.21.0.1:57156 on port 1883.
+1648947369: New client connected from 172.21.0.1:57156 as paho21521780917700 (p2, c1, k60, u'backend_user').
+1648947416: New connection from 172.21.0.1:57178 on port 1883.
+1648947416: New client connected from 172.21.0.1:57178 as paho21569441489300 (p2, c1, k60, u'backend_user').
+1648947531: New connection from 172.21.0.1:57200 on port 1883.
+1648947531: New client connected from 172.21.0.1:57200 as paho21684390155500 (p2, c1, k60, u'backend_user').
+1648947581: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1648947666: New connection from 172.21.0.1:57222 on port 1883.
+1648947666: New client connected from 172.21.0.1:57222 as paho21819356847500 (p2, c1, k60, u'backend_user').
+1648947688: New connection from 172.21.0.1:57244 on port 1883.
+1648947688: New client connected from 172.21.0.1:57244 as paho21841097767800 (p2, c1, k60, u'backend_user').
+1648947741: New connection from 172.21.0.1:57266 on port 1883.
+1648947741: New client connected from 172.21.0.1:57266 as paho21894178769000 (p2, c1, k60, u'backend_user').
+1648948235: New connection from 172.21.0.1:57288 on port 1883.
+1648948235: New client connected from 172.21.0.1:57288 as paho22388370662000 (p2, c1, k60, u'backend_user').
+1648948277: New connection from 172.21.0.1:57310 on port 1883.
+1648948278: New client connected from 172.21.0.1:57310 as paho22430671795200 (p2, c1, k60, u'backend_user').
+1648948303: New connection from 172.21.0.1:57332 on port 1883.
+1648948303: New client connected from 172.21.0.1:57332 as paho22456313343100 (p2, c1, k60, u'backend_user').
+1648948386: New connection from 172.21.0.1:57354 on port 1883.
+1648948386: New client connected from 172.21.0.1:57354 as paho22539524157400 (p2, c1, k60, u'backend_user').
+1648948406: New connection from 172.21.0.1:57376 on port 1883.
+1648948406: New client connected from 172.21.0.1:57376 as paho22559211848100 (p2, c1, k60, u'backend_user').
+1648948485: New connection from 172.21.0.1:57398 on port 1883.
+1648948486: New client connected from 172.21.0.1:57398 as paho22638750208900 (p2, c1, k60, u'backend_user').
+1648948508: New connection from 172.21.0.1:57420 on port 1883.
+1648948509: New client connected from 172.21.0.1:57420 as paho22661671351100 (p2, c1, k60, u'backend_user').
+1648948658: New connection from 172.21.0.1:57442 on port 1883.
+1648948658: New client connected from 172.21.0.1:57442 as paho22811308784200 (p2, c1, k60, u'backend_user').
+1648948676: New connection from 172.21.0.1:57464 on port 1883.
+1648948677: New client connected from 172.21.0.1:57464 as paho22829855091900 (p2, c1, k60, u'backend_user').
+1648948717: New connection from 172.21.0.1:57486 on port 1883.
+1648948717: New client connected from 172.21.0.1:57486 as paho22870149017200 (p2, c1, k60, u'backend_user').
+1648948808: New connection from 172.21.0.1:57508 on port 1883.
+1648948809: New client connected from 172.21.0.1:57508 as paho22961695968700 (p2, c1, k60, u'backend_user').
+1648948817: New connection from 172.21.0.1:57530 on port 1883.
+1648948817: New client connected from 172.21.0.1:57530 as paho22970314794200 (p2, c1, k60, u'backend_user').
+1648948858: New connection from 172.21.0.1:57552 on port 1883.
+1648948858: New client connected from 172.21.0.1:57552 as paho23011055136700 (p2, c1, k60, u'backend_user').
+1648948970: New connection from 172.21.0.1:57574 on port 1883.
+1648948971: New client connected from 172.21.0.1:57574 as paho23123778784600 (p2, c1, k60, u'backend_user').
+1648948993: New connection from 172.21.0.1:57596 on port 1883.
+1648948993: New client connected from 172.21.0.1:57596 as paho23146394429800 (p2, c1, k60, u'backend_user').
+1648949011: New connection from 172.21.0.1:57618 on port 1883.
+1648949011: New client connected from 172.21.0.1:57618 as paho23164075591100 (p2, c1, k60, u'backend_user').
+1648949030: New connection from 172.21.0.1:57640 on port 1883.
+1648949031: New client connected from 172.21.0.1:57640 as paho23183665826000 (p2, c1, k60, u'backend_user').
+1648949036: New connection from 172.21.0.1:57662 on port 1883.
+1648949036: New client connected from 172.21.0.1:57662 as paho23189077102600 (p2, c1, k60, u'backend_user').
+1648949076: New connection from 172.21.0.1:57684 on port 1883.
+1648949077: New client connected from 172.21.0.1:57684 as paho23229772593600 (p2, c1, k60, u'backend_user').
+1648949382: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1648949719: New connection from 172.21.0.1:57706 on port 1883.
+1648949720: New client connected from 172.21.0.1:57706 as paho23872839102800 (p2, c1, k60, u'backend_user').
+1648949728: New connection from 172.21.0.1:57728 on port 1883.
+1648949728: New client connected from 172.21.0.1:57728 as paho23881398619800 (p2, c1, k60, u'backend_user').
+1648949774: New connection from 172.21.0.1:57750 on port 1883.
+1648949774: New client connected from 172.21.0.1:57750 as paho23927190007300 (p2, c1, k60, u'backend_user').
+1648949812: New connection from 172.21.0.1:57772 on port 1883.
+1648949813: New client connected from 172.21.0.1:57772 as paho23965584766000 (p2, c1, k60, u'backend_user').
+1648949822: New connection from 172.21.0.1:57794 on port 1883.
+1648949822: New client connected from 172.21.0.1:57794 as paho23975346517000 (p2, c1, k60, u'backend_user').
+1648949827: New connection from 172.21.0.1:57816 on port 1883.
+1648949827: New client connected from 172.21.0.1:57816 as paho23980002807700 (p2, c1, k60, u'backend_user').
+1648949965: New connection from 172.21.0.1:57838 on port 1883.
+1648949965: New client connected from 172.21.0.1:57838 as paho24118084357600 (p2, c1, k60, u'backend_user').
+1648950011: New connection from 172.21.0.1:57860 on port 1883.
+1648950011: New client connected from 172.21.0.1:57860 as paho24164009756500 (p2, c1, k60, u'backend_user').
+1648950032: New connection from 172.21.0.1:57882 on port 1883.
+1648950033: New client connected from 172.21.0.1:57882 as paho24185853942100 (p2, c1, k60, u'backend_user').
+1648951183: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1648952984: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1648954452: New connection from 172.21.0.1:57946 on port 1883.
+1648954452: New client connected from 172.21.0.1:57946 as paho28605052964500 (p2, c1, k60, u'backend_user').
+1648954640: New connection from 172.21.0.1:57966 on port 1883.
+1648954641: New client connected from 172.21.0.1:57966 as paho28793755758100 (p2, c1, k60, u'backend_user').
+1648954759: New connection from 172.21.0.1:57988 on port 1883.
+1648954759: New client connected from 172.21.0.1:57988 as paho28912344322200 (p2, c1, k60, u'backend_user').
+1648954782: New connection from 172.21.0.1:58010 on port 1883.
+1648954782: New client connected from 172.21.0.1:58010 as paho28935158535200 (p2, c1, k60, u'backend_user').
+1648954785: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1648954797: New connection from 172.21.0.1:58032 on port 1883.
+1648954798: New client connected from 172.21.0.1:58032 as paho28950768963100 (p2, c1, k60, u'backend_user').
+1648954808: New connection from 172.21.0.1:58054 on port 1883.
+1648954808: New client connected from 172.21.0.1:58054 as paho28961477157700 (p2, c1, k60, u'backend_user').
+1648954825: New connection from 172.21.0.1:58076 on port 1883.
+1648954825: New client connected from 172.21.0.1:58076 as paho28978058926700 (p2, c1, k60, u'backend_user').
+1648955181: New connection from 172.21.0.1:58098 on port 1883.
+1648955181: New client connected from 172.21.0.1:58098 as paho29334387118300 (p2, c1, k60, u'backend_user').
+1648956586: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1648958387: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1648960188: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1648961989: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1648963790: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1648965419: New connection from 172.21.0.1:58218 on port 1883.
+1648965419: New client connected from 172.21.0.1:58218 as usertest2BE57F59921A4BF8BA382C4756749021 (p2, c0, k60, u'user_test').
+1648965591: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1648965752: Client usertest2BE57F59921A4BF8BA382C4756749021 disconnected.
+1648966968: Client paho19246660531600 closed its connection.
+1648966968: Client paho19230865214500 closed its connection.
+1648966968: Client paho18967889961700 closed its connection.
+1648966968: Client paho19512342044400 closed its connection.
+1648966968: Client paho18931703980800 closed its connection.
+1648966968: Client paho19228339813300 closed its connection.
+1648966968: Client paho20936882383100 closed its connection.
+1648966968: Client paho19497618179000 closed its connection.
+1648966968: Client paho19527896727700 closed its connection.
+1648966968: Client paho19319828501800 closed its connection.
+1648966968: Client paho19326328954100 closed its connection.
+1648966968: Client paho19583684218800 closed its connection.
+1648966968: Client paho20967665820000 closed its connection.
+1648966968: Client paho20872529745800 closed its connection.
+1648966968: Client paho21195110032800 closed its connection.
+1648966968: Client paho20962849602300 closed its connection.
+1648966968: Client paho20897617079800 closed its connection.
+1648966968: Client paho21036649272200 closed its connection.
+1648966968: Client paho21003291995700 closed its connection.
+1648966968: Client paho20994625925800 closed its connection.
+1648966968: Client paho21079961649600 closed its connection.
+1648966968: Client paho21065601615800 closed its connection.
+1648966968: Client paho21569441489300 closed its connection.
+1648966968: Client paho21042160637200 closed its connection.
+1648966968: Client paho21034062480300 closed its connection.
+1648966968: Client paho22539524157400 closed its connection.
+1648966968: Client paho21397245461400 closed its connection.
+1648966968: Client paho22430671795200 closed its connection.
+1648966968: Client paho21521780917700 closed its connection.
+1648966968: Client paho22456313343100 closed its connection.
+1648966968: Client paho23183665826000 closed its connection.
+1648966968: Client paho22661671351100 closed its connection.
+1648966968: Client paho21841097767800 closed its connection.
+1648966968: Client paho22559211848100 closed its connection.
+1648966968: Client paho22388370662000 closed its connection.
+1648966968: Client paho21894178769000 closed its connection.
+1648966968: Client paho21684390155500 closed its connection.
+1648966968: Client paho21819356847500 closed its connection.
+1648966968: Client paho22638750208900 closed its connection.
+1648966968: Client paho22829855091900 closed its connection.
+1648966968: Client paho23123778784600 closed its connection.
+1648966968: Client paho23164075591100 closed its connection.
+1648966968: Client paho22870149017200 closed its connection.
+1648966968: Client paho22811308784200 closed its connection.
+1648966968: Client paho23011055136700 closed its connection.
+1648966968: Client paho28912344322200 closed its connection.
+1648966968: Client paho23146394429800 closed its connection.
+1648966968: Client paho22961695968700 closed its connection.
+1648966968: Client paho22970314794200 closed its connection.
+1648966968: Client paho23965584766000 closed its connection.
+1648966968: Client paho24164009756500 closed its connection.
+1648966968: Client paho23189077102600 closed its connection.
+1648966968: Client paho23881398619800 closed its connection.
+1648966968: Client paho23229772593600 closed its connection.
+1648966968: Client paho23980002807700 closed its connection.
+1648966968: Client paho23975346517000 closed its connection.
+1648966968: Client paho23872839102800 closed its connection.
+1648966968: Client paho28793755758100 closed its connection.
+1648966968: Client paho23927190007300 closed its connection.
+1648966968: Client paho24118084357600 closed its connection.
+1648966968: Client paho24185853942100 closed its connection.
+1648966968: Client paho28935158535200 closed its connection.
+1648966968: Client paho28950768963100 closed its connection.
+1648966968: Client paho28961477157700 closed its connection.
+1648966968: Client paho28605052964500 closed its connection.
+1648966968: Client paho28978058926700 closed its connection.
+1648966968: Client paho29334387118300 closed its connection.
+1650385367: mosquitto version 2.0.14 starting
+1650385367: Config loaded from /mosquitto/config/mosquitto.conf.
+1650385367: Loading plugin: /mosquitto/config/auth-plug.so
+1650385367: Opening ipv4 listen socket on port 1883.
+1650385367: mosquitto version 2.0.14 running
+1650385436: mosquitto version 2.0.14 terminating
+1650385436: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1650385437: mosquitto version 2.0.14 starting
+1650385437: Config loaded from /mosquitto/config/mosquitto.conf.
+1650385437: Loading plugin: /mosquitto/config/auth-plug.so
+1650385437: Opening ipv4 listen socket on port 1883.
+1650385437: mosquitto version 2.0.14 running
+1650385514: New connection from 172.21.0.1:46112 on port 1883.
+1650385515: New client connected from 172.21.0.1:46112 as paho861505381597100 (p2, c1, k60, u'backend_user').
+1650387238: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1650387434: Client paho861505381597100 closed its connection.
+1650828500: mosquitto version 2.0.14 starting
+1650828500: Config loaded from /mosquitto/config/mosquitto.conf.
+1650828500: Loading plugin: /mosquitto/config/auth-plug.so
+1650828500: Opening ipv4 listen socket on port 1883.
+1650828500: mosquitto version 2.0.14 running
+1650828619: New connection from 172.21.0.1:49502 on port 1883.
+1650828619: New client connected from 172.21.0.1:49502 as paho194133772358100 (p2, c1, k60, u'backend_user').
+1650828759: New connection from 172.21.0.1:49504 on port 1883.
+1650828759: New client connected from 172.21.0.1:49504 as usertest2BE57F59921A4BF8BA382C4756749021 (p2, c0, k60, u'user_test').
+1650830301: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1650832102: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1650833903: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1650835704: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1650837505: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1650839306: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1650839967: Client paho194133772358100 closed its connection.
+1650839981: New connection from 172.21.0.1:49646 on port 1883.
+1650839982: New client connected from 172.21.0.1:49646 as paho205496354034900 (p2, c1, k60, u'backend_user').
+1650839982: Client paho205496354034900 closed its connection.
+1650839983: New connection from 172.21.0.1:49648 on port 1883.
+1650839983: New client connected from 172.21.0.1:49648 as paho205496354034900 (p2, c1, k60, u'backend_user').
+1650840012: Client paho205496354034900 closed its connection.
+1650840030: mosquitto version 2.0.14 terminating
+1650840030: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1650840040: mosquitto version 2.0.14 starting
+1650840040: Config loaded from /mosquitto/config/mosquitto.conf.
+1650840040: Loading plugin: /mosquitto/config/auth-plug.so
+1650840040: Opening ipv4 listen socket on port 1883.
+1650840040: mosquitto version 2.0.14 running
+1650840066: New connection from 172.21.0.1:49652 on port 1883.
+1650840066: New client connected from 172.21.0.1:49652 as usertest2BE57F59921A4BF8BA382C4756749021 (p2, c0, k60, u'user_test').
+1650840073: New connection from 172.21.0.1:49676 on port 1883.
+1650840073: New client connected from 172.21.0.1:49676 as paho205588052646800 (p2, c1, k60, u'backend_user').
+1650840073: Client paho205588052646800 closed its connection.
+1650840074: New connection from 172.21.0.1:49678 on port 1883.
+1650840075: New client connected from 172.21.0.1:49678 as paho205588052646800 (p2, c1, k60, u'backend_user').
+1650840224: Client paho205588052646800 closed its connection.
+1650840236: New connection from 172.21.0.1:49700 on port 1883.
+1650840236: New client connected from 172.21.0.1:49700 as paho205751103557700 (p2, c1, k60, u'backend_user').
+1650840236: Client paho205751103557700 closed its connection.
+1650840237: New connection from 172.21.0.1:49702 on port 1883.
+1650840238: New client connected from 172.21.0.1:49702 as paho205751103557700 (p2, c1, k60, u'backend_user').
+1650840264: Client paho205751103557700 closed its connection.
+1650840281: New connection from 172.21.0.1:49724 on port 1883.
+1650840281: New client connected from 172.21.0.1:49724 as paho205795834830500 (p2, c1, k60, u'backend_user').
+1650840281: Client paho205795834830500 closed its connection.
+1650840282: New connection from 172.21.0.1:49726 on port 1883.
+1650840282: New client connected from 172.21.0.1:49726 as paho205795834830500 (p2, c1, k60, u'backend_user').
+1650840372: Client paho205795834830500 closed its connection.
+1650840385: New connection from 172.21.0.1:49748 on port 1883.
+1650840385: New client connected from 172.21.0.1:49748 as paho205899604485200 (p2, c1, k60, u'backend_user').
+1650840385: Client paho205899604485200 closed its connection.
+1650840386: New connection from 172.21.0.1:49750 on port 1883.
+1650840386: New client connected from 172.21.0.1:49750 as paho205899604485200 (p2, c1, k60, u'backend_user').
+1650840432: Client paho205899604485200 closed its connection.
+1650840448: New connection from 172.21.0.1:49772 on port 1883.
+1650840448: New client connected from 172.21.0.1:49772 as paho205962902213100 (p2, c1, k60, u'backend_user').
+1650840448: Client paho205962902213100 closed its connection.
+1650840449: New connection from 172.21.0.1:49774 on port 1883.
+1650840450: New client connected from 172.21.0.1:49774 as paho205962902213100 (p2, c1, k60, u'backend_user').
+1650840542: Client paho205962902213100 closed its connection.
+1650840554: New connection from 172.21.0.1:49796 on port 1883.
+1650840554: New client connected from 172.21.0.1:49796 as paho206068982263800 (p2, c1, k60, u'backend_user').
+1650840566: Client paho206068982263800 closed its connection.
+1650840580: New connection from 172.21.0.1:49818 on port 1883.
+1650840580: New client connected from 172.21.0.1:49818 as paho206095042862900 (p2, c1, k60, u'backend_user').
+1650840593: Client paho206095042862900 closed its connection.
+1650840594: New connection from 172.21.0.1:49820 on port 1883.
+1650840594: New client connected from 172.21.0.1:49820 as paho206095042862900 (p2, c1, k60, u'backend_user').
+1650840648: Client paho206095042862900 closed its connection.
+1650840660: New connection from 172.21.0.1:49842 on port 1883.
+1650840660: New client connected from 172.21.0.1:49842 as paho206174570159000 (p2, c1, k60, u'backend_user').
+1650840667: Client paho206174570159000 closed its connection.
+1650840668: New connection from 172.21.0.1:49844 on port 1883.
+1650840669: New client connected from 172.21.0.1:49844 as paho206174570159000 (p2, c1, k60, u'backend_user').
+1650840693: Client paho206174570159000 closed its connection.
+1650840706: New connection from 172.21.0.1:49866 on port 1883.
+1650840706: New client connected from 172.21.0.1:49866 as paho206220617274200 (p2, c1, k60, u'backend_user').
+1650840711: Client paho206220617274200 closed its connection.
+1650840712: New connection from 172.21.0.1:49868 on port 1883.
+1650840712: New client connected from 172.21.0.1:49868 as paho206220617274200 (p2, c1, k60, u'backend_user').
+1650840727: Client paho206220617274200 closed its connection.
+1650840741: New connection from 172.21.0.1:49890 on port 1883.
+1650840741: New client connected from 172.21.0.1:49890 as paho206255929899500 (p2, c1, k60, u'backend_user').
+1650840744: Client paho206255929899500 closed its connection.
+1650840745: New connection from 172.21.0.1:49892 on port 1883.
+1650840745: New client connected from 172.21.0.1:49892 as paho206255929899500 (p2, c1, k60, u'backend_user').
+1650840763: Client paho206255929899500 closed its connection.
+1650840776: New connection from 172.21.0.1:49914 on port 1883.
+1650840776: New client connected from 172.21.0.1:49914 as paho206290736081800 (p2, c1, k60, u'backend_user').
+1650840791: Client paho206290736081800 closed its connection.
+1650840792: New connection from 172.21.0.1:49916 on port 1883.
+1650840792: New client connected from 172.21.0.1:49916 as paho206290736081800 (p2, c1, k60, u'backend_user').
+1650840873: Client paho206290736081800 closed its connection.
+1650840885: New connection from 172.21.0.1:49938 on port 1883.
+1650840885: New client connected from 172.21.0.1:49938 as paho206399907085000 (p2, c1, k60, u'backend_user').
+1650840888: Client paho206399907085000 closed its connection.
+1650840889: New connection from 172.21.0.1:49940 on port 1883.
+1650840889: New client connected from 172.21.0.1:49940 as paho206399907085000 (p2, c1, k60, u'backend_user').
+1650840933: Client paho206399907085000 closed its connection.
+1650840945: New connection from 172.21.0.1:49962 on port 1883.
+1650840945: New client connected from 172.21.0.1:49962 as paho206460154269300 (p2, c1, k60, u'backend_user').
+1650841000: Client paho206460154269300 closed its connection.
+1650841012: New connection from 172.21.0.1:49984 on port 1883.
+1650841012: New client connected from 172.21.0.1:49984 as paho206527011398700 (p2, c1, k60, u'backend_user').
+1650841019: Client paho206527011398700 closed its connection.
+1650841020: New connection from 172.21.0.1:49986 on port 1883.
+1650841021: New client connected from 172.21.0.1:49986 as paho206527011398700 (p2, c1, k60, u'backend_user').
+1650841044: Client paho206527011398700 closed its connection.
+1650841058: mosquitto version 2.0.14 terminating
+1650841058: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1650856245: mosquitto version 2.0.14 starting
+1650856245: Config loaded from /mosquitto/config/mosquitto.conf.
+1650856245: Loading plugin: /mosquitto/config/auth-plug.so
+1650856245: Opening ipv4 listen socket on port 1883.
+1650856245: mosquitto version 2.0.14 running
+1650856252: New connection from 172.21.0.1:45958 on port 1883.
+1650856252: Bad socket read/write on client usertest2BE57F59921A4BF8BA382C4756749021: Unknown error.
+1650856256: New connection from 172.21.0.1:45962 on port 1883.
+1650856256: Bad socket read/write on client usertest2BE57F59921A4BF8BA382C4756749021: Unknown error.
+1650856265: New connection from 172.21.0.1:45966 on port 1883.
+1650856265: New client connected from 172.21.0.1:45966 as usertest2BE57F59921A4BF8BA382C4756749021 (p2, c0, k60, u'user_test').
+1650856392: New connection from 172.21.0.1:45990 on port 1883.
+1650856393: New client connected from 172.21.0.1:45990 as paho221909416509200 (p2, c1, k60, u'backend_user').
+1650856480: Client paho221909416509200 closed its connection.
+1650856481: New connection from 172.21.0.1:45992 on port 1883.
+1650856481: New client connected from 172.21.0.1:45992 as paho221909416509200 (p2, c1, k60, u'backend_user').
+1650856645: Client paho221909416509200 closed its connection.
+1650856665: New connection from 172.21.0.1:46014 on port 1883.
+1650856665: New client connected from 172.21.0.1:46014 as paho222181902126700 (p2, c1, k60, u'backend_user').
+1650856792: Client paho222181902126700 closed its connection.
+1650856793: New connection from 172.21.0.1:46016 on port 1883.
+1650856793: New client connected from 172.21.0.1:46016 as paho222181902126700 (p2, c1, k60, u'backend_user').
+1650857327: Client paho222181902126700 closed its connection.
+1650857340: New connection from 172.21.0.1:46038 on port 1883.
+1650857340: New client connected from 172.21.0.1:46038 as paho222856698580600 (p2, c1, k60, u'backend_user').
+1650857364: Client paho222856698580600 closed its connection.
+1650857378: New connection from 172.21.0.1:46060 on port 1883.
+1650857379: New client connected from 172.21.0.1:46060 as paho222895483698100 (p2, c1, k60, u'backend_user').
+1650857431: Client paho222895483698100 closed its connection.
+1650857555: New connection from 172.21.0.1:46102 on port 1883.
+1650857555: New client connected from 172.21.0.1:46102 as paho223071721544400 (p2, c1, k60, u'backend_user').
+1650857712: Client paho223071721544400 closed its connection.
+1650857891: New connection from 172.21.0.1:46164 on port 1883.
+1650857891: New client connected from 172.21.0.1:46164 as paho223408161030600 (p2, c1, k60, u'backend_user').
+1650857901: Client paho223408161030600 closed its connection.
+1650857902: New connection from 172.21.0.1:46166 on port 1883.
+1650857902: New client connected from 172.21.0.1:46166 as paho223408161030600 (p2, c1, k60, u'backend_user').
+1650857937: Client paho223408161030600 closed its connection.
+1650857954: New connection from 172.21.0.1:46188 on port 1883.
+1650857954: New client connected from 172.21.0.1:46188 as paho223471204384200 (p2, c1, k60, u'backend_user').
+1650857969: Client paho223471204384200 closed its connection.
+1650857970: New connection from 172.21.0.1:46190 on port 1883.
+1650857970: New client connected from 172.21.0.1:46190 as paho223471204384200 (p2, c1, k60, u'backend_user').
+1650858008: Client paho223471204384200 closed its connection.
+1650858020: New connection from 172.21.0.1:46212 on port 1883.
+1650858020: New client connected from 172.21.0.1:46212 as paho223537067453300 (p2, c1, k60, u'backend_user').
+1650858046: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1650858180: Client paho223537067453300 closed its connection.
+1650858195: New connection from 172.21.0.1:46234 on port 1883.
+1650858196: New client connected from 172.21.0.1:46234 as paho223712308377700 (p2, c1, k60, u'backend_user').
+1650858260: Client paho223712308377700 closed its connection.
+1650858272: New connection from 172.21.0.1:46256 on port 1883.
+1650858273: New client connected from 172.21.0.1:46256 as paho223789286626500 (p2, c1, k60, u'backend_user').
+1650858340: Client paho223789286626500 closed its connection.
+1650858352: New connection from 172.21.0.1:46278 on port 1883.
+1650858353: New client connected from 172.21.0.1:46278 as paho223869380947600 (p2, c1, k60, u'backend_user').
+1650858358: Client paho223869380947600 closed its connection.
+1650858359: New connection from 172.21.0.1:46280 on port 1883.
+1650858359: New client connected from 172.21.0.1:46280 as paho223869380947600 (p2, c1, k60, u'backend_user').
+1650858423: Client paho223869380947600 closed its connection.
+1650858435: New connection from 172.21.0.1:46302 on port 1883.
+1650858435: New client connected from 172.21.0.1:46302 as paho223952206733000 (p2, c1, k60, u'backend_user').
+1650858519: Client paho223952206733000 closed its connection.
+1650858531: New connection from 172.21.0.1:46324 on port 1883.
+1650858531: New client connected from 172.21.0.1:46324 as paho224048108891800 (p2, c1, k60, u'backend_user').
+1650858535: Client paho224048108891800 closed its connection.
+1650858536: New connection from 172.21.0.1:46326 on port 1883.
+1650858536: New client connected from 172.21.0.1:46326 as paho224048108891800 (p2, c1, k60, u'backend_user').
+1650858550: Client usertest2BE57F59921A4BF8BA382C4756749021 disconnected.
+1650858550: New connection from 172.21.0.1:46328 on port 1883.
+1650858550: New client connected from 172.21.0.1:46328 as usertest2BE57F59921A4BF8BA382C4756749021 (p2, c0, k60, u'user_test').
+1650858879: Client paho224048108891800 closed its connection.
+1650858892: New connection from 172.21.0.1:46350 on port 1883.
+1650858892: New client connected from 172.21.0.1:46350 as paho224408707205300 (p2, c1, k60, u'backend_user').
+1650858960: Client paho224408707205300 closed its connection.
+1650858973: New connection from 172.21.0.1:46372 on port 1883.
+1650858974: New client connected from 172.21.0.1:46372 as paho224490295125300 (p2, c1, k60, u'backend_user').
+1650859095: Client paho224490295125300 closed its connection.
+1650859107: New connection from 172.21.0.1:46394 on port 1883.
+1650859108: New client connected from 172.21.0.1:46394 as paho224624522121100 (p2, c1, k60, u'backend_user').
+1650859185: Client paho224624522121100 closed its connection.
+1650859194: New connection from 172.21.0.1:46416 on port 1883.
+1650859194: New client connected from 172.21.0.1:46416 as paho224711151125400 (p2, c1, k60, u'backend_user').
+1650859200: Client paho224711151125400 closed its connection.
+1650859201: New connection from 172.21.0.1:46418 on port 1883.
+1650859201: New client connected from 172.21.0.1:46418 as paho224711151125400 (p2, c1, k60, u'backend_user').
+1650859353: Client paho224711151125400 closed its connection.
+1650859365: New connection from 172.21.0.1:46440 on port 1883.
+1650859365: New client connected from 172.21.0.1:46440 as paho224882020295700 (p2, c1, k60, u'backend_user').
+1650859368: Client paho224882020295700 closed its connection.
+1650859369: New connection from 172.21.0.1:46442 on port 1883.
+1650859369: New client connected from 172.21.0.1:46442 as paho224882020295700 (p2, c1, k60, u'backend_user').
+1650859545: Client paho224882020295700 closed its connection.
+1650859558: New connection from 172.21.0.1:46464 on port 1883.
+1650859559: New client connected from 172.21.0.1:46464 as paho225075258374700 (p2, c1, k60, u'backend_user').
+1650859648: Client usertest2BE57F59921A4BF8BA382C4756749021 disconnected.
+1650859648: New connection from 172.21.0.1:46466 on port 1883.
+1650859648: New client connected from 172.21.0.1:46466 as usertest2BE57F59921A4BF8BA382C4756749021 (p2, c0, k60, u'user_test').
+1650859648: Client paho225075258374700 closed its connection.
+1650859649: New connection from 172.21.0.1:46468 on port 1883.
+1650859650: New client connected from 172.21.0.1:46468 as paho225075258374700 (p2, c1, k60, u'backend_user').
+1650859656: Client paho225075258374700 closed its connection.
+1650859657: New connection from 172.21.0.1:46470 on port 1883.
+1650859657: New client connected from 172.21.0.1:46470 as paho225075258374700 (p2, c1, k60, u'backend_user').
+1650859663: Client paho225075258374700 closed its connection.
+1650859664: New connection from 172.21.0.1:46472 on port 1883.
+1650859664: New client connected from 172.21.0.1:46472 as paho225075258374700 (p2, c1, k60, u'backend_user').
+1650859742: Client paho225075258374700 closed its connection.
+1650859769: New connection from 172.21.0.1:46494 on port 1883.
+1650859770: New client connected from 172.21.0.1:46494 as paho225286242975700 (p2, c1, k60, u'backend_user').
+1650859805: Client usertest2BE57F59921A4BF8BA382C4756749021 disconnected.
+1650859808: New connection from 172.21.0.1:46496 on port 1883.
+1650859808: New client connected from 172.21.0.1:46496 as usertest2BE57F59921A4BF8BA382C4756749021 (p2, c0, k60, u'user_test').
+1650859847: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1650861109: Client paho225286242975700 closed its connection.
+1650861110: New connection from 172.21.0.1:46498 on port 1883.
+1650861110: New client connected from 172.21.0.1:46498 as paho225286242975700 (p2, c1, k60, u'backend_user').
+1650861289: Client paho225286242975700 closed its connection.
+1650861290: New connection from 172.21.0.1:46500 on port 1883.
+1650861290: New client connected from 172.21.0.1:46500 as paho225286242975700 (p2, c1, k60, u'backend_user').
+1650861469: Client paho225286242975700 closed its connection.
+1650861470: New connection from 172.21.0.1:46502 on port 1883.
+1650861470: New client connected from 172.21.0.1:46502 as paho225286242975700 (p2, c1, k60, u'backend_user').
+1650861648: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1650861649: Client paho225286242975700 closed its connection.
+1650861650: New connection from 172.21.0.1:46524 on port 1883.
+1650861650: New client connected from 172.21.0.1:46524 as paho225286242975700 (p2, c1, k60, u'backend_user').
+1650861828: Client paho225286242975700 closed its connection.
+1650861829: New connection from 172.21.0.1:46526 on port 1883.
+1650861830: New client connected from 172.21.0.1:46526 as paho225286242975700 (p2, c1, k60, u'backend_user').
+1650861854: Client paho225286242975700 closed its connection.
+1650861882: New connection from 172.21.0.1:46548 on port 1883.
+1650861883: New client connected from 172.21.0.1:46548 as paho227399347879100 (p2, c1, k60, u'backend_user').
+1650861883: Client paho227399347879100 closed its connection.
+1650861884: New connection from 172.21.0.1:46550 on port 1883.
+1650861884: New client connected from 172.21.0.1:46550 as paho227399347879100 (p2, c1, k60, u'backend_user').
+1650861884: Client paho227399347879100 closed its connection.
+1650861885: New connection from 172.21.0.1:46552 on port 1883.
+1650861885: New client connected from 172.21.0.1:46552 as paho227399347879100 (p2, c1, k60, u'backend_user').
+1650861885: Client paho227399347879100 closed its connection.
+1650861886: New connection from 172.21.0.1:46554 on port 1883.
+1650861887: New client connected from 172.21.0.1:46554 as paho227399347879100 (p2, c1, k60, u'backend_user').
+1650861887: Client paho227399347879100 closed its connection.
+1650861888: New connection from 172.21.0.1:46556 on port 1883.
+1650861888: New client connected from 172.21.0.1:46556 as paho227399347879100 (p2, c1, k60, u'backend_user').
+1650861888: Client paho227399347879100 closed its connection.
+1650861889: New connection from 172.21.0.1:46558 on port 1883.
+1650861889: New client connected from 172.21.0.1:46558 as paho227399347879100 (p2, c1, k60, u'backend_user').
+1650861889: Client paho227399347879100 closed its connection.
+1650861890: New connection from 172.21.0.1:46560 on port 1883.
+1650861891: New client connected from 172.21.0.1:46560 as paho227399347879100 (p2, c1, k60, u'backend_user').
+1650861891: Client paho227399347879100 closed its connection.
+1650861892: New connection from 172.21.0.1:46562 on port 1883.
+1650861892: New client connected from 172.21.0.1:46562 as paho227399347879100 (p2, c1, k60, u'backend_user').
+1650861892: Client paho227399347879100 closed its connection.
+1650861893: New connection from 172.21.0.1:46564 on port 1883.
+1650861894: Client <unknown> closed its connection.
+1650861934: New connection from 172.21.0.1:46586 on port 1883.
+1650861934: New client connected from 172.21.0.1:46586 as paho227450733545900 (p2, c1, k60, u'backend_user').
+1650862113: Client paho227450733545900 closed its connection.
+1650862126: New connection from 172.21.0.1:46608 on port 1883.
+1650862126: New client connected from 172.21.0.1:46608 as paho227642680407800 (p2, c1, k60, u'backend_user').
+1650862130: Client paho227642680407800 closed its connection.
+1650862131: New connection from 172.21.0.1:46610 on port 1883.
+1650862131: New client connected from 172.21.0.1:46610 as paho227642680407800 (p2, c1, k60, u'backend_user').
+1650862198: Client paho227642680407800 closed its connection.
+1650862210: New connection from 172.21.0.1:46632 on port 1883.
+1650862211: New client connected from 172.21.0.1:46632 as paho227727478167100 (p2, c1, k60, u'backend_user').
+1650862216: Client paho227727478167100 closed its connection.
+1650862217: New connection from 172.21.0.1:46634 on port 1883.
+1650862217: New client connected from 172.21.0.1:46634 as paho227727478167100 (p2, c1, k60, u'backend_user').
+1650862237: Client paho227727478167100 closed its connection.
+1650862250: New connection from 172.21.0.1:46656 on port 1883.
+1650862250: New client connected from 172.21.0.1:46656 as paho227766734938800 (p2, c1, k60, u'backend_user').
+1650862288: Client paho227766734938800 closed its connection.
+1650862301: New connection from 172.21.0.1:46678 on port 1883.
+1650862301: New client connected from 172.21.0.1:46678 as paho227818039345500 (p2, c1, k60, u'backend_user').
+1650862930: Client paho227818039345500 closed its connection.
+1650862943: New connection from 172.21.0.1:46700 on port 1883.
+1650862944: New client connected from 172.21.0.1:46700 as paho228460305521900 (p2, c1, k60, u'backend_user').
+1650863092: Client paho228460305521900 closed its connection.
+1650863104: New connection from 172.21.0.1:46722 on port 1883.
+1650863105: New client connected from 172.21.0.1:46722 as paho228621322103600 (p2, c1, k60, u'backend_user').
+1650863281: Client paho228621322103600 closed its connection.
+1650863294: New connection from 172.21.0.1:46744 on port 1883.
+1650863294: New client connected from 172.21.0.1:46744 as paho228810850913900 (p2, c1, k60, u'backend_user').
+1650863338: Client paho228810850913900 closed its connection.
+1650863346: mosquitto version 2.0.14 terminating
+1650863346: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1650932957: mosquitto version 2.0.14 starting
+1650932957: Config loaded from /mosquitto/config/mosquitto.conf.
+1650932957: Loading plugin: /mosquitto/config/auth-plug.so
+1650932957: Opening ipv4 listen socket on port 1883.
+1650932957: mosquitto version 2.0.14 running
+1650932985: mosquitto version 2.0.14 terminating
+1650932985: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1650932986: mosquitto version 2.0.14 starting
+1650932986: Config loaded from /mosquitto/config/mosquitto.conf.
+1650932986: Loading plugin: /mosquitto/config/auth-plug.so
+1650932986: Opening ipv4 listen socket on port 1883.
+1650932986: mosquitto version 2.0.14 running
+1650933040: New connection from 172.21.0.1:41776 on port 1883.
+1650933041: New client connected from 172.21.0.1:41776 as paho298561435205300 (p2, c1, k60, u'backend_user').
+1650934787: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1650936588: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1650937125: Client paho298561435205300 closed its connection.
+1650937153: New connection from 172.21.0.1:41838 on port 1883.
+1650937154: New client connected from 172.21.0.1:41838 as paho302674468862800 (p2, c1, k60, u'backend_user').
+1650937199: Client paho302674468862800 closed its connection.
+1650937228: New connection from 172.21.0.1:41860 on port 1883.
+1650937228: New client connected from 172.21.0.1:41860 as paho302748692586100 (p2, c1, k60, u'backend_user').
+1650937284: Client paho302748692586100 closed its connection.
+1650937310: New connection from 172.21.0.1:41882 on port 1883.
+1650937310: New client connected from 172.21.0.1:41882 as paho302831301151600 (p2, c1, k60, u'backend_user').
+1650937913: Client paho302831301151600 closed its connection.
+1650937913: New connection from 172.21.0.1:41884 on port 1883.
+1650937913: New client connected from 172.21.0.1:41884 as paho302831301151600 (p2, c1, k60, u'backend_user').
+1650998344: Client paho302831301151600 closed its connection.
+1650998345: New connection from 172.21.0.1:41926 on port 1883.
+1650998346: New client connected from 172.21.0.1:41926 as paho302831301151600 (p2, c1, k60, u'backend_user').
+1650998466: Client paho302831301151600 closed its connection.
+1650998754: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1651023103: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1651023275: mosquitto version 2.0.14 terminating
+1651023275: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1651024042: mosquitto version 2.0.14 starting
+1651024042: Config loaded from /mosquitto/config/mosquitto.conf.
+1651024042: Loading plugin: /mosquitto/config/auth-plug.so
+1651024042: Opening ipv4 listen socket on port 1883.
+1651024042: mosquitto version 2.0.14 running
+1651024304: mosquitto version 2.0.14 terminating
+1651024304: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1651024306: mosquitto version 2.0.14 starting
+1651024306: Config loaded from /mosquitto/config/mosquitto.conf.
+1651024306: Loading plugin: /mosquitto/config/auth-plug.so
+1651024306: Opening ipv4 listen socket on port 1883.
+1651024306: mosquitto version 2.0.14 running
+1651024327: mosquitto version 2.0.14 terminating
+1651024327: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1651024329: mosquitto version 2.0.14 starting
+1651024329: Config loaded from /mosquitto/config/mosquitto.conf.
+1651024329: Loading plugin: /mosquitto/config/auth-plug.so
+1651024329: Opening ipv4 listen socket on port 1883.
+1651024329: mosquitto version 2.0.14 running
+1651024463: New connection from 172.21.0.1:41954 on port 1883.
+1651024464: New client connected from 172.21.0.1:41954 as paho389994904541300 (p2, c1, k60, u'backend_user').
+1651024916: New connection from 172.21.0.1:41956 on port 1883.
+1651024916: New client connected from 172.21.0.1:41956 as usertest2BE57F59921A4BF8BA382C4756749021 (p2, c0, k60, u'user_test').
+1651026130: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1651027931: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1651029732: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1651031533: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1651032263: Client paho389994904541300 closed its connection.
+1651032351: New connection from 172.21.0.1:42072 on port 1883.
+1651032351: New client connected from 172.21.0.1:42072 as paho397882155693900 (p2, c1, k60, u'backend_user').
+1651032574: New connection from 172.21.0.1:42094 on port 1883.
+1651032574: New client connected from 172.21.0.1:42094 as paho398105295882300 (p2, c1, k60, u'backend_user').
+1651032615: Client paho398105295882300 closed its connection.
+1651032615: Client paho397882155693900 closed its connection.
+1651032641: New connection from 172.21.0.1:42116 on port 1883.
+1651032641: New client connected from 172.21.0.1:42116 as paho398172514887600 (p2, c1, k60, u'backend_user').
+1651032732: Client paho398172514887600 closed its connection.
+1651032758: New connection from 172.21.0.1:42138 on port 1883.
+1651032758: New client connected from 172.21.0.1:42138 as paho398289576590500 (p2, c1, k60, u'backend_user').
+1651032806: Client paho398289576590500 closed its connection.
+1651032828: New connection from 172.21.0.1:42160 on port 1883.
+1651032828: New client connected from 172.21.0.1:42160 as paho398359562875400 (p2, c1, k60, u'backend_user').
+1651032886: Client paho398359562875400 closed its connection.
+1651032911: New connection from 172.21.0.1:42182 on port 1883.
+1651032912: New client connected from 172.21.0.1:42182 as paho398442684596400 (p2, c1, k60, u'backend_user').
+1651032976: Client paho398442684596400 closed its connection.
+1651033002: New connection from 172.21.0.1:42204 on port 1883.
+1651033002: New client connected from 172.21.0.1:42204 as paho398533253366000 (p2, c1, k60, u'backend_user').
+1651033088: Client paho398533253366000 closed its connection.
+1651033171: New connection from 172.21.0.1:42246 on port 1883.
+1651033171: New client connected from 172.21.0.1:42246 as paho398702325070000 (p2, c1, k60, u'backend_user').
+1651033334: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1651033417: Client paho398702325070000 closed its connection.
+1651033443: New connection from 172.21.0.1:42268 on port 1883.
+1651033444: New client connected from 172.21.0.1:42268 as paho398974878578400 (p2, c1, k60, u'backend_user').
+1651033479: Client paho398974878578400 closed its connection.
+1651033509: New connection from 172.21.0.1:42290 on port 1883.
+1651033509: New client connected from 172.21.0.1:42290 as paho399040169802400 (p2, c1, k60, u'backend_user').
+1651033941: Client paho399040169802400 closed its connection.
+1651033967: New connection from 172.21.0.1:42312 on port 1883.
+1651033967: New client connected from 172.21.0.1:42312 as paho399498108183600 (p2, c1, k60, u'backend_user').
+1651034707: Client paho399498108183600 closed its connection.
+1651034732: New connection from 172.21.0.1:42334 on port 1883.
+1651034733: New client connected from 172.21.0.1:42334 as paho400263688456200 (p2, c1, k60, u'backend_user').
+1651035135: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1651035372: Client paho400263688456200 closed its connection.
+1651035400: New connection from 172.21.0.1:42356 on port 1883.
+1651035400: New client connected from 172.21.0.1:42356 as paho400931350192900 (p2, c1, k60, u'backend_user').
+1651035484: Client paho400931350192900 closed its connection.
+1651035512: New connection from 172.21.0.1:42378 on port 1883.
+1651035512: New client connected from 172.21.0.1:42378 as paho401043418973400 (p2, c1, k60, u'backend_user').
+1651035659: Client paho401043418973400 closed its connection.
+1651035686: New connection from 172.21.0.1:42400 on port 1883.
+1651035686: New client connected from 172.21.0.1:42400 as paho401217171205000 (p2, c1, k60, u'backend_user').
+1651036936: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1651037099: mosquitto version 2.0.14 terminating
+1651037099: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1651037101: mosquitto version 2.0.14 starting
+1651037101: Config loaded from /mosquitto/config/mosquitto.conf.
+1651037101: Loading plugin: /mosquitto/config/auth-plug.so
+1651037101: Opening ipv4 listen socket on port 1883.
+1651037101: mosquitto version 2.0.14 running
+1651037101: New connection from 172.21.0.1:42404 on port 1883.
+1651037101: Client usertest2BE57F59921A4BF8BA382C4756749021 disconnected, not authorised.
+1651037103: New connection from 172.21.0.1:42406 on port 1883.
+1651037103: New client connected from 172.21.0.1:42406 as paho401217171205000 (p2, c1, k60, u'backend_user').
+1651037103: New connection from 172.21.0.1:42408 on port 1883.
+1651037103: Client usertest2BE57F59921A4BF8BA382C4756749021 disconnected, not authorised.
+1651037107: New connection from 172.21.0.1:42410 on port 1883.
+1651037107: Client usertest2BE57F59921A4BF8BA382C4756749021 disconnected, not authorised.
+1651037115: New connection from 172.21.0.1:42412 on port 1883.
+1651037116: Client usertest2BE57F59921A4BF8BA382C4756749021 disconnected, not authorised.
+1651037132: New connection from 172.21.0.1:42414 on port 1883.
+1651037132: Client usertest2BE57F59921A4BF8BA382C4756749021 disconnected, not authorised.
+1651037164: New connection from 172.21.0.1:42416 on port 1883.
+1651037164: Client usertest2BE57F59921A4BF8BA382C4756749021 disconnected, not authorised.
+1651037191: Client paho401217171205000 closed its connection.
+1651037228: New connection from 172.21.0.1:42418 on port 1883.
+1651037228: Client usertest2BE57F59921A4BF8BA382C4756749021 disconnected, not authorised.
+1651037238: New connection from 172.21.0.1:42440 on port 1883.
+1651037238: New client connected from 172.21.0.1:42440 as paho402768990411200 (p2, c1, k60, u'backend_user').
+1651037269: New connection from 172.21.0.1:42442 on port 1883.
+1651037269: Client usertest2BE57F59921A4BF8BA382C4756749021 disconnected, not authorised.
+1651037270: New connection from 172.21.0.1:42444 on port 1883.
+1651037270: Client usertest2BE57F59921A4BF8BA382C4756749021 disconnected, not authorised.
+1651037272: New connection from 172.21.0.1:42446 on port 1883.
+1651037272: Client usertest2BE57F59921A4BF8BA382C4756749021 disconnected, not authorised.
+1651037276: New connection from 172.21.0.1:42448 on port 1883.
+1651037276: Client usertest2BE57F59921A4BF8BA382C4756749021 disconnected, not authorised.
+1651037284: New connection from 172.21.0.1:42450 on port 1883.
+1651037284: Client usertest2BE57F59921A4BF8BA382C4756749021 disconnected, not authorised.
+1651037300: New connection from 172.21.0.1:42452 on port 1883.
+1651037300: Client usertest2BE57F59921A4BF8BA382C4756749021 disconnected, not authorised.
+1651037332: New connection from 172.21.0.1:42454 on port 1883.
+1651037332: Client usertest2BE57F59921A4BF8BA382C4756749021 disconnected, not authorised.
+1651037383: Client paho402768990411200 closed its connection.
+1651037396: New connection from 172.21.0.1:42456 on port 1883.
+1651037396: Client usertest2BE57F59921A4BF8BA382C4756749021 disconnected, not authorised.
+1651037409: New connection from 172.21.0.1:42478 on port 1883.
+1651037409: New client connected from 172.21.0.1:42478 as paho402940397406900 (p2, c1, k60, u'backend_user').
+1651037449: New connection from 172.21.0.1:42480 on port 1883.
+1651037449: Client usertest2BE57F59921A4BF8BA382C4756749021 disconnected, not authorised.
+1651037450: New connection from 172.21.0.1:42482 on port 1883.
+1651037450: Client usertest2BE57F59921A4BF8BA382C4756749021 disconnected, not authorised.
+1651037452: New connection from 172.21.0.1:42484 on port 1883.
+1651037452: Client usertest2BE57F59921A4BF8BA382C4756749021 disconnected, not authorised.
+1651037456: New connection from 172.21.0.1:42486 on port 1883.
+1651037456: Client usertest2BE57F59921A4BF8BA382C4756749021 disconnected, not authorised.
+1651037464: New connection from 172.21.0.1:42488 on port 1883.
+1651037464: Client usertest2BE57F59921A4BF8BA382C4756749021 disconnected, not authorised.
+1651037480: New connection from 172.21.0.1:42490 on port 1883.
+1651037480: Client usertest2BE57F59921A4BF8BA382C4756749021 disconnected, not authorised.
+1651037512: New connection from 172.21.0.1:42492 on port 1883.
+1651037512: Client usertest2BE57F59921A4BF8BA382C4756749021 disconnected, not authorised.
+1651037517: mosquitto version 2.0.14 terminating
+1651037517: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1651037518: mosquitto version 2.0.14 starting
+1651037518: Config loaded from /mosquitto/config/mosquitto.conf.
+1651037518: Loading plugin: /mosquitto/config/auth-plug.so
+1651037518: Opening ipv4 listen socket on port 1883.
+1651037518: mosquitto version 2.0.14 running
+1651037520: New connection from 172.21.0.1:42496 on port 1883.
+1651037521: New client connected from 172.21.0.1:42496 as paho402940397406900 (p2, c1, k60, u'backend_user').
+1651037548: Client paho402940397406900 closed its connection.
+1651037567: New connection from 172.21.0.1:42498 on port 1883.
+1651037567: Client usertest2BE57F59921A4BF8BA382C4756749021 disconnected, not authorised.
+1651037568: New connection from 172.21.0.1:42500 on port 1883.
+1651037568: Client usertest2BE57F59921A4BF8BA382C4756749021 disconnected, not authorised.
+1651037570: New connection from 172.21.0.1:42502 on port 1883.
+1651037570: Client usertest2BE57F59921A4BF8BA382C4756749021 disconnected, not authorised.
+1651037571: New connection from 172.21.0.1:42504 on port 1883.
+1651037571: Client usertest2BE57F59921A4BF8BA382C4756749021 disconnected, not authorised.
+1651037572: New connection from 172.21.0.1:42516 on port 1883.
+1651037572: Client usertest2BE57F59921A4BF8BA382C4756749021 disconnected, not authorised.
+1651037573: New connection from 172.21.0.1:42528 on port 1883.
+1651037573: Client usertest2BE57F59921A4BF8BA382C4756749021 disconnected, not authorised.
+1651037575: New connection from 172.21.0.1:42530 on port 1883.
+1651037575: New client connected from 172.21.0.1:42530 as paho403105977799300 (p2, c1, k60, u'backend_user').
+1651037575: New connection from 172.21.0.1:42532 on port 1883.
+1651037575: Client usertest2BE57F59921A4BF8BA382C4756749021 disconnected, not authorised.
+1651037580: New connection from 172.21.0.1:42534 on port 1883.
+1651037580: Client usertest2BE57F59921A4BF8BA382C4756749021 disconnected, not authorised.
+1651037588: New connection from 172.21.0.1:42536 on port 1883.
+1651037588: Client usertest2BE57F59921A4BF8BA382C4756749021 disconnected, not authorised.
+1651037591: New connection from 172.21.0.1:42538 on port 1883.
+1651037591: Client usertest2BE57F59921A4BF8BA382C4756749021 disconnected, not authorised.
+1651037593: New connection from 172.21.0.1:42540 on port 1883.
+1651037593: Client usertest2BE57F59921A4BF8BA382C4756749021 disconnected, not authorised.
+1651037593: New connection from 172.21.0.1:42542 on port 1883.
+1651037593: Client usertest2BE57F59921A4BF8BA382C4756749021 disconnected, not authorised.
+1651037593: New connection from 172.21.0.1:42544 on port 1883.
+1651037593: Client usertest2BE57F59921A4BF8BA382C4756749021 disconnected, not authorised.
+1651037593: New connection from 172.21.0.1:42546 on port 1883.
+1651037593: Client usertest2BE57F59921A4BF8BA382C4756749021 disconnected, not authorised.
+1651037594: New connection from 172.21.0.1:42548 on port 1883.
+1651037594: Client usertest2BE57F59921A4BF8BA382C4756749021 disconnected, not authorised.
+1651037596: New connection from 172.21.0.1:42550 on port 1883.
+1651037596: New connection from 172.21.0.1:42552 on port 1883.
+1651037596: Client usertest2BE57F59921A4BF8BA382C4756749021 disconnected, not authorised.
+1651037596: Client usertest2BE57F59921A4BF8BA382C4756749021 disconnected, not authorised.
+1651037598: New connection from 172.21.0.1:42554 on port 1883.
+1651037598: Client usertest2BE57F59921A4BF8BA382C4756749021 disconnected, not authorised.
+1651037600: New connection from 172.21.0.1:42556 on port 1883.
+1651037600: Client usertest2BE57F59921A4BF8BA382C4756749021 disconnected, not authorised.
+1651037601: New connection from 172.21.0.1:42558 on port 1883.
+1651037601: Client usertest2BE57F59921A4BF8BA382C4756749021 disconnected, not authorised.
+1651037603: New connection from 172.21.0.1:42560 on port 1883.
+1651037603: Client usertest2BE57F59921A4BF8BA382C4756749021 disconnected, not authorised.
+1651037607: New connection from 172.21.0.1:42562 on port 1883.
+1651037607: Client usertest2BE57F59921A4BF8BA382C4756749021 disconnected, not authorised.
+1651037607: New connection from 172.21.0.1:42564 on port 1883.
+1651037607: Client usertest2BE57F59921A4BF8BA382C4756749021 disconnected, not authorised.
+1651037608: New connection from 172.21.0.1:42566 on port 1883.
+1651037608: Client usertest2BE57F59921A4BF8BA382C4756749021 disconnected, not authorised.
+1651037610: New connection from 172.21.0.1:42568 on port 1883.
+1651037610: Client usertest2BE57F59921A4BF8BA382C4756749021 disconnected, not authorised.
+1651037612: New connection from 172.21.0.1:42570 on port 1883.
+1651037612: Client usertest2BE57F59921A4BF8BA382C4756749021 disconnected, not authorised.
+1651037612: New connection from 172.21.0.1:42572 on port 1883.
+1651037612: Client usertest2BE57F59921A4BF8BA382C4756749021 disconnected, not authorised.
+1651037613: New connection from 172.21.0.1:42574 on port 1883.
+1651037613: Client usertest2BE57F59921A4BF8BA382C4756749021 disconnected, not authorised.
+1651037614: New connection from 172.21.0.1:42576 on port 1883.
+1651037614: Client usertest2BE57F59921A4BF8BA382C4756749021 disconnected, not authorised.
+1651037614: New connection from 172.21.0.1:42578 on port 1883.
+1651037614: Client usertest2BE57F59921A4BF8BA382C4756749021 disconnected, not authorised.
+1651037615: New connection from 172.21.0.1:42580 on port 1883.
+1651037615: Client usertest2BE57F59921A4BF8BA382C4756749021 disconnected, not authorised.
+1651037615: New connection from 172.21.0.1:42582 on port 1883.
+1651037615: Client usertest2BE57F59921A4BF8BA382C4756749021 disconnected, not authorised.
+1651037616: New connection from 172.21.0.1:42584 on port 1883.
+1651037616: Client usertest2BE57F59921A4BF8BA382C4756749021 disconnected, not authorised.
+1651037617: New connection from 172.21.0.1:42586 on port 1883.
+1651037617: Client usertest2BE57F59921A4BF8BA382C4756749021 disconnected, not authorised.
+1651037618: New connection from 172.21.0.1:42588 on port 1883.
+1651037618: Client usertest2BE57F59921A4BF8BA382C4756749021 disconnected, not authorised.
+1651037619: New connection from 172.21.0.1:42590 on port 1883.
+1651037619: Client usertest2BE57F59921A4BF8BA382C4756749021 disconnected, not authorised.
+1651037619: New connection from 172.21.0.1:42592 on port 1883.
+1651037619: Client usertest2BE57F59921A4BF8BA382C4756749021 disconnected, not authorised.
+1651037620: New connection from 172.21.0.1:42594 on port 1883.
+1651037620: Client usertest2BE57F59921A4BF8BA382C4756749021 disconnected, not authorised.
+1651037622: New connection from 172.21.0.1:42596 on port 1883.
+1651037622: Client usertest2BE57F59921A4BF8BA382C4756749021 disconnected, not authorised.
+1651037623: New connection from 172.21.0.1:42598 on port 1883.
+1651037623: Client usertest2BE57F59921A4BF8BA382C4756749021 disconnected, not authorised.
+1651037624: New connection from 172.21.0.1:42600 on port 1883.
+1651037624: Client usertest2BE57F59921A4BF8BA382C4756749021 disconnected, not authorised.
+1651037625: New connection from 172.21.0.1:42602 on port 1883.
+1651037625: Client usertest2BE57F59921A4BF8BA382C4756749021 disconnected, not authorised.
+1651037627: New connection from 172.21.0.1:42604 on port 1883.
+1651037627: Client usertest2BE57F59921A4BF8BA382C4756749021 disconnected, not authorised.
+1651037629: New connection from 172.21.0.1:42606 on port 1883.
+1651037629: Client usertest2BE57F59921A4BF8BA382C4756749021 disconnected, not authorised.
+1651037629: New connection from 172.21.0.1:42608 on port 1883.
+1651037629: Client usertest2BE57F59921A4BF8BA382C4756749021 disconnected, not authorised.
+1651037629: New connection from 172.21.0.1:42610 on port 1883.
+1651037629: Client usertest2BE57F59921A4BF8BA382C4756749021 disconnected, not authorised.
+1651037629: New connection from 172.21.0.1:42612 on port 1883.
+1651037629: Client usertest2BE57F59921A4BF8BA382C4756749021 disconnected, not authorised.
+1651037630: New connection from 172.21.0.1:42614 on port 1883.
+1651037630: Client usertest2BE57F59921A4BF8BA382C4756749021 disconnected, not authorised.
+1651037630: New connection from 172.21.0.1:42616 on port 1883.
+1651037630: Client usertest2BE57F59921A4BF8BA382C4756749021 disconnected, not authorised.
+1651037630: New connection from 172.21.0.1:42618 on port 1883.
+1651037630: Client usertest2BE57F59921A4BF8BA382C4756749021 disconnected, not authorised.
+1651037630: New connection from 172.21.0.1:42620 on port 1883.
+1651037630: Client usertest2BE57F59921A4BF8BA382C4756749021 disconnected, not authorised.
+1651037631: New connection from 172.21.0.1:42622 on port 1883.
+1651037631: Client usertest2BE57F59921A4BF8BA382C4756749021 disconnected, not authorised.
+1651037632: New connection from 172.21.0.1:42624 on port 1883.
+1651037632: Client usertest2BE57F59921A4BF8BA382C4756749021 disconnected, not authorised.
+1651037632: New connection from 172.21.0.1:42626 on port 1883.
+1651037632: Client usertest2BE57F59921A4BF8BA382C4756749021 disconnected, not authorised.
+1651037632: New connection from 172.21.0.1:42628 on port 1883.
+1651037632: Client usertest2BE57F59921A4BF8BA382C4756749021 disconnected, not authorised.
+1651037632: New connection from 172.21.0.1:42630 on port 1883.
+1651037632: Client usertest2BE57F59921A4BF8BA382C4756749021 disconnected, not authorised.
+1651037632: New connection from 172.21.0.1:42632 on port 1883.
+1651037632: Client usertest2BE57F59921A4BF8BA382C4756749021 disconnected, not authorised.
+1651037632: New connection from 172.21.0.1:42634 on port 1883.
+1651037632: Client usertest2BE57F59921A4BF8BA382C4756749021 disconnected, not authorised.
+1651037633: New connection from 172.21.0.1:42636 on port 1883.
+1651037633: Client usertest2BE57F59921A4BF8BA382C4756749021 disconnected, not authorised.
+1651037634: New connection from 172.21.0.1:42638 on port 1883.
+1651037634: New client connected from 172.21.0.1:42638 as iphone2BE57F59921A4BF8BA382C4756749021 (p2, c0, k60, u'iphone').
+1651037657: New connection from 172.21.0.1:42640 on port 1883.
+1651037657: Client iphone2BE57F59921A4BF8BA382C4756749021 already connected, closing old connection.
+1651037657: New client connected from 172.21.0.1:42640 as iphone2BE57F59921A4BF8BA382C4756749021 (p2, c0, k60, u'iphone').
+1651037657: Client iphone2BE57F59921A4BF8BA382C4756749021 closed its connection.
+1651037658: New connection from 172.21.0.1:42642 on port 1883.
+1651037658: New client connected from 172.21.0.1:42642 as iphone2BE57F59921A4BF8BA382C4756749021 (p2, c0, k60, u'iphone').
+1651037733: Client iphone2BE57F59921A4BF8BA382C4756749021 disconnected.
+1651037733: New connection from 172.21.0.1:42644 on port 1883.
+1651037733: New client connected from 172.21.0.1:42644 as iphone2BE57F59921A4BF8BA382C4756749021 (p2, c0, k60, u'iphone').
+1651037772: Client paho403105977799300 closed its connection.
+1651037791: New connection from 172.21.0.1:42666 on port 1883.
+1651037791: New client connected from 172.21.0.1:42666 as paho403322402539100 (p2, c1, k60, u'backend_user').
+1651037870: mosquitto version 2.0.14 terminating
+1651037870: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1651114512: mosquitto version 2.0.14 starting
+1651114512: Config loaded from /mosquitto/config/mosquitto.conf.
+1651114512: Loading plugin: /mosquitto/config/auth-plug.so
+1651114512: Opening ipv4 listen socket on port 1883.
+1651114512: mosquitto version 2.0.14 running
+1651114561: mosquitto version 2.0.14 terminating
+1651114561: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1651114562: mosquitto version 2.0.14 starting
+1651114562: Config loaded from /mosquitto/config/mosquitto.conf.
+1651114562: Loading plugin: /mosquitto/config/auth-plug.so
+1651114562: Opening ipv4 listen socket on port 1883.
+1651114562: mosquitto version 2.0.14 running
+1651114602: New connection from 172.21.0.1:50572 on port 1883.
+1651114602: Client paho425878251000 disconnected, not authorised.
+1651114602: New connection from 172.21.0.1:50574 on port 1883.
+1651114602: Client paho425878251000 disconnected, not authorised.
+1651115332: New connection from 172.21.0.1:50576 on port 1883.
+1651115332: New client connected from 172.21.0.1:50576 as iphone2BE57F59921A4BF8BA382C4756749021 (p2, c0, k60, u'iphone').
+1651115364: Client iphone2BE57F59921A4BF8BA382C4756749021 disconnected.
+1651115364: New connection from 172.21.0.1:50578 on port 1883.
+1651115364: New client connected from 172.21.0.1:50578 as iphone2BE57F59921A4BF8BA382C4756749021 (p2, c0, k60, u'iphone').
+1651115688: New connection from 172.21.0.1:50600 on port 1883.
+1651115688: New client connected from 172.21.0.1:50600 as paho1512389503500 (p2, c1, k60, u'backend_user').
+1651115712: Client iphone2BE57F59921A4BF8BA382C4756749021 disconnected.
+1651115712: New connection from 172.21.0.1:50602 on port 1883.
+1651115712: New client connected from 172.21.0.1:50602 as iphone2BE57F59921A4BF8BA382C4756749021 (p2, c0, k60, u'iphone').
+1651115719: Client iphone2BE57F59921A4BF8BA382C4756749021 disconnected.
+1651115719: New connection from 172.21.0.1:50604 on port 1883.
+1651115719: New client connected from 172.21.0.1:50604 as iphone2BE57F59921A4BF8BA382C4756749021 (p2, c0, k60, u'iphone').
+1651115725: Client iphone2BE57F59921A4BF8BA382C4756749021 disconnected.
+1651115725: New connection from 172.21.0.1:50606 on port 1883.
+1651115725: Client iphones2BE57F59921A4BF8BA382C4756749021 disconnected, not authorised.
+1651115726: New connection from 172.21.0.1:50608 on port 1883.
+1651115726: Client iphones2BE57F59921A4BF8BA382C4756749021 disconnected, not authorised.
+1651115728: New connection from 172.21.0.1:50610 on port 1883.
+1651115728: Client iphones2BE57F59921A4BF8BA382C4756749021 disconnected, not authorised.
+1651115729: New connection from 172.21.0.1:50612 on port 1883.
+1651115729: New client connected from 172.21.0.1:50612 as iphone2BE57F59921A4BF8BA382C4756749021 (p2, c0, k60, u'iphone').
+1651115818: New connection from 172.21.0.1:50614 on port 1883.
+1651115818: New client connected from 172.21.0.1:50614 as auto-878921E6-0902-3B16-400F-6957D9B2910B (p2, c1, k60, u'backend_user').
+1651115818: Client auto-878921E6-0902-3B16-400F-6957D9B2910B disconnected.
+1651115854: New connection from 172.21.0.1:50616 on port 1883.
+1651115854: New client connected from 172.21.0.1:50616 as auto-7914AE50-53D9-F339-D2BF-471D2A93D80E (p2, c1, k60, u'backend_user').
+1651115854: Client auto-7914AE50-53D9-F339-D2BF-471D2A93D80E disconnected.
+1651115894: New connection from 172.21.0.1:50618 on port 1883.
+1651115894: New client connected from 172.21.0.1:50618 as auto-CCC827F3-3B1B-19C9-2879-6CC12787B8B8 (p2, c1, k60, u'backend_user').
+1651115894: Client auto-CCC827F3-3B1B-19C9-2879-6CC12787B8B8 disconnected.
+1651115960: New connection from 172.21.0.1:50620 on port 1883.
+1651115960: New client connected from 172.21.0.1:50620 as auto-15511323-0780-67AF-C151-40B989BB8A34 (p2, c1, k60, u'iphone').
+1651115960: Client auto-15511323-0780-67AF-C151-40B989BB8A34 disconnected.
+1651115969: New connection from 172.21.0.1:50622 on port 1883.
+1651115969: New client connected from 172.21.0.1:50622 as auto-0DC1E4E1-006B-F10A-B109-4C28F4A38B2B (p2, c1, k60, u'iphone').
+1651115969: Client auto-0DC1E4E1-006B-F10A-B109-4C28F4A38B2B disconnected.
+1651116010: New connection from 172.21.0.1:50624 on port 1883.
+1651116010: New client connected from 172.21.0.1:50624 as auto-7260E568-B729-A0EE-31E4-2682B22E21F4 (p2, c1, k60, u'backend_user').
+1651116101: Client paho1512389503500 closed its connection.
+1651116126: New connection from 172.21.0.1:50646 on port 1883.
+1651116126: New client connected from 172.21.0.1:50646 as paho1950343657900 (p2, c1, k60, u'backend_user').
+1651116143: Client iphone2BE57F59921A4BF8BA382C4756749021 disconnected.
+1651116143: New connection from 172.21.0.1:50648 on port 1883.
+1651116143: New client connected from 172.21.0.1:50648 as iphone2BE57F59921A4BF8BA382C4756749021 (p2, c0, k60, u'iphone').
+1651116289: Client paho1950343657900 closed its connection.
+1651116306: New connection from 172.21.0.1:50670 on port 1883.
+1651116307: New client connected from 172.21.0.1:50670 as paho2130810043600 (p2, c1, k60, u'backend_user').
+1651116363: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1651116403: Client iphone2BE57F59921A4BF8BA382C4756749021 disconnected.
+1651116404: New connection from 172.21.0.1:50672 on port 1883.
+1651116404: New client connected from 172.21.0.1:50672 as backenduser2BE57F59921A4BF8BA382C4756749021 (p2, c0, k60, u'backend_user').
+1651116484: Client backenduser2BE57F59921A4BF8BA382C4756749021 disconnected.
+1651116484: New connection from 172.21.0.1:50674 on port 1883.
+1651116484: New client connected from 172.21.0.1:50674 as iphone2BE57F59921A4BF8BA382C4756749021 (p2, c0, k60, u'iphone').
+1651116551: Client iphone2BE57F59921A4BF8BA382C4756749021 disconnected.
+1651116557: New connection from 172.21.0.1:50676 on port 1883.
+1651116557: New client connected from 172.21.0.1:50676 as iphone2BE57F59921A4BF8BA382C4756749021 (p2, c0, k60, u'iphone').
+1651116573: Client iphone2BE57F59921A4BF8BA382C4756749021 disconnected.
+1651116573: New connection from 172.21.0.1:50678 on port 1883.
+1651116573: Client usertest2BE57F59921A4BF8BA382C4756749021 disconnected, not authorised.
+1651116574: New connection from 172.21.0.1:50680 on port 1883.
+1651116574: Client usertest2BE57F59921A4BF8BA382C4756749021 disconnected, not authorised.
+1651116577: New connection from 172.21.0.1:50682 on port 1883.
+1651116577: Client usertest2BE57F59921A4BF8BA382C4756749021 disconnected, not authorised.
+1651116581: New connection from 172.21.0.1:50684 on port 1883.
+1651116581: Client usertest2BE57F59921A4BF8BA382C4756749021 disconnected, not authorised.
+1651116584: New connection from 172.21.0.1:50686 on port 1883.
+1651116584: New client connected from 172.21.0.1:50686 as iphone2BE57F59921A4BF8BA382C4756749021 (p2, c0, k60, u'iphone').
+1651116617: Client iphone2BE57F59921A4BF8BA382C4756749021 disconnected.
+1651116689: New connection from 172.21.0.1:50688 on port 1883.
+1651116689: New client connected from 172.21.0.1:50688 as iphone2BE57F59921A4BF8BA382C4756749021 (p2, c0, k60, u'iphone').
+1651116694: Client iphone2BE57F59921A4BF8BA382C4756749021 disconnected.
+1651116797: New connection from 172.21.0.1:50690 on port 1883.
+1651116797: New client connected from 172.21.0.1:50690 as iphone2BE57F59921A4BF8BA382C4756749021 (p2, c0, k60, u'iphone').
+1651116807: Client iphone2BE57F59921A4BF8BA382C4756749021 disconnected.
+1651116808: New connection from 172.21.0.1:50692 on port 1883.
+1651116808: New client connected from 172.21.0.1:50692 as iphone2BE57F59921A4BF8BA382C4756749021 (p2, c0, k60, u'iphone').
+1651116825: Client iphone2BE57F59921A4BF8BA382C4756749021 disconnected.
+1651116831: New connection from 172.21.0.1:50694 on port 1883.
+1651116831: New client connected from 172.21.0.1:50694 as iphone2BE57F59921A4BF8BA382C4756749021 (p2, c0, k60, u'iphone').
+1651116868: Client iphone2BE57F59921A4BF8BA382C4756749021 disconnected.
+1651117113: New connection from 172.21.0.1:50716 on port 1883.
+1651117113: New client connected from 172.21.0.1:50716 as paho2937273899700 (p2, c1, k60, u'backend_user').
+1651117617: Client paho2937273899700 closed its connection.
+1651117617: Client paho2130810043600 closed its connection.
+1651117627: mosquitto version 2.0.14 terminating
+1651117627: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1651117643: mosquitto version 2.0.14 starting
+1651117643: Config loaded from /mosquitto/config/mosquitto.conf.
+1651117643: Loading plugin: /mosquitto/config/auth-plug.so
+1651117643: Opening ipv4 listen socket on port 1883.
+1651117643: mosquitto version 2.0.14 running
+1651117643: New connection from 172.23.0.1:50720 on port 1883.
+1651117643: Bad socket read/write on client auto-06C52107-3022-29C0-E365-E1848B9128D4: Unknown error.
+1651117644: New connection from 172.23.0.1:50724 on port 1883.
+1651117644: Bad socket read/write on client auto-F2166644-0DE2-8835-BB61-251039D50811: Unknown error.
+1651117645: New connection from 172.23.0.1:50728 on port 1883.
+1651117645: Bad socket read/write on client auto-FF167D7A-43E7-6AD0-6B9B-B91153309F66: Unknown error.
+1651117646: New connection from 172.23.0.1:50732 on port 1883.
+1651117646: Bad socket read/write on client auto-1336F6D1-2FB2-C7D8-C948-D82170859762: Unknown error.
+1651117647: New connection from 172.23.0.1:50736 on port 1883.
+1651117647: Bad socket read/write on client auto-CCDE202D-92A4-66F1-34BD-714090E6BC3F: Unknown error.
+1651117648: New connection from 172.23.0.1:50740 on port 1883.
+1651117648: Bad socket read/write on client auto-4C7DC225-29B0-BA11-AD5D-BA24CEBF0509: Unknown error.
+1651117649: New connection from 172.23.0.1:50744 on port 1883.
+1651117649: Bad socket read/write on client auto-A2B710C3-7AAF-0941-17A6-419F594275F6: Unknown error.
+1651117650: New connection from 172.23.0.1:50748 on port 1883.
+1651117650: Bad socket read/write on client auto-08396FA6-6898-BF3C-557F-871B7FBF3D0E: Unknown error.
+1651117651: New connection from 172.23.0.1:50752 on port 1883.
+1651117651: Bad socket read/write on client auto-156FF3DB-26AC-5C47-9470-C59C4ACB378A: Unknown error.
+1651117652: New connection from 172.23.0.1:50756 on port 1883.
+1651117652: Bad socket read/write on client auto-E57E4743-1ADA-74EB-2A8F-25834FC0D350: Unknown error.
+1651117653: New connection from 172.23.0.1:50760 on port 1883.
+1651117653: Bad socket read/write on client auto-DB96CDC2-8332-749B-BC8C-1E6B5828A7BF: Unknown error.
+1651117654: New connection from 172.23.0.1:50764 on port 1883.
+1651117654: Bad socket read/write on client auto-11A111A5-E25E-0266-82C6-43E8095727B8: Unknown error.
+1651117655: New connection from 172.23.0.1:50768 on port 1883.
+1651117655: Bad socket read/write on client auto-85271F1D-F249-479B-E7D4-A34D2C79C5AF: Unknown error.
+1651117656: New connection from 172.23.0.1:50772 on port 1883.
+1651117656: Bad socket read/write on client auto-D33BDDFD-03B3-1626-EBD2-E09F01F79981: Unknown error.
+1651117657: New connection from 172.23.0.1:50776 on port 1883.
+1651117657: Bad socket read/write on client auto-0F35BC33-B2BE-1237-9FF9-248EE66EDC90: Unknown error.
+1651117658: New connection from 172.23.0.1:50780 on port 1883.
+1651117658: Bad socket read/write on client auto-E7D42B5F-993A-1567-2D30-9665C14F785C: Unknown error.
+1651117659: New connection from 172.23.0.1:50784 on port 1883.
+1651117659: Bad socket read/write on client auto-2C9813DD-CF71-1D9F-E724-5E2C87E76E8E: Unknown error.
+1651117660: New connection from 172.23.0.1:50788 on port 1883.
+1651117660: Bad socket read/write on client auto-27BD311A-BF3F-BD0D-A694-5C2953AE3872: Unknown error.
+1651117661: New connection from 172.23.0.1:50792 on port 1883.
+1651117661: Client auto-9CBDAD02-0A8F-B15B-42E6-6E3245706A44 disconnected, not authorised.
+1651117716: New connection from 172.23.0.1:50816 on port 1883.
+1651117717: Client paho3540637002900 disconnected, not authorised.
+1651117717: New connection from 172.23.0.1:50818 on port 1883.
+1651117717: Client paho3540637002900 disconnected, not authorised.
+1651117825: mosquitto version 2.0.14 terminating
+1651117825: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1651117826: mosquitto version 2.0.14 starting
+1651117826: Config loaded from /mosquitto/config/mosquitto.conf.
+1651117826: Loading plugin: /mosquitto/config/auth-plug.so
+1651117826: Opening ipv4 listen socket on port 1883.
+1651117826: mosquitto version 2.0.14 running
+1651117856: New connection from 172.23.0.1:50842 on port 1883.
+1651117856: Client paho3680091004000 disconnected, not authorised.
+1651117856: New connection from 172.23.0.1:50844 on port 1883.
+1651117856: Client paho3680091004000 disconnected, not authorised.
+1651117918: New connection from 172.23.0.1:50866 on port 1883.
+1651117918: Client paho3742354116500 disconnected, not authorised.
+1651117918: New connection from 172.23.0.1:50868 on port 1883.
+1651117919: Client paho3742354116500 disconnected, not authorised.
+1651118040: New connection from 172.23.0.1:50870 on port 1883.
+1651118040: Client iphone2BE57F59921A4BF8BA382C4756749021 disconnected, not authorised.
+1651118293: New connection from 172.23.0.1:50892 on port 1883.
+1651118294: Client paho4117517706700 disconnected, not authorised.
+1651118294: New connection from 172.23.0.1:50894 on port 1883.
+1651118294: Client paho4117517706700 disconnected, not authorised.
+1651118639: New connection from 172.23.0.1:50916 on port 1883.
+1651118639: Client paho4463146601000 disconnected, not authorised.
+1651118639: New connection from 172.23.0.1:50918 on port 1883.
+1651118639: Client paho4463146601000 disconnected, not authorised.
+1651118680: New connection from 172.23.0.1:50940 on port 1883.
+1651118680: Client paho4504042958000 disconnected, not authorised.
+1651118680: New connection from 172.23.0.1:50942 on port 1883.
+1651118680: Client paho4504042958000 disconnected, not authorised.
+1651118854: New connection from 172.23.0.1:50964 on port 1883.
+1651118854: Client paho4678539333800 disconnected, not authorised.
+1651118854: New connection from 172.23.0.1:50966 on port 1883.
+1651118855: Client paho4678539333800 disconnected, not authorised.
+1651118971: New connection from 172.23.0.1:50988 on port 1883.
+1651118971: Client iphone2BE57F59921A4BF8BA382C4756749021 disconnected, not authorised.
+1651118972: New connection from 172.23.0.1:50990 on port 1883.
+1651118972: Client iphone2BE57F59921A4BF8BA382C4756749021 disconnected, not authorised.
+1651118985: New connection from 172.23.0.1:51012 on port 1883.
+1651118985: Client paho4809385909000 disconnected, not authorised.
+1651118985: New connection from 172.23.0.1:51014 on port 1883.
+1651118986: Client paho4809385909000 disconnected, not authorised.
+1651119155: New connection from 172.23.0.1:51036 on port 1883.
+1651119155: Client paho4979301795700 disconnected, not authorised.
+1651119155: New connection from 172.23.0.1:51038 on port 1883.
+1651119156: Client paho4979301795700 disconnected, not authorised.
+1651119228: New connection from 172.23.0.1:51060 on port 1883.
+1651119228: New client connected from 172.23.0.1:51060 as paho5052321189400 (p2, c1, k60, u'backend_user').
+1651119279: Client paho5052321189400 closed its connection.
+1651119332: New connection from 172.23.0.1:51082 on port 1883.
+1651119333: Client paho5156720171500 disconnected, not authorised.
+1651119333: New connection from 172.23.0.1:51084 on port 1883.
+1651119333: Client paho5156720171500 disconnected, not authorised.
+1651119394: New connection from 172.23.0.1:51086 on port 1883.
+1651119394: Client iphone2BE57F59921A4BF8BA382C4756749021 disconnected, not authorised.
+1651119394: New connection from 172.23.0.1:51088 on port 1883.
+1651119394: Client iphone2BE57F59921A4BF8BA382C4756749021 disconnected, not authorised.
+1651119399: New connection from 172.23.0.1:51110 on port 1883.
+1651119399: Client paho5223316947100 disconnected, not authorised.
+1651119399: New connection from 172.23.0.1:51112 on port 1883.
+1651119400: Client paho5223316947100 disconnected, not authorised.
+1651119442: New connection from 172.23.0.1:51134 on port 1883.
+1651119443: New client connected from 172.23.0.1:51134 as paho5266762262800 (p2, c1, k60, u'backend_user').
+1651119479: Client paho5266762262800 closed its connection.
+1651119523: New connection from 172.23.0.1:51156 on port 1883.
+1651119524: New client connected from 172.23.0.1:51156 as paho5347604645500 (p2, c1, k60, u'backend_user').
+1651119537: New connection from 172.23.0.1:51158 on port 1883.
+1651119537: Client iphone2BE57F59921A4BF8BA382C4756749021 disconnected, not authorised.
+1651119538: New connection from 172.23.0.1:51160 on port 1883.
+1651119538: Client iphone2BE57F59921A4BF8BA382C4756749021 disconnected, not authorised.
+1651119540: New connection from 172.23.0.1:51162 on port 1883.
+1651119540: Client iphone2BE57F59921A4BF8BA382C4756749021 disconnected, not authorised.
+1651119544: New connection from 172.23.0.1:51164 on port 1883.
+1651119544: Client iphone2BE57F59921A4BF8BA382C4756749021 disconnected, not authorised.
+1651119552: New connection from 172.23.0.1:51166 on port 1883.
+1651119552: Client iphone2BE57F59921A4BF8BA382C4756749021 disconnected, not authorised.
+1651119568: New connection from 172.23.0.1:51168 on port 1883.
+1651119568: Client iphone2BE57F59921A4BF8BA382C4756749021 disconnected, not authorised.
+1651119575: New connection from 172.23.0.1:51170 on port 1883.
+1651119575: New client connected from 172.23.0.1:51170 as backenduser2BE57F59921A4BF8BA382C4756749021 (p2, c0, k60, u'backend_user').
+1651119599: Client backenduser2BE57F59921A4BF8BA382C4756749021 disconnected.
+1651119599: New connection from 172.23.0.1:51172 on port 1883.
+1651119599: New client connected from 172.23.0.1:51172 as backenduser2BE57F59921A4BF8BA382C4756749021 (p2, c0, k60, u'backend_user').
+1651119614: Client backenduser2BE57F59921A4BF8BA382C4756749021 disconnected.
+1651119614: New connection from 172.23.0.1:51174 on port 1883.
+1651119614: New client connected from 172.23.0.1:51174 as backenduser2BE57F59921A4BF8BA382C4756749021 (p2, c0, k60, u'backend_user').
+1651119625: Client backenduser2BE57F59921A4BF8BA382C4756749021 disconnected.
+1651119627: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1651119699: New connection from 172.23.0.1:51176 on port 1883.
+1651119699: New client connected from 172.23.0.1:51176 as backenduser2BE57F59921A4BF8BA382C4756749021 (p2, c0, k60, u'backend_user').
+1651119730: Client backenduser2BE57F59921A4BF8BA382C4756749021 disconnected.
+1651119730: New connection from 172.23.0.1:51178 on port 1883.
+1651119730: New client connected from 172.23.0.1:51178 as iphone2BE57F59921A4BF8BA382C4756749021 (p2, c0, k60, u'iphone').
+1651119800: Client iphone2BE57F59921A4BF8BA382C4756749021 disconnected.
+1651119805: New connection from 172.23.0.1:51180 on port 1883.
+1651119805: New client connected from 172.23.0.1:51180 as iphone2BE57F59921A4BF8BA382C4756749021 (p2, c0, k60, u'iphone').
+1651119822: Client iphone2BE57F59921A4BF8BA382C4756749021 disconnected.
+1651119822: New connection from 172.23.0.1:51182 on port 1883.
+1651119822: Client leand2BE57F59921A4BF8BA382C4756749021 disconnected, not authorised.
+1651119823: New connection from 172.23.0.1:51184 on port 1883.
+1651119823: Client leand2BE57F59921A4BF8BA382C4756749021 disconnected, not authorised.
+1651119825: New connection from 172.23.0.1:51186 on port 1883.
+1651119825: Client leand2BE57F59921A4BF8BA382C4756749021 disconnected, not authorised.
+1651119830: New connection from 172.23.0.1:51188 on port 1883.
+1651119830: Client leand2BE57F59921A4BF8BA382C4756749021 disconnected, not authorised.
+1651119832: New connection from 172.23.0.1:51190 on port 1883.
+1651119832: New client connected from 172.23.0.1:51190 as iphone2BE57F59921A4BF8BA382C4756749021 (p2, c0, k60, u'iphone').
+1651119878: Client iphone2BE57F59921A4BF8BA382C4756749021 disconnected.
+1651119915: New connection from 172.23.0.1:51192 on port 1883.
+1651119915: New client connected from 172.23.0.1:51192 as iphone2BE57F59921A4BF8BA382C4756749021 (p2, c0, k60, u'iphone').
+1651119925: Client iphone2BE57F59921A4BF8BA382C4756749021 disconnected.
+1651119925: New connection from 172.23.0.1:51194 on port 1883.
+1651119925: New client connected from 172.23.0.1:51194 as iphone (p2, c0, k60, u'iphone').
+1651119956: Client iphone disconnected.
+1651119956: New connection from 172.23.0.1:51196 on port 1883.
+1651119956: Client iphone disconnected, not authorised.
+1651119957: New connection from 172.23.0.1:51198 on port 1883.
+1651119957: Client iphone disconnected, not authorised.
+1651119959: New connection from 172.23.0.1:51200 on port 1883.
+1651119959: Client iphone disconnected, not authorised.
+1651119963: New connection from 172.23.0.1:51202 on port 1883.
+1651119963: Client iphone disconnected, not authorised.
+1651119971: New connection from 172.23.0.1:51204 on port 1883.
+1651119971: Client iphone disconnected, not authorised.
+1651119976: New connection from 172.23.0.1:51206 on port 1883.
+1651119976: Client iphone disconnected, not authorised.
+1651119977: New connection from 172.23.0.1:51208 on port 1883.
+1651119977: Client iphone disconnected, not authorised.
+1651119980: New connection from 172.23.0.1:51210 on port 1883.
+1651119980: Client iphone disconnected, not authorised.
+1651119984: New connection from 172.23.0.1:51212 on port 1883.
+1651119984: Client iphone disconnected, not authorised.
+1651119989: New connection from 172.23.0.1:51214 on port 1883.
+1651119989: Client iphone disconnected, not authorised.
+1651119997: New connection from 172.23.0.1:51216 on port 1883.
+1651119997: Client iphone disconnected, not authorised.
+1651120000: New connection from 172.23.0.1:51218 on port 1883.
+1651120000: New client connected from 172.23.0.1:51218 as backenduser2BE57F59921A4BF8BA382C4756749021 (p2, c0, k60, u'backend_user').
+1651120042: Client backenduser2BE57F59921A4BF8BA382C4756749021 disconnected.
+1651120042: New connection from 172.23.0.1:51220 on port 1883.
+1651120042: New client connected from 172.23.0.1:51220 as iphone2BE57F59921A4BF8BA382C4756749021 (p2, c0, k60, u'iphone').
+1651120079: Client iphone2BE57F59921A4BF8BA382C4756749021 disconnected.
+1651120082: New connection from 172.23.0.1:51222 on port 1883.
+1651120082: New client connected from 172.23.0.1:51222 as iphone2BE57F59921A4BF8BA382C4756749021 (p2, c0, k60, u'iphone').
+1651120093: Client iphone2BE57F59921A4BF8BA382C4756749021 disconnected.
+1651120114: New connection from 172.23.0.1:51224 on port 1883.
+1651120114: New client connected from 172.23.0.1:51224 as iphone2BE57F59921A4BF8BA382C4756749021 (p2, c0, k60, u'iphone').
+1651120123: Client iphone2BE57F59921A4BF8BA382C4756749021 disconnected.
+1651120123: New connection from 172.23.0.1:51226 on port 1883.
+1651120123: New client connected from 172.23.0.1:51226 as iphone2BE57F59921A4BF8BA382C4756749021 (p2, c0, k60, u'iphone').
+1651120160: Client iphone2BE57F59921A4BF8BA382C4756749021 disconnected.
+1651120309: Client paho5347604645500 closed its connection.
+1651120318: mosquitto version 2.0.14 terminating
+1651120318: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1651120340: mosquitto version 2.0.14 starting
+1651120340: Config loaded from /mosquitto/config/mosquitto.conf.
+1651120340: Loading plugin: /mosquitto/config/auth-plug.so
+1651120340: Opening ipv4 listen socket on port 1883.
+1651120340: mosquitto version 2.0.14 running
+1651120355: mosquitto version 2.0.14 terminating
+1651120355: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1651120356: mosquitto version 2.0.14 starting
+1651120356: Config loaded from /mosquitto/config/mosquitto.conf.
+1651120356: Loading plugin: /mosquitto/config/auth-plug.so
+1651120356: Opening ipv4 listen socket on port 1883.
+1651120356: mosquitto version 2.0.14 running
+1651120423: mosquitto version 2.0.14 terminating
+1651120423: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1651120424: mosquitto version 2.0.14 starting
+1651120424: Config loaded from /mosquitto/config/mosquitto.conf.
+1651120424: Loading plugin: /mosquitto/config/auth-plug.so
+1651120424: Opening ipv4 listen socket on port 1883.
+1651120424: mosquitto version 2.0.14 running
+1651120458: New connection from 172.24.0.1:51254 on port 1883.
+1651120458: New client connected from 172.24.0.1:51254 as paho6282463009000 (p2, c1, k60, u'backend_user').
+1651120608: New connection from 172.24.0.1:51256 on port 1883.
+1651120608: Client iphone2BE57F59921A4BF8BA382C4756749021 disconnected, not authorised.
+1651120609: New connection from 172.24.0.1:51258 on port 1883.
+1651120609: Client iphone2BE57F59921A4BF8BA382C4756749021 disconnected, not authorised.
+1651120611: New connection from 172.24.0.1:51260 on port 1883.
+1651120611: Client iphone2BE57F59921A4BF8BA382C4756749021 disconnected, not authorised.
+1651120615: New connection from 172.24.0.1:51262 on port 1883.
+1651120615: Client iphone2BE57F59921A4BF8BA382C4756749021 disconnected, not authorised.
+1651120623: New connection from 172.24.0.1:51264 on port 1883.
+1651120623: Client iphone2BE57F59921A4BF8BA382C4756749021 disconnected, not authorised.
+1651120626: New connection from 172.24.0.1:51266 on port 1883.
+1651120626: New client connected from 172.24.0.1:51266 as teste2BE57F59921A4BF8BA382C4756749021 (p2, c0, k60, u'teste').
+1651120681: Client paho6282463009000 closed its connection.
+1651120694: Client teste2BE57F59921A4BF8BA382C4756749021 disconnected.
+1651120703: New connection from 172.24.0.1:51288 on port 1883.
+1651120703: New client connected from 172.24.0.1:51288 as paho6527410289600 (p2, c1, k60, u'backend_user').
+1651120729: New connection from 172.24.0.1:51290 on port 1883.
+1651120729: New client connected from 172.24.0.1:51290 as teste2BE57F59921A4BF8BA382C4756749021 (p2, c0, k60, u'teste').
+1651120771: Client teste2BE57F59921A4BF8BA382C4756749021 disconnected.
+1651120771: New connection from 172.24.0.1:51292 on port 1883.
+1651120771: New client connected from 172.24.0.1:51292 as teste2BE57F59921A4BF8BA382C4756749021 (p2, c0, k60, u'teste').
+1651120803: New connection from 172.24.0.1:51294 on port 1883.
+1651120803: Client auto-71BD5FBD-8FC4-022D-2F85-6B82627211A5 disconnected, not authorised.
+1651120812: New connection from 172.24.0.1:51296 on port 1883.
+1651120812: New client connected from 172.24.0.1:51296 as auto-7E478860-28D2-E7BD-97E1-D9EA65D86707 (p2, c1, k60, u'backend_user').
+1651120812: Client auto-7E478860-28D2-E7BD-97E1-D9EA65D86707 disconnected.
+1651120825: New connection from 172.24.0.1:51298 on port 1883.
+1651120825: New client connected from 172.24.0.1:51298 as auto-CA40275B-12CD-C6E7-6C64-74B8CAFED316 (p2, c1, k60, u'backend_user').
+1651120825: Client auto-CA40275B-12CD-C6E7-6C64-74B8CAFED316 disconnected.
+1651120829: Client teste2BE57F59921A4BF8BA382C4756749021 disconnected.
+1651120837: Client paho6527410289600 closed its connection.
+1651120838: New connection from 172.24.0.1:51300 on port 1883.
+1651120838: New client connected from 172.24.0.1:51300 as auto-23D0F001-2E2A-7C85-416A-6576EE028EFD (p2, c1, k60, u'backend_user').
+1651120838: Client auto-23D0F001-2E2A-7C85-416A-6576EE028EFD disconnected.
+1651120839: New connection from 172.24.0.1:51302 on port 1883.
+1651120839: New client connected from 172.24.0.1:51302 as auto-F4CF5C2A-B79F-B157-E915-7652F548D47C (p2, c1, k60, u'backend_user').
+1651120839: Client auto-F4CF5C2A-B79F-B157-E915-7652F548D47C disconnected.
+1651120849: New connection from 172.24.0.1:51304 on port 1883.
+1651120849: New client connected from 172.24.0.1:51304 as auto-3DF6F4B5-DBC8-8D78-1B3D-7A95B0684780 (p2, c1, k60, u'backend_user').
+1651120849: Client auto-3DF6F4B5-DBC8-8D78-1B3D-7A95B0684780 disconnected.
+1651120854: New connection from 172.24.0.1:51306 on port 1883.
+1651120854: New client connected from 172.24.0.1:51306 as auto-0D6172E4-0BB6-AEE0-EE29-6854981237E8 (p2, c1, k60, u'backend_user').
+1651120854: Client auto-0D6172E4-0BB6-AEE0-EE29-6854981237E8 disconnected.
+1651120888: New connection from 172.24.0.1:51328 on port 1883.
+1651120888: New client connected from 172.24.0.1:51328 as paho6712266622300 (p2, c1, k60, u'backend_user').
+1651120912: New connection from 172.24.0.1:51330 on port 1883.
+1651120912: New client connected from 172.24.0.1:51330 as auto-9354DFFE-A4F4-AD8E-5F12-E80C387910A8 (p2, c1, k60, u'backend_user').
+1651120912: Client auto-9354DFFE-A4F4-AD8E-5F12-E80C387910A8 disconnected.
+1651120920: New connection from 172.24.0.1:51332 on port 1883.
+1651120920: New client connected from 172.24.0.1:51332 as teste2BE57F59921A4BF8BA382C4756749021 (p2, c0, k60, u'teste').
+1651120923: Client teste2BE57F59921A4BF8BA382C4756749021 disconnected.
+1651121025: New connection from 172.24.0.1:51334 on port 1883.
+1651121025: New client connected from 172.24.0.1:51334 as teste2BE57F59921A4BF8BA382C4756749021 (p2, c0, k60, u'teste').
+1651121036: Client teste2BE57F59921A4BF8BA382C4756749021 disconnected.
+1651121236: New connection from 172.24.0.1:51336 on port 1883.
+1651121236: New client connected from 172.24.0.1:51336 as teste2BE57F59921A4BF8BA382C4756749021 (p2, c0, k60, u'teste').
+1651121271: New connection from 172.24.0.1:51338 on port 1883.
+1651121271: New client connected from 172.24.0.1:51338 as auto-E4F7B40F-C2D1-B97A-4955-95687925890F (p2, c1, k60, u'backend_user').
+1651121271: Client auto-E4F7B40F-C2D1-B97A-4955-95687925890F disconnected.
+1651121295: Client teste2BE57F59921A4BF8BA382C4756749021 disconnected.
+1651121329: New connection from 172.24.0.1:51340 on port 1883.
+1651121329: New client connected from 172.24.0.1:51340 as auto-FA14A14C-486E-D5E4-E204-D06C912D1C95 (p2, c1, k60, u'backend_user').
+1651121329: Client auto-FA14A14C-486E-D5E4-E204-D06C912D1C95 disconnected.
+1651121337: New connection from 172.24.0.1:51342 on port 1883.
+1651121337: New client connected from 172.24.0.1:51342 as auto-B5D02873-B888-8F58-64E1-AD0FF3320F1F (p2, c1, k60, u'backend_user').
+1651121337: Client auto-B5D02873-B888-8F58-64E1-AD0FF3320F1F disconnected.
+1651121344: New connection from 172.24.0.1:51344 on port 1883.
+1651121344: Client auto-84F887E6-CC7A-7912-BB86-3C70DE419ED2 disconnected, not authorised.
+1651121352: New connection from 172.24.0.1:51346 on port 1883.
+1651121352: Client auto-5A405324-0AD4-D922-0F92-1B3287DDADC8 disconnected, not authorised.
+1651121352: New connection from 172.24.0.1:51348 on port 1883.
+1651121352: New client connected from 172.24.0.1:51348 as auto-8B397BB3-520B-9B3F-3BA1-435BF2454CF9 (p2, c1, k60, u'backend_user').
+1651121352: Client auto-8B397BB3-520B-9B3F-3BA1-435BF2454CF9 disconnected.
+1651121392: mosquitto version 2.0.14 terminating
+1651121392: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1651121393: mosquitto version 2.0.14 starting
+1651121393: Config loaded from /mosquitto/config/mosquitto.conf.
+1651121393: Loading plugin: /mosquitto/config/auth-plug.so
+1651121393: Opening ipv4 listen socket on port 1883.
+1651121393: mosquitto version 2.0.14 running
+1651121393: New connection from 172.24.0.1:51352 on port 1883.
+1651121393: New client connected from 172.24.0.1:51352 as paho6712266622300 (p2, c1, k60, u'backend_user').
+1651121406: Client paho6712266622300 closed its connection.
+1651121439: New connection from 172.24.0.1:51374 on port 1883.
+1651121439: New client connected from 172.24.0.1:51374 as paho7263270996600 (p2, c1, k60, u'backend_user').
+1651121452: New connection from 172.24.0.1:51376 on port 1883.
+1651121452: New client connected from 172.24.0.1:51376 as auto-55BB2B05-405B-0C30-DF71-F9EF71A4160F (p2, c1, k60, u'backend_user').
+1651121459: New connection from 172.24.0.1:51378 on port 1883.
+1651121459: New client connected from 172.24.0.1:51378 as teste2BE57F59921A4BF8BA382C4756749021 (p2, c0, k60, u'teste').
+1651121474: Client teste2BE57F59921A4BF8BA382C4756749021 disconnected.
+1651121502: mosquitto version 2.0.14 terminating
+1651121502: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1651427136: mosquitto version 2.0.14 starting
+1651427136: Config loaded from /mosquitto/config/mosquitto.conf.
+1651427136: Loading plugin: /mosquitto/config/auth-plug.so
+1651427136: Opening ipv4 listen socket on port 1883.
+1651427136: mosquitto version 2.0.14 running
+1651427250: mosquitto version 2.0.14 terminating
+1651427250: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1651427252: mosquitto version 2.0.14 starting
+1651427252: Config loaded from /mosquitto/config/mosquitto.conf.
+1651427252: Loading plugin: /mosquitto/config/auth-plug.so
+1651427252: Opening ipv4 listen socket on port 1883.
+1651427252: mosquitto version 2.0.14 running
+1651427617: mosquitto version 2.0.14 terminating
+1651427617: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1651545161: mosquitto version 2.0.14 starting
+1651545161: Config loaded from /mosquitto/config/mosquitto.conf.
+1651545161: Loading plugin: /mosquitto/config/auth-plug.so
+1651545161: Opening ipv4 listen socket on port 1883.
+1651545161: mosquitto version 2.0.14 running
+1651545212: mosquitto version 2.0.14 terminating
+1651545212: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1651545228: mosquitto version 2.0.14 starting
+1651545228: Config loaded from /mosquitto/config/mosquitto.conf.
+1651545228: Loading plugin: /mosquitto/config/auth-plug.so
+1651545228: Opening ipv4 listen socket on port 1883.
+1651545228: mosquitto version 2.0.14 running
+1651545247: mosquitto version 2.0.14 terminating
+1651545247: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1651545255: mosquitto version 2.0.14 starting
+1651545255: Config loaded from /mosquitto/config/mosquitto.conf.
+1651545255: Loading plugin: /mosquitto/config/auth-plug.so
+1651545255: Opening ipv4 listen socket on port 1883.
+1651545255: mosquitto version 2.0.14 running
+1651545290: mosquitto version 2.0.14 terminating
+1651545290: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1651545292: mosquitto version 2.0.14 starting
+1651545292: Config loaded from /mosquitto/config/mosquitto.conf.
+1651545292: Loading plugin: /mosquitto/config/auth-plug.so
+1651545292: Opening ipv4 listen socket on port 1883.
+1651545292: mosquitto version 2.0.14 running
+1651545668: New connection from 172.28.0.1:60884 on port 1883.
+1651545668: New client connected from 172.28.0.1:60884 as paho214543900802700 (p2, c1, k60, u'backend_user').
+1651546590: Client paho214543900802700 closed its connection.
+1651546609: New connection from 172.28.0.1:60906 on port 1883.
+1651546610: New client connected from 172.28.0.1:60906 as paho215485558301700 (p2, c1, k60, u'backend_user').
+1651546750: New connection from 172.28.0.1:60908 on port 1883.
+1651546750: Client teste2BE57F59921A4BF8BA382C4756749021 disconnected, not authorised.
+1651546751: New connection from 172.28.0.1:60910 on port 1883.
+1651546751: Client teste2BE57F59921A4BF8BA382C4756749021 disconnected, not authorised.
+1651546752: New connection from 172.28.0.1:60912 on port 1883.
+1651546752: Client teste2BE57F59921A4BF8BA382C4756749021 disconnected, not authorised.
+1651546754: New connection from 172.28.0.1:60914 on port 1883.
+1651546754: Client teste2BE57F59921A4BF8BA382C4756749021 disconnected, not authorised.
+1651546758: New connection from 172.28.0.1:60916 on port 1883.
+1651546758: Client teste2BE57F59921A4BF8BA382C4756749021 disconnected, not authorised.
+1651546766: New connection from 172.28.0.1:60918 on port 1883.
+1651546766: Client teste2BE57F59921A4BF8BA382C4756749021 disconnected, not authorised.
+1651546778: New connection from 172.28.0.1:60920 on port 1883.
+1651546778: New client connected from 172.28.0.1:60920 as iphone2BE57F59921A4BF8BA382C4756749021 (p2, c0, k60, u'iphone').
+1651547079: Client paho215485558301700 closed its connection.
+1651547092: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1651547097: New connection from 172.28.0.1:60942 on port 1883.
+1651547097: New client connected from 172.28.0.1:60942 as paho215973029028300 (p2, c1, k60, u'backend_user').
+1651547122: Client iphone2BE57F59921A4BF8BA382C4756749021 disconnected.
+1651547674: Client paho215973029028300 closed its connection.
+1651547682: New connection from 172.28.0.1:60944 on port 1883.
+1651547682: New client connected from 172.28.0.1:60944 as iphone2BE57F59921A4BF8BA382C4756749021 (p2, c0, k60, u'iphone').
+1651547683: Client iphone2BE57F59921A4BF8BA382C4756749021 disconnected.
+1651547691: New connection from 172.28.0.1:60966 on port 1883.
+1651547692: New client connected from 172.28.0.1:60966 as paho216567744550500 (p2, c1, k60, u'backend_user').
+1651547863: Client paho216567744550500 closed its connection.
+1651547883: New connection from 172.28.0.1:60988 on port 1883.
+1651547884: New client connected from 172.28.0.1:60988 as paho216759763429600 (p2, c1, k60, u'backend_user').
+1651547893: New connection from 172.28.0.1:60990 on port 1883.
+1651547893: New client connected from 172.28.0.1:60990 as iphone2BE57F59921A4BF8BA382C4756749021 (p2, c0, k60, u'iphone').
+1651547905: Client iphone2BE57F59921A4BF8BA382C4756749021 disconnected.
+1651548037: Client paho216759763429600 closed its connection.
+1651548073: New connection from 172.28.0.1:32780 on port 1883.
+1651548073: New client connected from 172.28.0.1:32780 as paho216949451429100 (p2, c1, k60, u'backend_user').
+1651548081: New connection from 172.28.0.1:32782 on port 1883.
+1651548081: New client connected from 172.28.0.1:32782 as iphone2BE57F59921A4BF8BA382C4756749021 (p2, c0, k60, u'iphone').
+1651548249: Client paho216949451429100 closed its connection.
+1651548266: New connection from 172.28.0.1:32804 on port 1883.
+1651548267: New client connected from 172.28.0.1:32804 as paho217142633584800 (p2, c1, k60, u'backend_user').
+1651548393: Client paho217142633584800 closed its connection.
+1651548413: New connection from 172.28.0.1:32826 on port 1883.
+1651548413: New client connected from 172.28.0.1:32826 as paho217288948696800 (p2, c1, k60, u'backend_user').
+1651548414: Client paho217288948696800 closed its connection.
+1651548433: New connection from 172.28.0.1:32848 on port 1883.
+1651548433: New client connected from 172.28.0.1:32848 as paho217309190480200 (p2, c1, k60, u'backend_user').
+1651548549: Client paho217309190480200 closed its connection.
+1651548566: New connection from 172.28.0.1:32870 on port 1883.
+1651548566: New client connected from 172.28.0.1:32870 as paho217442354834800 (p2, c1, k60, u'backend_user').
+1651548893: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1651548919: Client iphone2BE57F59921A4BF8BA382C4756749021 disconnected.
+1651549738: Client paho217442354834800 closed its connection.
+1651549757: New connection from 172.28.0.1:32892 on port 1883.
+1651549757: New client connected from 172.28.0.1:32892 as paho218632868642800 (p2, c1, k60, u'backend_user').
+1651549765: New connection from 172.28.0.1:32894 on port 1883.
+1651549765: New client connected from 172.28.0.1:32894 as iphone2BE57F59921A4BF8BA382C4756749021 (p2, c0, k60, u'iphone').
+1651549770: Client iphone2BE57F59921A4BF8BA382C4756749021 disconnected.
+1651549814: Client paho218632868642800 closed its connection.
+1651549831: New connection from 172.28.0.1:32916 on port 1883.
+1651549831: New client connected from 172.28.0.1:32916 as paho218707279166700 (p2, c1, k60, u'backend_user').
+1651549839: New connection from 172.28.0.1:32918 on port 1883.
+1651549839: New client connected from 172.28.0.1:32918 as iphone2BE57F59921A4BF8BA382C4756749021 (p2, c0, k60, u'iphone').
+1651549843: Client iphone2BE57F59921A4BF8BA382C4756749021 disconnected.
+1651549977: Client paho218707279166700 closed its connection.
+1651549995: New connection from 172.28.0.1:32940 on port 1883.
+1651549995: New client connected from 172.28.0.1:32940 as paho218871138044600 (p2, c1, k60, u'backend_user').
+1651550054: Client paho218871138044600 closed its connection.
+1651550071: New connection from 172.28.0.1:32962 on port 1883.
+1651550072: New client connected from 172.28.0.1:32962 as paho218947770340800 (p2, c1, k60, u'backend_user').
+1651550099: Client paho218947770340800 closed its connection.
+1651550116: New connection from 172.28.0.1:32984 on port 1883.
+1651550116: New client connected from 172.28.0.1:32984 as paho218992417665600 (p2, c1, k60, u'backend_user').
+1651550153: Client paho218992417665600 closed its connection.
+1651550183: New connection from 172.28.0.1:33006 on port 1883.
+1651550183: New client connected from 172.28.0.1:33006 as paho219059267220700 (p2, c1, k60, u'backend_user').
+1651550205: New connection from 172.28.0.1:33008 on port 1883.
+1651550205: New client connected from 172.28.0.1:33008 as iphone2BE57F59921A4BF8BA382C4756749021 (p2, c0, k60, u'iphone').
+1651550211: Client iphone2BE57F59921A4BF8BA382C4756749021 disconnected.
+1651550694: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1651551622: Client paho219059267220700 closed its connection.
+1651551640: New connection from 172.28.0.1:33030 on port 1883.
+1651551640: New client connected from 172.28.0.1:33030 as paho220515892767500 (p2, c1, k60, u'backend_user').
+1651552276: Client paho220515892767500 closed its connection.
+1651552422: New connection from 172.28.0.1:33052 on port 1883.
+1651552422: New client connected from 172.28.0.1:33052 as paho221298018965700 (p2, c1, k60, u'backend_user').
+1651552425: Client paho221298018965700 closed its connection.
+1651552495: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1651552539: New connection from 172.28.0.1:33074 on port 1883.
+1651552539: New client connected from 172.28.0.1:33074 as paho221415028949500 (p2, c1, k60, u'backend_user').
+1651552540: Client paho221415028949500 closed its connection.
+1651552566: mosquitto version 2.0.14 terminating
+1651552566: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1651552627: mosquitto version 2.0.14 starting
+1651552627: Config loaded from /mosquitto/config/mosquitto.conf.
+1651552627: Loading plugin: /mosquitto/config/auth-plug.so
+1651552627: Opening ipv4 listen socket on port 1883.
+1651552627: mosquitto version 2.0.14 running
+1651552664: mosquitto version 2.0.14 terminating
+1651552664: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1651552665: mosquitto version 2.0.14 starting
+1651552665: Config loaded from /mosquitto/config/mosquitto.conf.
+1651552665: Loading plugin: /mosquitto/config/auth-plug.so
+1651552665: Opening ipv4 listen socket on port 1883.
+1651552665: mosquitto version 2.0.14 running
+1651552831: New connection from 172.28.0.1:33122 on port 1883.
+1651552832: New client connected from 172.28.0.1:33122 as paho221707694872100 (p2, c1, k60, u'backend_user').
+1651552835: Client paho221707694872100 closed its connection.
+1651553247: New connection from 172.28.0.4:34360 on port 1883.
+1651553247: New client connected from 172.28.0.4:34360 as paho10452721035300 (p2, c1, k60, u'backend_user').
+1651553258: New connection from 172.28.0.1:33176 on port 1883.
+1651553258: New client connected from 172.28.0.1:33176 as iphone2BE57F59921A4BF8BA382C4756749021 (p2, c0, k60, u'iphone').
+1651553324: Client iphone2BE57F59921A4BF8BA382C4756749021 disconnected.
+1651553391: Client paho10452721035300 closed its connection.
+1651553392: mosquitto version 2.0.14 terminating
+1651553392: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1651934237: mosquitto version 2.0.14 starting
+1651934237: Config loaded from /mosquitto/config/mosquitto.conf.
+1651934237: Loading plugin: /mosquitto/config/auth-plug.so
+1651934237: Opening ipv4 listen socket on port 1883.
+1651934237: mosquitto version 2.0.14 running
+1651934439: New connection from 172.22.0.4:56460 on port 1883.
+1651934439: New client connected from 172.22.0.4:56460 as paho1192612359400 (p2, c1, k60, u'backend_user').
+1651934441: Client paho1192612359400 closed its connection.
+1651934441: mosquitto version 2.0.14 terminating
+1651934441: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1651934486: mosquitto version 2.0.14 starting
+1651934486: Config loaded from /mosquitto/config/mosquitto.conf.
+1651934486: Loading plugin: /mosquitto/config/auth-plug.so
+1651934486: Opening ipv4 listen socket on port 1883.
+1651934486: mosquitto version 2.0.14 running
+1651934599: mosquitto version 2.0.14 terminating
+1651934599: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1651935277: mosquitto version 2.0.14 starting
+1651935277: Config loaded from /mosquitto/config/mosquitto.conf.
+1651935277: Loading plugin: /mosquitto/config/auth-plug.so
+1651935277: Opening ipv4 listen socket on port 1883.
+1651935277: mosquitto version 2.0.14 running
+1651935291: New connection from 172.27.0.4:39730 on port 1883.
+1651935291: New client connected from 172.27.0.4:39730 as paho2044411572300 (p2, c1, k60, u'backend_user').
+1651935302: Client paho2044411572300 closed its connection.
+1651935302: mosquitto version 2.0.14 terminating
+1651935302: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1651935343: mosquitto version 2.0.14 starting
+1651935343: Config loaded from /mosquitto/config/mosquitto.conf.
+1651935343: Loading plugin: /mosquitto/config/auth-plug.so
+1651935343: Opening ipv4 listen socket on port 1883.
+1651935343: mosquitto version 2.0.14 running
+1651935360: New connection from 172.28.0.4:35130 on port 1883.
+1651935360: New client connected from 172.28.0.4:35130 as paho2113578697500 (p2, c1, k60, u'backend_user').
+1651935371: Client paho2113578697500 closed its connection.
+1651935371: mosquitto version 2.0.14 terminating
+1651935371: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1651935410: mosquitto version 2.0.14 starting
+1651935410: Config loaded from /mosquitto/config/mosquitto.conf.
+1651935410: Loading plugin: /mosquitto/config/auth-plug.so
+1651935410: Opening ipv4 listen socket on port 1883.
+1651935410: mosquitto version 2.0.14 running
+1651935424: New connection from 172.29.0.4:42120 on port 1883.
+1651935424: New client connected from 172.29.0.4:42120 as paho2177551574600 (p2, c1, k60, u'backend_user').
+1651935800: New connection from 172.29.0.1:45402 on port 1883.
+1651935800: New client connected from 172.29.0.1:45402 as paho28297409891600 (p2, c1, k60, u'backend_user').
+1651935803: Client paho28297409891600 closed its connection.
+1651935836: Client paho2177551574600 closed its connection.
+1651935851: New connection from 172.29.0.4:42174 on port 1883.
+1651935851: New client connected from 172.29.0.4:42174 as paho2604440332300 (p2, c1, k60, u'backend_user').
+1651935944: Client paho2604440332300 closed its connection.
+1651935972: New connection from 172.29.0.1:45458 on port 1883.
+1651935972: New client connected from 172.29.0.1:45458 as paho28469392387000 (p2, c1, k60, u'backend_user').
+1651935985: Client paho28469392387000 closed its connection.
+1651936009: New connection from 172.29.0.1:45480 on port 1883.
+1651936009: New client connected from 172.29.0.1:45480 as paho28506454124400 (p2, c1, k60, u'backend_user').
+1651936012: Client paho28506454124400 closed its connection.
+1651936050: New connection from 172.29.0.4:42250 on port 1883.
+1651936050: New client connected from 172.29.0.4:42250 as paho2803917705200 (p2, c1, k60, u'backend_user').
+1651936623: Client paho2803917705200 closed its connection.
+1651936637: New connection from 172.29.0.4:42362 on port 1883.
+1651936637: New client connected from 172.29.0.4:42362 as paho3390715580500 (p2, c1, k60, u'backend_user').
+1651936810: Client paho3390715580500 closed its connection.
+1651936811: mosquitto version 2.0.14 terminating
+1651936811: Saving in-memory database to /mosquitto/data//mosquitto.db.
